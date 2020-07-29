@@ -17,7 +17,7 @@ def get_sponsors() -> List[Sponsor]:
         open_positions=[
             OpenPosition(
                 title='Python Dev',
-                link='www.carrers.com',
+                url='www.carrers.com',
             )
         ],
         technologies=['Python', 'React', 'GraphQL'],
