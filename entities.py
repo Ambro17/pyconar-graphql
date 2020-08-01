@@ -1,6 +1,9 @@
-from typing import List
+from dataclasses import dataclass
+import dataclasses
+from typing import List, Optional
 from enum import Enum
 import strawberry
+from strawberry.field import field
 
 
 Link = str
@@ -9,25 +12,34 @@ Link = str
 @strawberry.interface
 class Person:
     name: str
-    surname: str
     email: str
+    interests: List[str]
+
+    def interested_in(self, topic):
+        interests = [i.lower() for i in self.interests] or []
+        return topic.lower() in interests
 
 
+@strawberry.type
 class Speaker(Person):
     job: str 
-    company: str
-    talk: 'Talk'
+    # company: str
+    # talk: 'Talk'
 
 
-class Attendee(Person):
-    interests: str
-    looking_for_job: bool
-    resume_link: str
+@strawberry.type
+class Visitor(Person):
+    looking_for_a_job: bool
+    resume_link: str = ''
+
+
+Attendee = strawberry.union("Attendee", (Speaker, Visitor))
 
 
 @strawberry.enum
 class Topic(Enum):
     PYTHON = 'Python'
+    REST = 'Rest'
     DIVERSITY = 'Diversity'
 
 
@@ -41,17 +53,17 @@ class NerdearlaEdition(Enum):
 @strawberry.type
 class Talk:
     name: str
-    description: str
-    speaker: Person
     topic: Topic
-    tags: List[str]
-    youtube_link: Link
+    description: str
+    year: int
+    speaker: Person
 
 
 @strawberry.type
 class OpenPosition:
     title: str
     url: Link
+    company: 'Company'
 
 
 @strawberry.type
