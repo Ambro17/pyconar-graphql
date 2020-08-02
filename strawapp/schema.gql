@@ -42,7 +42,7 @@ type Speaker implements Person {
 
 type Attendee implements Person {
     interests: [String!]!
-    looking_for_job: Boolean
+    open_to_job_offers: Boolean
     resume_link: String
 }
 

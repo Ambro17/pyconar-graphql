@@ -1,5 +1,5 @@
 import strawberry
-from entities import Attendee, Person, Speaker, Visitor
+from .entities import Attendee, Person, Speaker, Visitor
 from typing import KeysView, Union, List
 
 
@@ -60,5 +60,5 @@ def get_people_by_interest(keyword: str) -> List[Person]:
 def get_people_open_to_proposals() -> List[Person]:
     return [
         person for person in ATTENDEES
-        if person.looking_for_a_job
+        if person.open_to_job_offers
     ]

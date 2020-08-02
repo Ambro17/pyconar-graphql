@@ -1,6 +1,6 @@
 import itertools
 from typing import List
-from entities import Talk, Speaker, Topic
+from .entities import Edition, Talk, Speaker, Topic
 
 
 TALKS = {
@@ -9,7 +9,7 @@ TALKS = {
             name='How to GraphQL',
             topic=Topic.PYTHON,
             description='We will learn how to graphql',
-            year=2019,
+            year=Edition._2019.value,
             speaker=Speaker(
                 name='Nahuel',
                 email='me@mail.com',
@@ -24,7 +24,7 @@ TALKS = {
             name='How to REST',
             topic=Topic.REST,
             description='We will learn how to REST',
-            year=2020,
+            year=Edition._2018.value,
             speaker=Speaker(
                 name='Juan',
                 email='jp@mail.com',

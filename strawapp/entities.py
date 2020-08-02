@@ -45,7 +45,7 @@ class Topic(Enum):
 
 
 @strawberry.enum
-class NerdearlaEdition(Enum):
+class Edition(Enum):
     _2017 = '2017'
     _2018 = '2018'
     _2019 = '2019'
@@ -56,7 +56,7 @@ class Talk:
     name: str
     topic: Topic
     description: str
-    year: int
+    year: Edition
     speaker: Person
 
 
