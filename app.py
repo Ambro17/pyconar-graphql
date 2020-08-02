@@ -2,9 +2,9 @@ from typing import List, Optional, Union
 import strawberry
 from strawberry import field
 
-from sponsors import Sponsor, get_sponsors
+from sponsors import Sponsor, get_open_opportunities, get_sponsors
 from talks import Talk, get_talks, get_talks_by_topic, get_talks_by_year
-from people import get_people, get_people_by_interest
+from people import get_people, get_people_by_interest, get_people_open_to_proposals
 from entities import OpenPosition, Person, Speaker, Visitor
 
 
@@ -14,10 +14,9 @@ class Query:
 
     searchPeople: List[Person] = field(resolver=get_people)
     searchPeopleByInterest: List[Person] = field(resolver=get_people_by_interest)
-    searchPeopleLookingForAJob: List[Person] = field(resolver=get_people_by_interest)
+    searchPeopleOpenToHiring: List[Person] = field(resolver=get_people_open_to_proposals)
 
-
-    searchJobOportunities: List[OpenPosition] = field(resolver=get_sponsors)
+    searchJobOportunities: List[OpenPosition] = field(resolver=get_open_opportunities)
 
 
     talks: List[Talk] = field(resolver=get_talks)
@@ -26,3 +25,6 @@ class Query:
 
 
 schema = strawberry.Schema(query=Query, types=[Speaker, Visitor])
+
+with open('dump.gql', 'w+') as f: 
+    f.write(schema.as_str())

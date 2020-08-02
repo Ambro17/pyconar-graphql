@@ -14,7 +14,8 @@ TALKS = {
                 name='Nahuel',
                 email='me@mail.com',
                 job='Sinapsis',
-                interests=[]
+                interests=[],
+                open_to_job_offers=True,
             ),
         )
     ],
@@ -28,7 +29,8 @@ TALKS = {
                 name='Juan',
                 email='jp@mail.com',
                 job='Self Employed',
-                interests=[]
+                interests=[],
+                open_to_job_offers=True,
             ),
         )
     ]

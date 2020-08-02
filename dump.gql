@@ -1,0 +1,78 @@
+type Company {
+  name: String!
+  description: String!
+  website: String!
+  openPositions: [OpenPosition!]!
+  technologies: [String!]!
+}
+
+type OpenPosition {
+  title: String!
+  url: String!
+  company: String!
+}
+
+input PeopleFilter {
+  seniority: String!
+  language: String!
+  salaryRange: String!
+}
+
+interface Person {
+  name: String!
+  email: String!
+  interests: [String!]!
+  openToJobOffers: Boolean!
+}
+
+type Query {
+  sponsors: [Sponsor!]!
+  searchPeople(filter: PeopleFilter!): [Person!]!
+  searchPeopleByInterest(keyword: String!): [Person!]!
+  searchPeopleOpenToHiring: [Person!]!
+  searchJobOportunities: [OpenPosition!]!
+  talks: [Talk!]!
+  talksByYear(year: String!): [Talk!]!
+  talksByTopic(topic: String!): [Talk!]!
+}
+
+type Speaker implements Person {
+  name: String!
+  email: String!
+  interests: [String!]!
+  openToJobOffers: Boolean!
+  job: String!
+}
+
+type Sponsor {
+  company: Company!
+  category: SponsorType!
+}
+
+enum SponsorType {
+  EXABYTE
+  PETABYTE
+  TERABYTE
+}
+
+type Talk {
+  name: String!
+  topic: Topic!
+  description: String!
+  year: Int!
+  speaker: Person!
+}
+
+enum Topic {
+  PYTHON
+  REST
+  DIVERSITY
+}
+
+type Visitor implements Person {
+  name: String!
+  email: String!
+  interests: [String!]!
+  openToJobOffers: Boolean!
+  resumeLink: String!
+}

@@ -14,6 +14,7 @@ class Person:
     name: str
     email: str
     interests: List[str]
+    open_to_job_offers: bool
 
     def interested_in(self, topic):
         interests = [i.lower() for i in self.interests] or []
@@ -29,8 +30,8 @@ class Speaker(Person):
 
 @strawberry.type
 class Visitor(Person):
-    looking_for_a_job: bool
     resume_link: str = ''
+    # github_profile
 
 
 Attendee = strawberry.union("Attendee", (Speaker, Visitor))
@@ -63,7 +64,7 @@ class Talk:
 class OpenPosition:
     title: str
     url: Link
-    company: 'Company'
+    company: str
 
 
 @strawberry.type
