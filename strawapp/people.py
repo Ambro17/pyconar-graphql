@@ -1,6 +1,6 @@
 import strawberry
 from .entities import Attendee, Person, Speaker, Visitor
-from typing import KeysView, Union, List
+from typing import List
 
 
 SPEAKERS = [
@@ -50,10 +50,10 @@ def get_people(filter: PeopleFilter = None) -> List[Attendee]:
     return ATTENDEES
 
 
-def get_people_by_interest(keyword: str) -> List[Person]:
+def get_people_by_interest(interest: str) -> List[Person]:
     return [
         person for person in ATTENDEES
-        if person.interested_in(keyword)
+        if person.interested_in(interest)
     ]
 
 
