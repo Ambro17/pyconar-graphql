@@ -68,10 +68,11 @@ class GraphQLAPI(MethodView):
 
         return self.make_response(response)
 
-    def init_context(self):
+    def init_context(self) -> Dict:
         """Initialize context with common data across resolvers"""
         return {
-            'request': request
+            'request': request,
+            'repository': {},
         }
 
     def execute(self, query, variables, operation, context, root_value=None):
