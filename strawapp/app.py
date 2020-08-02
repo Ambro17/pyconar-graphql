@@ -5,7 +5,9 @@ from strawberry import field
 from .sponsors import Sponsor, get_open_opportunities, get_sponsors
 from .talks import Talk, get_next_talks, get_talks, get_talks_by_topic, get_talks_by_year
 from .people import get_people, get_people_by_interest, get_people_open_to_proposals
-from .entities import OpenPosition, Person, Speaker, Visitor
+
+from .models.strawberry import OpenPosition, Person, Speaker, Visitor # Works now, is it worth it tho?
+# from .entities import OpenPosition, Person, Speaker, Visitor  # WORKS
 
 
 @strawberry.type
