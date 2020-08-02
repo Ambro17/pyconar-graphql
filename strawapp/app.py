@@ -1,4 +1,4 @@
-from typing import List, Optional, Union
+from typing import List
 import strawberry
 from strawberry import field
 
@@ -17,7 +17,6 @@ class Query:
     searchPeopleOpenToHiring: List[Person] = field(resolver=get_people_open_to_proposals)
 
     searchJobOportunities: List[OpenPosition] = field(resolver=get_open_opportunities)
-
 
     talks: List[Talk] = field(resolver=get_talks)
     nextTalks: List[Talk] = field(resolver=get_next_talks, description="Talks which are about to start")
