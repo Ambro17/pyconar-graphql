@@ -49,6 +49,7 @@ class Edition(Enum):
     _2017 = '2017'
     _2018 = '2018'
     _2019 = '2019'
+    _2020 = '2020'
 
 
 @strawberry.type

@@ -3,7 +3,7 @@ import strawberry
 from strawberry import field
 
 from .sponsors import Sponsor, get_open_opportunities, get_sponsors
-from .talks import Talk, get_talks, get_talks_by_topic, get_talks_by_year
+from .talks import Talk, get_next_talks, get_talks, get_talks_by_topic, get_talks_by_year
 from .people import get_people, get_people_by_interest, get_people_open_to_proposals
 from .entities import OpenPosition, Person, Speaker, Visitor
 
@@ -20,6 +20,7 @@ class Query:
 
 
     talks: List[Talk] = field(resolver=get_talks)
+    nextTalks: List[Talk] = field(resolver=get_next_talks, description="Talks which are about to start")
     talksByYear: List[Talk] = field(resolver=get_talks_by_year)
     talksByTopic: List[Talk] = field(resolver=get_talks_by_topic)
 

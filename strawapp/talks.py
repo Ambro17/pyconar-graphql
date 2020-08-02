@@ -1,3 +1,4 @@
+import datetime
 import itertools
 from typing import List
 from .entities import Edition, Talk, Speaker, Topic
@@ -24,7 +25,7 @@ TALKS = {
             name='How to REST',
             topic=Topic.REST,
             description='We will learn how to REST',
-            year=Edition._2018.value,
+            year=Edition._2020.value,
             speaker=Speaker(
                 name='Juan',
                 email='jp@mail.com',
@@ -32,7 +33,20 @@ TALKS = {
                 interests=[],
                 open_to_job_offers=True,
             ),
-        )
+        ),
+        Talk(
+            name='How to Postgres',
+            topic=Topic.DIVERSITY,
+            description='We will learn how to Postgres',
+            year=Edition._2020.value,
+            speaker=Speaker(
+                name='John',
+                email='john@mail.com',
+                job='Avianca',
+                interests=[],
+                open_to_job_offers=True,
+            ),
+        ),
     ]
 }
 
@@ -43,6 +57,12 @@ def _unwrap_list(list_of_iterables) -> List:
 
 def get_talks() -> List[Talk]:
     return _unwrap_list(TALKS.values())
+
+
+def get_next_talks() -> List[Talk]:
+    year = str(datetime.datetime.utcnow().year)
+    next_talks = TALKS.get(year, [])
+    return next_talks
 
 
 def get_talks_by_year(year: str) -> List[Talk]:

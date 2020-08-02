@@ -10,6 +10,7 @@ enum Edition {
   _2017
   _2018
   _2019
+  _2020
 }
 
 type OpenPosition {
@@ -34,10 +35,13 @@ interface Person {
 type Query {
   sponsors: [Sponsor!]!
   searchPeople(filter: PeopleFilter!): [Person!]!
-  searchPeopleByInterest(keyword: String!): [Person!]!
+  searchPeopleByInterest(interest: String!): [Person!]!
   searchPeopleOpenToHiring: [Person!]!
   searchJobOportunities: [OpenPosition!]!
   talks: [Talk!]!
+
+  """Talks which are about to start"""
+  nextTalks: [Talk!]!
   talksByYear(year: String!): [Talk!]!
   talksByTopic(topic: String!): [Talk!]!
 }
