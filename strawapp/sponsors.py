@@ -1,4 +1,4 @@
-from .entities import ( 
+from .entities import (
     Sponsor,
     SponsorType,
     Company,
@@ -43,7 +43,7 @@ def get_sponsors() -> List[Sponsor]:
 
 def get_open_opportunities() -> List[OpenPosition]:
     return [
-        open_position 
+        open_position
         for company in COMPANIES
         for open_position in company.open_positions
     ]

@@ -20,12 +20,13 @@ class Query:
     findJobOportunities: List[OpenPosition] = field(resolver=get_open_opportunities)
 
     talks: List[Talk] = field(resolver=get_talks)
-    nextTalks: List[Talk] = field(resolver=get_next_talks,description="Talks which are about to start")
+    nextTalks: List[Talk] = field(resolver=get_next_talks,
+                                  description="Talks which are about to start")
     talksByYear: List[Talk] = field(resolver=get_talks_by_year)
     talksByTopic: List[Talk] = field(resolver=get_talks_by_topic)
 
 
 schema = strawberry.Schema(query=Query, types=[Speaker, Visitor])
 
-with open('strawapp/schema.gql', 'w+') as f: 
+with open('strawapp/schema.gql', 'w+') as f:
     f.write(schema.as_str())

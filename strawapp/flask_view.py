@@ -19,7 +19,7 @@ class GraphQLAPI(MethodView):
     def get(self):
         """Serve graphiql to interact with the API"""
         if "text/html" in request.environ.get("HTTP_ACCEPT", ""):
-            template = self._get_graphql_template() 
+            template = self._get_graphql_template()
             return render_template_string(template, REQUEST_PATH=request.full_path)
         else:
             abort(404)
@@ -34,7 +34,6 @@ class GraphQLAPI(MethodView):
             html_string = f.read()
 
         return html_string
-
 
     def post(self):
         """Answer graphql queries"""
@@ -64,7 +63,7 @@ class GraphQLAPI(MethodView):
         else:
             response = {
                 'data': result.data
-            } 
+            }
 
         return self.make_response(response)
 
@@ -89,7 +88,6 @@ class GraphQLAPI(MethodView):
             format_graphql_error(error)
             for error in errors
         ]
-
 
     def make_response(self, response):
         return Response(

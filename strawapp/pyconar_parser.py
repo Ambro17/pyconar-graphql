@@ -19,7 +19,7 @@ import sys
 
 
 import requests  # fades
-import bs4 # fades beautifulsoup4
+import bs4  # fades beautifulsoup4
 
 
 DOMAIN = "https://eventos.python.org.ar"

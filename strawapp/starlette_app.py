@@ -3,7 +3,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from strawberry.asgi import GraphQL
 
-from .app import schema 
+from .app import schema
 
 
 app = Starlette(debug=True)
