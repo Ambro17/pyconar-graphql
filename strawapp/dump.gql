@@ -34,10 +34,10 @@ interface Person {
 
 type Query {
   sponsors: [Sponsor!]!
-  searchPeople(filter: PeopleFilter!): [Person!]!
-  searchPeopleByInterest(interest: String!): [Person!]!
-  searchPeopleOpenToHiring: [Person!]!
-  searchJobOportunities: [OpenPosition!]!
+  findPeople(filter: PeopleFilter!): [Person!]!
+  findPeopleByInterest(interest: String!): [Person!]!
+  findPeopleOpenToHiring: [Person!]!
+  findJobOportunities: [OpenPosition!]!
   talks: [Talk!]!
 
   """Talks which are about to start"""
