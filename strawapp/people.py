@@ -1,5 +1,5 @@
 import strawberry
-from .entities import Attendee, Person, Speaker, Visitor
+from .entities import Person, Speaker, Visitor
 from typing import List
 
 
@@ -46,7 +46,7 @@ class PeopleFilter:
     salary_range: str
 
 
-def get_people(filter: PeopleFilter = None) -> List[Attendee]:
+def get_people(filter: PeopleFilter = None) -> List[Person]:
     return ATTENDEES
 
 
