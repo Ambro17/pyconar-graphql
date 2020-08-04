@@ -4,22 +4,26 @@ from typing import List
 from .entities import Edition, Talk, Speaker, Topic
 
 
+a_speaker = Speaker(
+    name='Nahuel',
+    email='me@mail.com',
+    job='Sinapsis',
+    interests=[],
+    open_to_job_offers=True,
+    talk=None
+)
+a_talk = Talk(
+    name='How to GraphQL',
+    topic=Topic.PYTHON,
+    description='We will learn how to graphql',
+    year=Edition._2019.value,
+    speaker=a_speaker
+)
+a_speaker.talk = a_talk
+
+
 TALKS = {
-    '2019': [
-        Talk(
-            name='How to GraphQL',
-            topic=Topic.PYTHON,
-            description='We will learn how to graphql',
-            year=Edition._2019.value,
-            speaker=Speaker(
-                name='Nahuel',
-                email='me@mail.com',
-                job='Sinapsis',
-                interests=[],
-                open_to_job_offers=True,
-            ),
-        )
-    ],
+    '2019': [a_talk],
     '2020': [
         Talk(
             name='How to REST',

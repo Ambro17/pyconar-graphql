@@ -16,7 +16,7 @@ SPEAKERS = [
         email='lu@mail.com',
         job='Some Inc.',
         interests=['Python', 'Ruby'],
-        open_to_job_offers=False,
+        open_to_job_offers=True,
     ),
 ]
 

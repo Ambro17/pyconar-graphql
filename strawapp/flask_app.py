@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 app.add_url_rule(
     "/",
-    view_func=GraphQLAPI.as_view("graphql_view", schema=schema, use_playground=True)
+    view_func=GraphQLAPI.as_view("graphql_view", schema=schema, use_playground=False)
 )
 
 if __name__ == "__main__":
