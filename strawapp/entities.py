@@ -37,20 +37,12 @@ class Topic(Enum):
     DIVERSITY = 'Diversity'
 
 
-@strawberry.enum
-class Edition(Enum):
-    _2017 = '2017'
-    _2018 = '2018'
-    _2019 = '2019'
-    _2020 = '2020'
-
-
 @strawberry.type
 class Talk:
     name: str
     topic: Topic
     description: str
-    year: Edition
+    year: str
     speaker: Speaker
 
 

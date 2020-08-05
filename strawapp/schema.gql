@@ -6,13 +6,6 @@ type Company {
   technologies: [String!]!
 }
 
-enum Edition {
-  _2017
-  _2018
-  _2019
-  _2020
-}
-
 type OpenPosition {
   title: String!
   url: String!
@@ -70,7 +63,7 @@ type Talk {
   name: String!
   topic: Topic!
   description: String!
-  year: Edition!
+  year: String!
   speaker: Speaker!
 }
 
