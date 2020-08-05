@@ -1,3 +1,5 @@
+import random
+import requests
 import strawberry
 from .entities import Person, Speaker, Visitor
 from typing import List
@@ -47,7 +49,23 @@ class PeopleFilter:
 
 
 def get_people(filter: PeopleFilter = None) -> List[Person]:
-    return ATTENDEES
+    try:
+        resp = requests.get('https://jsonplaceholder.typicode.com/users', timeout=2)
+    except requests.Timeout:
+        return []
+
+    if resp.status_code != 200 or not resp.json():
+        return []
+
+    return [
+        Visitor(
+            name=p['name'],
+            email=p['email'],
+            interests=p['company']['bs'].split(),
+            open_to_job_offers=random.choice([True, False])           
+        )
+        for p in resp.json()
+    ]
 
 
 def get_people_by_interest(interest: str) -> List[Person]:
