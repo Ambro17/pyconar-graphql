@@ -1,8 +1,10 @@
 import random
 import requests
 import strawberry
-from .entities import Person, Speaker, Visitor
 from typing import List
+from enum import Enum
+
+from .entities import Person, Speaker, Visitor
 
 
 SPEAKERS = [
@@ -41,11 +43,18 @@ VISITORS = [
 ATTENDEES = SPEAKERS + VISITORS
 
 
+@strawberry.enum
+class Seniority(Enum):
+    SENIOR = 'Sr'
+    SEMI_SENIOR = 'Ssr'
+    JUNIOR = 'Jr'
+
+
 @strawberry.input
 class PeopleFilter:
-    seniority: str
-    language: str
-    salary_range: str
+    interested_in: List[str]
+    open_to_job_offers: bool
+    seniority: Seniority
 
 
 def get_people(filter: PeopleFilter = None) -> List[Person]:

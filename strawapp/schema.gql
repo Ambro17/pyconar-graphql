@@ -13,9 +13,9 @@ type OpenPosition {
 }
 
 input PeopleFilter {
-  seniority: String!
-  language: String!
-  salaryRange: String!
+  interestedIn: [String!]!
+  openToJobOffers: Boolean!
+  seniority: Seniority!
 }
 
 interface Person {
@@ -37,6 +37,12 @@ type Query {
   nextTalks: [Talk!]!
   talksByYear(year: String!): [Talk!]!
   talksByTopic(topic: String!): [Talk!]!
+}
+
+enum Seniority {
+  SENIOR
+  SEMI_SENIOR
+  JUNIOR
 }
 
 type Speaker implements Person {
