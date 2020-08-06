@@ -1,0 +1,636 @@
+{
+    "2018": [
+        {
+          "title": "Análisis de texto y data mining con Pattern",
+          "speaker": "Sofía Martin",
+          "desc": "Cómo realizar búsquedas en Flick, Twitter, Wikipedia\r\nAnálisis de texto automático, plural, singular..."
+        },
+        {
+          "title": "Armar el cv un mal necesario",
+          "speaker": "Carolina Maristany",
+          "desc": "Tips para armar tu cv y atravesar un proceso de selección\nArmar el cv (.doc o LinkedIn) es un pain i..."
+        },
+        {
+          "title": "AttributeError: ‘Talk’ object has no attribute ‘title’",
+          "speaker": "Nahuel Lascano",
+          "desc": "En esta charla vamos a hablar sobre la nueva sintaxis de anotaciones de tipos introducidos en Python..."
+        },
+        {
+          "title": "Autopsias informáticas: software libre forense",
+          "speaker": "María Andrea Vignau",
+          "desc": "Voy a explicar la realización de plugins para el software forense llamado Autopsy SleuthKit, el más ..."
+        },
+        {
+          "title": "Basta de loops, hagamos exploración de datos con Pandas y Altair.",
+          "speaker": "Augusto Kielbowicz",
+          "desc": "Taller para aprender a hacer análisis de datos de una manera sencilla aprovechando la sintaxis decla..."
+        },
+        {
+          "title": "Blockchain: El camino de una transacción.",
+          "speaker": "Miguel Felipe Duarte",
+          "desc": "Cada vez mas la blockchain está de moda. Escuchamos la palabra \"bitcoin\" en todos lados, incluso Inf..."
+        },
+        {
+          "title": "Bulding a Start Up with Lean Python",
+          "speaker": "Juan Carlos Abdala",
+          "desc": "En esta charla veremos como el Foco en tu idea puede verse afectado por algunas practicas de Ing. de..."
+        },
+        {
+          "title": "Cómo enfrentamos los desafíos de mantener una comunidad inclusiva en Brasil",
+          "speaker": "Mário Sérgio",
+          "desc": "The purpose of this talk is to present the challenges we face in Brazil for Python community integra..."
+        },
+        {
+          "title": "Conectando partes con ZMQ",
+          "speaker": "Martin Alderete",
+          "desc": "Introducir ZeroMQ (zmq), una libreria de mensajes con esteroides para comunicacion de sistemas altam..."
+        },
+        {
+          "title": "Conectando sistemas Tryton con el mundo",
+          "speaker": "Luciano Rossi",
+          "desc": "Tryton es un framework para desarrollos de sistemas de gestión. Mi deseo es que los participantes co..."
+        },
+        {
+          "title": "Convivencia entre objetos y experimentos científicos, ¿Alguien tiene que ceder?",
+          "speaker": "Agustín Garassino",
+          "desc": "En esta charla vamos a hablar sobre la implementación de un sistema de experimentos para resolver un..."
+        },
+        {
+          "title": "Cortaste toda la looz: cuando la solución más obvia, no es la mejor",
+          "speaker": "Diego Cañizares",
+          "desc": "A veces, aunque la solución más obvia sea meter el cutucuchillo, hay que pensar que te poés quedar l..."
+        },
+        {
+          "title": "Crea y realiza un blog personal con Pelican",
+          "speaker": "Gessica Paniagua, Laura Sofia Enriquez",
+          "desc": "Pelican es un python framework que nos permite generar sitios estáticos. En este taller vamos a crea..."
+        },
+        {
+          "title": "Datawarehousing para datos genéticos, socioeconómicos y fenotípicos, con visualización 3D",
+          "speaker": "Luciano Serruya Aloisi, Pablo Toledo Margalef",
+          "desc": "Se presenta una aplicación para el almacenamiento, análisis, y visualización interactiva de datos he..."
+        },
+        {
+          "title": "Deconstrui tu machismo geek",
+          "speaker": "Dax",
+          "desc": "El machismo está presente en todos lados, todos en algún grado u otro somos machistas. En esta charl..."
+        },
+        {
+          "title": "Deuda técnica para todes",
+          "speaker": "Carlos Matías De La Torre",
+          "desc": "En esta charla intento recuperar la noción original del concepto de \"deuda técnica\", contando sobre ..."
+        },
+        {
+          "title": "Diversidad, accesibilidad y trabajo",
+          "speaker": "Katherine Jenkins",
+          "desc": "Hablaremos sobre cómo las personas con discapacidades usan las aplicaciones y cuáles son las mejores..."
+        },
+        {
+          "title": "Django Girls (inscripción cerrada, sin vacantes)",
+          "speaker": "-",
+          "desc": "Taller de programación dirigido a mujeres\nLa inscripción al taller cerró el 31 de octubre, y no hay ..."
+        },
+        {
+          "title": "Django Girls (inscripción cerrada, sin vacantes)",
+          "speaker": "-",
+          "desc": "Taller de programación dirigido a mujeres\nLa inscripción al taller cerró el 31 de octubre, y no hay ..."
+        },
+        {
+          "title": "Django + React",
+          "speaker": "Federico Gonzalez (Fedeg)",
+          "desc": "En esta charla vas a aprender como juntar lo mejor de dos mundos sin morir en el intento. Para el ba..."
+        },
+        {
+          "title": "Django REST Framework: lo mejor de Django sin lo peor de Django",
+          "speaker": "Sofía Denner, Aylen Bombelli",
+          "desc": "Django REST Framework existe para que el backend se dedique única y exclusivamente a realizar tareas..."
+        },
+        {
+          "title": "El desarrollo de software como debería ser",
+          "speaker": "Hernan Wilkinson",
+          "desc": "¿Es el desarrollo de software como “debería ser”? ¿Nos informaron durante la historia de nuestra pro..."
+        },
+        {
+          "title": "El otro 90% del laburo: docs/site/support/issues/contributions",
+          "speaker": "Roberto Alsina",
+          "desc": "Desarrollar una aplicación o una biblioteca es un montón de trabajo. Pero aún si está perfecta, nadi..."
+        },
+        {
+          "title": "Empecemos con un bot de Telegram",
+          "speaker": "Matias Barriento",
+          "desc": "Librerias, trucos y consejos sobre como crear un bot en Telegram. Ideal si recien te sumas a la prog..."
+        },
+        {
+          "title": "Entendiendo asyncio sin usar asyncio",
+          "speaker": "Juan Pedro Fisanotti",
+          "desc": "Tratando de entender asyncio con cero conocimientos previos de asincronismo\nAsyncio nos permite prog..."
+        },
+        {
+          "title": "Flatpak: Apps que corren en cualquier distro, ¡y tal como lo esperabas!",
+          "speaker": "Damián Nohales, Manuel Quiñones",
+          "desc": "Apps que corren en cualquier distro Linux, y funcionan tal como lo esperabas. Dirigida a usuarios de..."
+        },
+        {
+          "title": "Gamificación: un enfoque de la vida desde los videojuegos",
+          "speaker": "Federico Brest",
+          "desc": "La charla analizará las formas de educar a través de la historia, y demostrará que a través de los v..."
+        },
+        {
+          "title": "Gauchito GIL",
+          "speaker": "Yonatan Romero",
+          "desc": "Concurrencia en Python. Entendiendo el GIL (Global Interpreter Lock).\nProgramar aplicaciones concurr..."
+        },
+        {
+          "title": "\"(GNU/Linux) Instalado para durar\"",
+          "speaker": "Eduardo Casarero, Juan Manuel Santos",
+          "desc": "Esta charla propone un check list básico para la instalción de gnu/linux en servidores con el objeti..."
+        },
+        {
+          "title": "Haciendo Voip con Python y Asterisk",
+          "speaker": "Alejandro Zamora Fonseca, Ana Almada",
+          "desc": "A partir de comprender las APIs de Asterisk (AMI/AGI) y la gran cantidad de librerías de la comunida..."
+        },
+        {
+          "title": "Imágenes satelitales n  Python",
+          "speaker": "Mariela Rajngewerc",
+          "desc": "En este tutorial el objetivo será obtener un mapa de coberturas (suelo, agua,\r\nvegetación) a partir ..."
+        },
+        {
+          "title": "import género, diversidad",
+          "speaker": "Debate Sobre Género Y Diversidad",
+          "desc": "Debate sobre género y diversidad\nHablemos del avance del movimiento de mujeres e identidades disiden..."
+        },
+        {
+          "title": "__init__ Jupyter Notebook",
+          "speaker": "Berenice Larsen Pereyra",
+          "desc": "Jupyter Notebook es una herramienta interactiva para generar archivos que contengan código ejecutabl..."
+        },
+        {
+          "title": "Introducción a GIS con geopandas",
+          "speaker": "Leonardo Morales",
+          "desc": "La propuesta es que al finalizar la charla, el asistente tenga un vistazo general de dos aspectos: L..."
+        },
+        {
+          "title": "Introducción al Aprendizaje Automático (Machine Learning)",
+          "speaker": "Emilio Crudele",
+          "desc": "Machine learning consiste en permitir que las computadoras aprendan por sí solas a realizar tareas, ..."
+        },
+        {
+          "title": "Introducción a seguridad de aplicaciones web",
+          "speaker": "Francisco Capdevila, Carlos De La Torre",
+          "desc": "Una conversación sobre los conceptos más básicos e importantes asociados a la seguridad de aplicacio..."
+        },
+        {
+          "title": "Juegos electromecánicos con Micropython",
+          "speaker": "Alejandro J. Cura",
+          "desc": "Micropython es muchísimo más pequeño que Python, por lo que es ideal para usarlo en microcontrolador..."
+        },
+        {
+          "title": "Jugando con el ORM de Django",
+          "speaker": "Federico Martinez, Santiago Avendaño",
+          "desc": "El ORM de Django es una herramienta muy potente que simplifica muchísimo el desarrollo de aplicacion..."
+        },
+        {
+          "title": "Keynote - Brandon Rhodes",
+          "speaker": "Brandon Rhodes",
+          "desc": "Keynote - Brandon Rhodes\nKeynote - Brandon Rhodes..."
+        },
+        {
+          "title": "Keynote - Carol Willing",
+          "speaker": "Carol Willing",
+          "desc": "Keynote - Carol Willing\nKeynote - Carol Willing..."
+        },
+        {
+          "title": "La Computación de Alto Desempeño puede ser versátil: comunicando C y FORTRAN con Python",
+          "speaker": "Pablo Alcain, Cecilia Jarne, Rodrigo Lugones, Graciela Molina",
+          "desc": "No sólo Python logró penetrar fuertemente en el mundo científico, sino que además avanza a mucha vel..."
+        },
+        {
+          "title": "Las buenas, las malas, y las feas practicas",
+          "speaker": "Juan Bagnera, Lucio Delelis",
+          "desc": "Planteamos situaciones que encontramos en el sistema Fierro,   cómo logramos (o intentamos) resolver..."
+        },
+        {
+          "title": "La última pregunta",
+          "speaker": "Damián Avila",
+          "desc": "La idea de esta charla es contar una historia. Pero contarla a través de los ojos de un pythonista.\r..."
+        },
+        {
+          "title": "Lidiando con formatos y unidades en nuestra API REST",
+          "speaker": "Matias Varela",
+          "desc": "Mediante un proyecto con django rest framework, veremos como lidiar con las distintas unidades de me..."
+        },
+        {
+          "title": "Machine Learning, del Notebook a Produccion",
+          "speaker": "German Bourdin",
+          "desc": "Ya le armaste el modelo que predice valores de propiedades a tu primo el de la inmobiliaria y, anda ..."
+        },
+        {
+          "title": "Mallas Poliedrales para Aproximar Soluciones de Ecuaciones Diferenciales en Derivadas Parciales",
+          "speaker": "Alexis Jawtuschenko",
+          "desc": "Implementación de un proceso de mallado para dominios tridimensionales, y que permite refinar arbitr..."
+        },
+        {
+          "title": "Microservices con Nameko",
+          "speaker": "Juan Pablo Giménez",
+          "desc": "Nameko es un framework para desarrollo de microservicios. Usando heramientas como rabbitmq y kuberne..."
+        },
+        {
+          "title": "Normalizá datos con la nueva API del Servicio de Normalización de Datos Geográficos",
+          "speaker": "Federico Tedin",
+          "desc": "Te mostramos cómo usar la API del Servicio de Normalización de Datos\r\nGeográficos de Argentina (apis..."
+        },
+        {
+          "title": "Observabilidad: El debugger es para gente que nunca sale a producción",
+          "speaker": "Nicolás Demarchi, Lucio Torre",
+          "desc": "Si, estamos diciendo que debuggear con printf es “the one true way”.\nEn la era de los microservicios..."
+        },
+        {
+          "title": "Optimizando el procesamiento de cadenas de ADN con Pandas y Multiprocessing",
+          "speaker": "Daniel Espinoza",
+          "desc": "Demostrar como en uBiome bajamos los tiempos de procesamiento para cadenas de ADN usando Pandas + Mu..."
+        },
+        {
+          "title": "Optimizando Python usando Cython",
+          "speaker": "Tomas Zulberti",
+          "desc": "Mostrar como usar Cython para optimizar el codigo python, comparando la performance contra C\nUsando ..."
+        },
+        {
+          "title": "Por qué TENÉS que conocer GIT",
+          "speaker": "Sofía Denner",
+          "desc": "El versionado de código te puede salvar la vida. Incluso si trabajás solo/a, pero con mucha más razó..."
+        },
+        {
+          "title": "Presentación de Las de Sistemas",
+          "speaker": "Ana Laura Almada, Estefania Miguel",
+          "desc": "Presentación de Las de Sistemas\nPresentación de Las de Sistemas, una comunidad de sistemas que traba..."
+        },
+        {
+          "title": "Procesando datos en paralelo con Dask.",
+          "speaker": "Ariel Rossanigo",
+          "desc": "Durante la charla se presentará una introducción a Dask para el procesamiento de datos en forma para..."
+        },
+        {
+          "title": "PyJustice: aplicaciones de Python en el área legal. Un lenguaje al servicio de la justicia.",
+          "speaker": "Johanna Caterina Faliero, Pablo Cruz Casas",
+          "desc": "La presente charla explorará las diversas ventajas características que ofrece el lenguaje de program..."
+        },
+        {
+          "title": "Python en los primeros años de Ingeniería en Informática: One tool to rule ‘em all",
+          "speaker": "Ana Czarnitzki, Gaston Alberto Martinez",
+          "desc": "En los últimos tiempos Python ganó mucho terreno en el campo de la enseñanza para desarrolladores pr..."
+        },
+        {
+          "title": "Python: Primera Generación.",
+          "speaker": "Valeria Rocha",
+          "desc": "La famosa escuela de Charles X abre sus puertas para quienes quieran dar sus primeros pasos en el mu..."
+        },
+        {
+          "title": "Qué necesitás saber para usar Amazon Lambda con python.",
+          "speaker": "Garcia Craia, Gustavo",
+          "desc": "Descripción, ventajas, restricciones y vericuetos del uso de este servicio serverless de AWS con pyt..."
+        },
+        {
+          "title": "qutebrowser - Navegando al estilo Vim",
+          "speaker": "Javier Ayres",
+          "desc": "Demostración completa de qutebrowser, el navegador controlado por teclado y programado en Python.\nEs..."
+        },
+        {
+          "title": "Redes neuronales con python usando Keras",
+          "speaker": "Juan Pedro Fisanotti",
+          "desc": "Cerebros artificiales??? No tanto, pero igualmente una herramienta muy poderosa. Las redes neuronale..."
+        },
+        {
+          "title": "Reverse-engineering 170 mil líneas de documentación para traerla al siglo XXI",
+          "speaker": "Ramiro Morales Aka 'El Cramm'",
+          "desc": "Usamos Python para la conversión de la documentación de un producto de software que usa un formato d..."
+        },
+        {
+          "title": "Sobreviviendo al síndrome del segundo sistema con Python",
+          "speaker": "Matias Lang, Leonardo Lazzaro",
+          "desc": "Reescribir una gran parte de un proyecto para saldar una deuda técnica puede ser un trabajo muy cans..."
+        },
+        {
+          "title": "Taller de Introducción a Python",
+          "speaker": "Leandro E. Colombo Viña (Aka @Lecovi).",
+          "desc": "Clásico taller de introducción a Python. Para el que busca saber qué es Python o necesita un primer ..."
+        },
+        {
+          "title": "Testing en Proyectos de Machine Learning",
+          "speaker": "Javier Mansilla",
+          "desc": "Machine learning productivo, en el mundo real. \r\n¿Qué testeamos? ¿Cómo?\r\nLa tortuga se quiere escapa..."
+        },
+        {
+          "title": "Todo lo que no querés saber de async",
+          "speaker": "Claudio Freire",
+          "desc": "Async está de moda, y todo el mundo dice que la rompe. Pero tiene sus falencias, y también hay que h..."
+        },
+        {
+          "title": "Uso de asyncio",
+          "speaker": "David Pineda",
+          "desc": "Un taller en que se dan las nociones básicas para el uso de asyncio y la implementación de funcional..."
+        }
+    ],
+    "2019": [
+      {
+        "title": "Airflow para Data Scientists",
+        "speaker": "Ignacio Javier Mermet",
+        "desc": "Data Scientists: amantes de los notebooks, en eterna enemistad con los entornos productivos. Pero ha..."
+      },
+      {
+        "title": "Análisis Exploratorio de Datos com Python",
+        "speaker": "João André",
+        "desc": "Una charla  que muestra cómo usar Python para procesar datos y extraer información para la toma de d..."
+      },
+      {
+        "title": "Aprendiendo CURSES y BLESSINGS para Terminal Scripting",
+        "speaker": "Martín Nieva",
+        "desc": "En la charla voy a enseñarles las dos librerías blessings y curses, ambas usadas para el mismo fin: ..."
+      },
+      {
+        "title": "Astrofotografía pythónica con scikit-image y rawpy",
+        "speaker": "Claudio Freire",
+        "desc": "Python tiene abundantes herramientas para astronomía y astrofotografía. Al que le interesa el tema, ..."
+      },
+      {
+        "title": "Buenas prácticas para lograr que el trabajo en Jupyter notebooks sea reproducible",
+        "speaker": "Diego Piloni",
+        "desc": "Una charla en la que intentaré mostrar buenas prácticas aplicadas en el día a día de mi trabajo para..."
+      },
+      {
+        "title": "Caer con estilo: El modelo Buzz Lightyear de desarrollo de software",
+        "speaker": "Roberto Alsina",
+        "desc": "Programar es una actividad peculiar en la que uno intenta hacer cosas que no sabe cómo se hacen. Si ..."
+      },
+      {
+        "title": "Celular, un testigo posible y silencioso",
+        "speaker": "María Andrea Vignau",
+        "desc": "Describiré las técnicas usadas para identificar al asesino de una mujer a partir del análisis y deco..."
+      },
+      {
+        "title": "CertMailer - Automatizar envío de certificados",
+        "speaker": "María Andrea Vignau",
+        "desc": "Terminan los eventos y muchos quieren un certificado de asistencia. \r\nUn detalle más para mantener e..."
+      },
+      {
+        "title": "Cierre del III Concurso de Bioinformática para Escuelas Secundarias",
+        "speaker": "Cierre Del Iii Concurso De Bioinformática Para Escuelas Secundarias",
+        "desc": "Cierre del III Concurso de Bioinformática para Escuelas Secundarias\nEste año la PyCon es sede del ci..."
+      },
+      {
+        "title": "¿Cómo funcionan los Widgets de Jupyter?",
+        "speaker": "Augusto ( Sasha ) Kielbowicz",
+        "desc": "Una de las características más importantes del ecosistema de Jupyter es la posibilidad que tiene el ..."
+      },
+      {
+        "title": "Conectando microservicios con Python",
+        "speaker": "Rodolfo E. Edelmann",
+        "desc": "En esta charla presentamos las distintas pruebas y los resultados de comunicar cientos de microservi..."
+      },
+      {
+        "title": "Configuration-friendly apps.",
+        "speaker": "Hernan Lozano",
+        "desc": "La configuración es solo otra API de una aplicación, dirigida a usuarios que la instalarán y ejecuta..."
+      },
+      {
+        "title": "Conociendo las baterías de Python",
+        "speaker": "Martín Alderete",
+        "desc": "La idea de la charla es mostrar \"las baterías de Python\", es decir, conocer los módulos de la librer..."
+      },
+      {
+        "title": "¡Construyamos juntos! Cómo y por qué tener un PyPi interno en tu organización.",
+        "speaker": "Sofía Denner",
+        "desc": "Con un PyPi interno es fácil construir herramientas de forma colaborativa. En este espacio vamos a c..."
+      },
+      {
+        "title": "¡Contribuir al Software Libre es la tarea!",
+        "speaker": "Luciano Rossi",
+        "desc": "Como desarrolladores de software, no debemos de quedarnos únicamente en el uso de las herramientas l..."
+      },
+      {
+        "title": "Creación y deployment de aplicaciones web para visualización de datos georeferenciados",
+        "speaker": "Ramiro Caro",
+        "desc": "El objetivo del tutorial es la creación de una aplicación web usando Dash, en donde podamos mostrar ..."
+      },
+      {
+        "title": "Creating Microservices with Django Rest Framework",
+        "speaker": "Alexandre Rosa",
+        "desc": "The whole idea is present to the audience how it's easy to create a microservice with Django Rest Fr..."
+      },
+      {
+        "title": "Cultura Constructiva y visión tecnológica",
+        "speaker": "Carlos Matías De La Torre (A.K.A. Litox) Y Javier Mansilla",
+        "desc": "¿Qué aspectos hay que mirar para evaluar la “salud tecnológica” de mi proyecto?\r\n¿Qué cosas son más ..."
+      },
+      {
+        "title": "Data-science a escala, con Python, en Mercadolibre",
+        "speaker": "Carlos Matías De La Torre (A.K.A. Litox)",
+        "desc": "El foco de la charla está en las diferencias entre el desarrollo de un prototipo o POC de machine-le..."
+      },
+      {
+        "title": "Desmitificando python: típicas preguntas del primer tiempo",
+        "speaker": "Juan Pedro Fisanotti",
+        "desc": "Los parámetros se pasan por valor o referencia? Las variables tienen tipo? Es python compilado, inte..."
+      },
+      {
+        "title": "El bug invisible",
+        "speaker": "Yonatan Romero",
+        "desc": "La arquitectura de nuestro sistema va a definir su futuro  ¡Por sistemas con una vida prospera!\nEn l..."
+      },
+      {
+        "title": "El desafío de ENSEÑAR PYTHON a nivel universitario",
+        "speaker": "Lic. Felipe Morales",
+        "desc": "Enseñanza de programación Python a alumnos informáticos y no informáticos.\nLa enseñanza de programac..."
+      },
+      {
+        "title": "El onboarding es invisible a los ojos",
+        "speaker": "Mati Barriento",
+        "desc": "Ingresar una nueva persona al equipo es y debe tomarse como un momento importante tanto para quien i..."
+      },
+      {
+        "title": "Enseñar programación y robótica sin morir en el intento",
+        "speaker": "Romina Fairbairn",
+        "desc": "¿Cómo no enseñar programación y Robótica? ¿Por qué promover la enseñanza en los más chicos? Mitos y ..."
+      },
+      {
+        "title": "Entendiendo asyncio sin usar asyncio",
+        "speaker": "Juan Pedro Fisanotti",
+        "desc": "Tratando de entender asyncio con cero conocimientos previos de asincronismo.\nAsyncio nos permite pro..."
+      },
+      {
+        "title": "En un mundo de unos y ceros,  vamos por la diversidad",
+        "speaker": "Las De Sistemas",
+        "desc": "Inclusión, visibilidad y espacios seguros para mujeres e identidades diversas dentro del mundo IT.\nI..."
+      },
+      {
+        "title": "Fuzz & Property Based Testing",
+        "speaker": "Pablo Fernandez",
+        "desc": "Introducción al origen de fuzz testing a través de los papers de Miller.\r\n\r\nLuego, la diferencia ent..."
+      },
+      {
+        "title": "Grafos temporales sobre NetworkX",
+        "speaker": "Leonardo Morales",
+        "desc": "El presente trabajo busca mostrar una capa de software construida utilizando el paquete networkX que..."
+      },
+      {
+        "title": "High Perfomance Pandas: Leveraging the power of pandas data manipulation.",
+        "speaker": "Luis David Camacho",
+        "desc": "Pandas is an standard data handling library commonly misused, however, this powerful library include..."
+      },
+      {
+        "title": "Ignis, una herramienta computacional para la educación, la ciencia y la innovación",
+        "speaker": "Gonzalo Quiroga",
+        "desc": "Charla de presentación de Ignis, un software de cálculo simbólico desarrolaldo en Python y C++ que t..."
+      },
+      {
+        "title": "Introducción a Python y Pandas para usuarios de Excel",
+        "speaker": "Fernando González Prada",
+        "desc": "La idea es mostrarle a los usuarios de Excel, como utilizar Python y Pandas como complemento para su..."
+      },
+      {
+        "title": "Introduccion a TDD: Uso luego implemento",
+        "speaker": "Matias Pereira",
+        "desc": "Entendiendo TDD y como nos simplifica el desarrollo de cualquier proyecto pensando en el uso y no en..."
+      },
+      {
+        "title": "Keynote - Martin Sarsale",
+        "speaker": "Martin Sarsale",
+        "desc": "Keynote - Martin Sarsale\nKeynote - Martin Sarsale..."
+      },
+      {
+        "title": "Levantar una aplicación Django productiva de cero",
+        "speaker": "Dylan Gustavo Alvarez Avalos",
+        "desc": "En devartis elaboramos un repositorio template con todos los pasos necesarios para el setup de una a..."
+      },
+      {
+        "title": "LinuxChix: Open source minds",
+        "speaker": "Gessica Paniagua",
+        "desc": "LinuxChix Argentina comenzó a mediados del 2014 de la mano de un grupo de usuarios de Linux con dife..."
+      },
+      {
+        "title": "Live Typing - Anotación automática de tipos para lenguajes dinámicos",
+        "speaker": "Hernan Wilkinson",
+        "desc": "Los lenguajes dinámicamente tipados adolecen de información de tipos lo cual dificulta la implementa..."
+      },
+      {
+        "title": "Lo que nadie te dijo de migrar a Python 3",
+        "speaker": "Matias Lang, Eric Horvat",
+        "desc": "Resumen: Trabajamos sobre un proyecto de 6 años, y tuvimos que migrarlo a Python 3. Que puede malir ..."
+      },
+      {
+        "title": "Los desafíos de formar a la nueva generación de chicas líderes en tecnología",
+        "speaker": "Chicas En Tecnología",
+        "desc": "Datos sobre la brecha de género en Argentina y qué estamos haciendo desde Chcias en Tecnologia junto..."
+      },
+      {
+        "title": "Machine Learning y grafos",
+        "speaker": "Federico Albanese, Leandro Lombardi",
+        "desc": "La charla tiene como objetivo hacer una introducción sobre el tema del aprendizaje automático y most..."
+      },
+      {
+        "title": "Message in a BOT-tle",
+        "speaker": "Mauricio Ghiorzi",
+        "desc": "Aumentar la productividad laboral, generar ingresos por publicidad o simplemente para pasar el rato...."
+      },
+      {
+        "title": "Modernizando la clase de Simulación con Python (¿Cómo aprendí Python para dar clases de Simulación?)",
+        "speaker": "Pablo Akerman",
+        "desc": "Se contará la experiencia de actualización de la materia Simulación (Carrera Terciario Analisita de ..."
+      },
+      {
+        "title": "no podemos innovar si seguimos realizando tareas manuales",
+        "speaker": "Osiris Gómez, Cristian G. Segarra",
+        "desc": "Ansible es la herramienta que permite fácilmente automatizar todas las tareas de administración, con..."
+      },
+      {
+        "title": "Objetos en Python de 0 a 99,9",
+        "speaker": "Matias Pereira",
+        "desc": "En la charla hablaremos sobre la programación orientada a objetos, como usarla en Python y como los ..."
+      },
+      {
+        "title": "PEPificate: 10 PEPs a los que deberías prestarles atención",
+        "speaker": "Juan Manuel Santos",
+        "desc": "Leer documentos de estándares es una tarea dura. Pero como en otros campos, los estándares en Python..."
+      },
+      {
+        "title": "Pipeline Jungles: Es una selva ahí fuera",
+        "speaker": "Axel Sirota",
+        "desc": "Alguna vez deployaste un modelo de ML a producción? Y 20 en simultáneo? En esta charla vamos a habla..."
+      },
+      {
+        "title": "Procesing big data with Vaex, dataframes and no clusters",
+        "speaker": "Marco Carranza",
+        "desc": "Data is getting bigger and bigger, making it almost impossible to processed it in desktop machines w..."
+      },
+      {
+        "title": "Python en Debian: desde la visión de un novato.",
+        "speaker": "Arias Emmanuel",
+        "desc": "Empaquetado de proyectos Python para Debian. Un paseo rápido sobre cómo empezar a contribuir en Debi..."
+      },
+      {
+        "title": "Python para Contadores y Administrativos",
+        "speaker": "Gustavo Mena",
+        "desc": "El objetivo es mostrar herramientas prácticas de cómo los Contadores y personal administrativo puede..."
+      },
+      {
+        "title": "Qué es y qué hacemos WWCode - Nuestros primeros 6 meses de gestión",
+        "speaker": "Silvia Daniela Belvedere",
+        "desc": "El objetivo de la charla es dar a conocer nuestra comunidad global, su mision y visión, en qué princ..."
+      },
+      {
+        "title": "¿Qué tienen en común un código QR, un peluche, los Kanjis e ir a la casa de Damián?",
+        "speaker": "Franco Bulgarelli, Gustavo Trucco",
+        "desc": "El Pensamiento Computacional, a pesar de su nombre, es una habilidad humana que cada vez cobra más r..."
+      },
+      {
+        "title": "Resolviendo la tarea con Jupyter",
+        "speaker": "Augusto ( Sasha ) Kielbowicz",
+        "desc": "Es claro que la tecnología es algo que está inmerso en la vida cotidiana. Y además cada vez es más a..."
+      },
+      {
+        "title": "RTB en Jampp: Arquitectura, optimizaciones y otras yerbas",
+        "speaker": "Luciano Lo Giudice",
+        "desc": "Cómo aprovechar la flexibilidad y el dinamismo de Python y transformarlo en una herramienta performa..."
+      },
+      {
+        "title": "Serpientes y Roedores",
+        "speaker": "Ricardo Kirkner",
+        "desc": "Se verán algunos aspectos y prácticas comunes de Go y cómo pueden ser aplicadas en Python para mejor..."
+      },
+      {
+        "title": "Taller de Programacion para LGTBIQ y Mujeres",
+        "speaker": "Taller De Programacion Para Lgtbiq Y Mujeres",
+        "desc": "Taller de Programacion para LGTBIQ y Mujeres\nPara participar se quiere inscripción, con cupos limita..."
+      },
+      {
+        "title": "Trans-TI: Una empresa de IT que solamente emplea personas trans",
+        "speaker": "Trans-Ti",
+        "desc": "En esta charla contamos sobre la experiencia de Trans-TI, una empresa que trabaja al revés, ve las h..."
+      },
+      {
+        "title": "uWSGI y Gunicorn - Cuando elegir uno o otro",
+        "speaker": "Tárliton Godoy",
+        "desc": "Presente ejemplos de API web donde uWSGI y Gunicorn se puedan usar mejor.\n- uWSGI\r\n  - Modos: nginx ..."
+      },
+      {
+        "title": "Viaje al centro de Django",
+        "speaker": "Agustín Scaramuzza",
+        "desc": "¿Qué hace que Django sea tan poderoso? En esta charla examinaremos las funcionalidades de Python que..."
+      },
+      {
+        "title": "Visor Ambiental. Herramienta para integrar datos científicos en intervención territorial sostenible.",
+        "speaker": "Marcos Vaira, Ariel Silvio Norberto Ramos.",
+        "desc": "Gran cantidad de datos científicos son de difícil acceso y se pasan por alto. Desarrollos en tecnolo..."
+      },
+      {
+        "title": "Workshop LEGO Education®: Creatividad, Innovación y Robótica Educativa",
+        "speaker": "Equipo Pedagógico De Educación Tecnológica",
+        "desc": "Desarrollo de habilidades y competencias en los estudiantes del siglo XXI mediante proyectos STEM (S..."
+      },
+      {
+        "title": "μwsgi en producción: los defaults estan mal.",
+        "speaker": "Mariano \"Nassty\" García Berrotarán",
+        "desc": "En varios de los equipos que participé, elegimos μwsgi como tecnología para servir nuestras aplicaci..."
+      }
+    ]
+}

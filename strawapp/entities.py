@@ -1,9 +1,6 @@
-from dataclasses import dataclass
-import dataclasses
 from typing import List, Optional
 from enum import Enum
 import strawberry
-from strawberry.field import field
 
 
 Link = str
@@ -23,18 +20,14 @@ class Person:
 
 @strawberry.type
 class Speaker(Person):
-    job: str 
-    # company: str
-    # talk: 'Talk'
+    job: str
+    talk: Optional['Talk'] = None
 
 
 @strawberry.type
 class Visitor(Person):
     resume_link: str = ''
-    # github_profile
-
-
-Attendee = strawberry.union("Attendee", (Speaker, Visitor))
+    github_profile: str = ''
 
 
 @strawberry.enum
@@ -44,28 +37,20 @@ class Topic(Enum):
     DIVERSITY = 'Diversity'
 
 
-@strawberry.enum
-class Edition(Enum):
-    _2017 = '2017'
-    _2018 = '2018'
-    _2019 = '2019'
-    _2020 = '2020'
-
-
 @strawberry.type
 class Talk:
     name: str
     topic: Topic
     description: str
-    year: Edition
-    speaker: Person
+    year: str
+    speaker: Speaker
 
 
 @strawberry.type
 class OpenPosition:
     title: str
     url: Link
-    company: str
+    company: 'Company'
 
 
 @strawberry.type

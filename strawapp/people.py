@@ -1,6 +1,10 @@
+import random
+import requests
 import strawberry
-from .entities import Attendee, Person, Speaker, Visitor
 from typing import List
+from enum import Enum
+
+from .entities import Person, Speaker, Visitor
 
 
 SPEAKERS = [
@@ -16,7 +20,7 @@ SPEAKERS = [
         email='lu@mail.com',
         job='Some Inc.',
         interests=['Python', 'Ruby'],
-        open_to_job_offers=False,
+        open_to_job_offers=True,
     ),
 ]
 
@@ -39,15 +43,38 @@ VISITORS = [
 ATTENDEES = SPEAKERS + VISITORS
 
 
+@strawberry.enum
+class Seniority(Enum):
+    SENIOR = 'Sr'
+    SEMI_SENIOR = 'Ssr'
+    JUNIOR = 'Jr'
+
+
 @strawberry.input
 class PeopleFilter:
-    seniority: str
-    language: str
-    salary_range: str
+    interested_in: List[str]
+    open_to_job_offers: bool
+    seniority: Seniority
 
 
-def get_people(filter: PeopleFilter = None) -> List[Attendee]:
-    return ATTENDEES
+def get_people(filter: PeopleFilter = None) -> List[Person]:
+    try:
+        resp = requests.get('https://jsonplaceholder.typicode.com/users', timeout=2)
+    except requests.Timeout:
+        return []
+
+    if resp.status_code != 200 or not resp.json():
+        return []
+
+    return [
+        Visitor(
+            name=p['name'],
+            email=p['email'],
+            interests=p['company']['bs'].split(),
+            open_to_job_offers=random.choice([True, False])           
+        )
+        for p in resp.json()
+    ]
 
 
 def get_people_by_interest(interest: str) -> List[Person]:
