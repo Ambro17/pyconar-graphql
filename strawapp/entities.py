@@ -50,7 +50,7 @@ class Talk:
 class OpenPosition:
     title: str
     url: Link
-    company: str
+    company: 'Company'
 
 
 @strawberry.type

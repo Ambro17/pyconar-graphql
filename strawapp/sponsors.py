@@ -12,22 +12,27 @@ EVIL_CORP = Company(
     description='Lorem',
     website='www.evil.inc',
     open_positions=[
-        OpenPosition(title='Sr Python Dev', url='www.carrers.com', company='Evil'),
-        OpenPosition(title='Jr Python Dev', url='www.carrers.com', company='Evil'),
+        OpenPosition(title='Sr Python Dev', url='www.carrers.com', company=''),
+        OpenPosition(title='Jr Python Dev', url='www.carrers.com', company=''),
     ],
     technologies=['Python', 'React', 'GraphQL'],
 )
+for pos in EVIL_CORP.open_positions:
+    pos.company = EVIL_CORP
 
 NICE_CORP = Company(
     name='Good Inc.',
     description='Desc',
     website='www.good.inc',
     open_positions=[
-        OpenPosition(title='QA Engineer', url='www.carrers.com', company='Good Inc'),
-        OpenPosition(title='SDET', url='www.carrers.com', company='Good Inc'),
+        OpenPosition(title='QA Engineer', url='www.carrers.com', company=''),
+        OpenPosition(title='SDET', url='www.carrers.com', company=''),
     ],
     technologies=['Pytest', 'Selenium'],
 )
+for pos in NICE_CORP.open_positions:
+    pos.company = NICE_CORP
+
 
 COMPANIES = [EVIL_CORP, NICE_CORP]
 

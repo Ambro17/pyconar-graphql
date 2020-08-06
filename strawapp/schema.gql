@@ -9,7 +9,7 @@ type Company {
 type OpenPosition {
   title: String!
   url: String!
-  company: String!
+  company: Company!
 }
 
 input PeopleFilter {
