@@ -3,7 +3,7 @@ from flask import Flask
 
 from .app import schema
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 
 app.add_url_rule(
