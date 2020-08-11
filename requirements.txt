@@ -1,2 +1,4 @@
-strawberry
 Flask
+strawberry-graphql
+requests
+
