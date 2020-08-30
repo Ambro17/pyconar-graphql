@@ -18,3 +18,7 @@ pip install -r requirements.txt
 export FLASK_APP=strawapp.flask_app
 flask run
 ```
+
+## Roadmap
+- Add Error Handling
+- Add Rest Alternative?
