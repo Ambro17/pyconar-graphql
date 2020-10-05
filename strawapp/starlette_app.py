@@ -18,4 +18,4 @@ paths = ["/", "/graphql"]
 for path in paths:
     app.add_route(path, graphql_app)
 
-# Run it with uvicron module:app_attribute
+# Run it with uvicorn module:app_attribute
