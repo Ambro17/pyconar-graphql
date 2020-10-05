@@ -19,6 +19,9 @@ export FLASK_APP=strawapp.flask_app
 flask run
 ```
 
-## Roadmap
-- Add Error Handling
-- Add Rest Alternative?
+## Showroom
+- Interactive Data Explorer
+- IDE in Browser
+- Documentation Static Site
+- Mutations
+- Error Handling
