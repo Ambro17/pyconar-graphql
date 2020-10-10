@@ -1,5 +1,4 @@
 Flask
 strawberry-graphql
 gunicorn
-flask-cors  # Required to show graphql-rover in demo
 requests

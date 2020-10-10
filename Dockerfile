@@ -12,5 +12,4 @@ COPY . /app
 WORKDIR /app
 
 
-CMD gunicorn -w 4 "strawapp.flask_app:app" -b 0.0.0.0:$PORT
-# [gunicorn", "--bind",  "0.0.0.0:8000", "strawapp.flask_app:app"]
+CMD gunicorn -w 4 "strawapp.app:app" -b 0.0.0.0:$PORT
