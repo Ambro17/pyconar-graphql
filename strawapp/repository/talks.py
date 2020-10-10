@@ -1,18 +1,17 @@
-from datetime import datetime
 import itertools
-from typing import List
+import json
 import random
 import string
+from datetime import datetime
+from typing import List
 
-import json
-
-from strawapp.entities import Topic, Speaker, Talk
-
-from .abstract import AbstractTalksRepository
+from strawapp.entities import Speaker, Talk, Topic
+from strawapp.repository.abstract import AbstractTalksRepository
 
 
 def random_name():
     return ''.join(random.choice(string.ascii_lowercase) for _ in range(5))
+
 
 def random_interest():
     return random.choice(['Python', 'Programming', 'API', 'GraphQL'])
@@ -42,17 +41,16 @@ class TalksRepository(AbstractTalksRepository):
                         talk=None
                     ),
                 )
-                for talk in talks 
+                for talk in talks
             ]
             for year, talks in talks_by_year.items()
         }
-        
+
         for talk in self._unwrap_list(talks.values()):
             # Backreference talk from each speaker
             talk.speaker.talk = talk
 
         return talks
-
 
     @staticmethod
     def _unwrap_list(list_of_iterables) -> List:

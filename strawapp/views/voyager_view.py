@@ -2,7 +2,6 @@ from flask.views import MethodView
 from pathlib import Path
 
 
-
 class APIExplorer(MethodView):
     """Flask view that offers a graphql api service"""
 
@@ -18,7 +17,7 @@ class APIExplorer(MethodView):
         voyager_html = Path(__file__).parent / 'static' / 'voyager.html'
         html_string = '<p>Voyager Error 👻</p>'
         try:
-            with voyager_html.open() as f:
+            with voyager_html.open('r') as f:
                 html_string = f.read()
         except Exception as e:
             print(f'{e!r}')

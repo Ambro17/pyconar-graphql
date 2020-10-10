@@ -1,32 +1,26 @@
-from typing import List
-import strawberry
-from strawberry import field
+from flask import Flask
+from graphql import get_introspection_query
+import json
 
-from .sponsors import Sponsor, get_open_opportunities, get_sponsors
-from .talks import talks_repo
-from .people import get_people, get_people_by_interest, get_people_open_to_proposals
-
-from .entities import OpenPosition, Person, Speaker, Visitor, Talk
+from strawapp.views.voyager_view import APIExplorer
+from strawapp.views.flask_view import GraphQLAPI
+from strawapp.schema import schema
 
 
-@strawberry.type
-class Query:
-    sponsors: List[Sponsor] = field(resolver=get_sponsors)
-
-    findPeople: List[Person] = field(resolver=get_people)
-    findPeopleByInterest: List[Person] = field(resolver=get_people_by_interest)
-    findPeopleOpenToHiring: List[Person] = field(resolver=get_people_open_to_proposals)
-
-    findJobOportunities: List[OpenPosition] = field(resolver=get_open_opportunities)
-
-    talks: List[Talk] = field(resolver=talks_repo.get_talks)
-    nextTalks: List[Talk] = field(resolver=talks_repo.get_next_talks,
-                                  description="Talks which are about to start")
-    talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year)
-    talksByTopic: List[Talk] = field(resolver=talks_repo.get_talks_by_topic)
+app = Flask(__name__, static_folder='static')
 
 
-schema = strawberry.Schema(query=Query, types=[Speaker, Visitor])
+# Serve Graphiql IDE at /
+graphiql = GraphQLAPI.as_view("graphql_view", schema=schema, use_playground=True)
+app.add_url_rule("/", view_func=graphiql)
 
-with open('strawapp/schema.gql', 'w+') as f:
-    f.write(schema.as_str())
+
+# Serve Explorer at /explore
+introspection = schema.execute_sync(get_introspection_query())
+explorer = APIExplorer.as_view("explorer_view",
+                               introspection=json.dumps({'data': introspection.data}))
+app.add_url_rule("/explorer", view_func=explorer)
+
+
+if __name__ == "__main__":
+    app.run()

@@ -1,5 +1,6 @@
 import json
 from os.path import abspath, dirname, join
+from pathlib import Path
 from typing import Any, Dict, List
 
 from flask import Response, render_template_string, request, abort
@@ -25,12 +26,12 @@ class GraphQLAPI(MethodView):
             abort(404)
 
     def _get_graphql_template(self):
-        dir_path = abspath(join(dirname(__file__), "."))
+        template = Path(__file__).parent.parent / 'static'
         template_name = 'playground' if self.use_playground else 'graphiql'
-        graphiql_html_file = f"{dir_path}/static/{template_name}.html"
+        graphiql_html_file = template / f'{template_name}.html'
 
-        html_string = '<p>GraphiQL Error</p>'
-        with open(graphiql_html_file, "r") as f:
+        html_string = '<p>GraphiQL Error 👻</p>'
+        with graphiql_html_file.open('r') as f:
             html_string = f.read()
 
         return html_string
@@ -71,7 +72,7 @@ class GraphQLAPI(MethodView):
         """Initialize context with common data across resolvers"""
         return {
             'request': request,
-            'repository': {},
+            'python_rocks': True,
         }
 
     def execute(self, query, variables, operation, context, root_value=None):

@@ -56,4 +56,3 @@ class AbstractRepository(AbstractPeopleRepository, AbstractTalksRepository, ABC)
     @abstractmethod
     def get_open_opportunities() -> List[OpenPosition]:
         ...
-
