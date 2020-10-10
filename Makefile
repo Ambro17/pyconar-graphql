@@ -1,4 +1,4 @@
-.PHONY: build run
+.PHONY: build run run-dev tunnel clean-pyc
 
 build:
 	docker build . -t pyconar-graphql
@@ -13,3 +13,8 @@ tunnel:
 	# Remember to add ngrok's path to your $PATH for this target to work
 	ngrok http 5050
 
+clean-pyc:
+	find . -name '*.pyc' -delete
+	find . -name '*.pyo' -delete 
+	find . -name '*~' -delete
+	find . -name '__pycache__' -delete
