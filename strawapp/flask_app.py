@@ -1,21 +1,25 @@
-from .flask_view import GraphQLAPI
 from flask import Flask
-from flask_cors import CORS
+from graphql import get_introspection_query
+import json
 
-from .app import schema
+from strawapp.voyager_view import APIExplorer
+from strawapp.flask_view import GraphQLAPI
+from strawapp.app import schema
+
 
 app = Flask(__name__, static_folder='static')
 
-# NOT SECURE AT ALL!! don't copy paste!
-CORS(app, origins='null') # <-- Danger
-# I did this just to allow graphql-rover to introspect the schema in a LOCAL environment.
-# See https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests for why you be careful with CORS
+
+# Serve Graphiql IDE at /
+graphiql = GraphQLAPI.as_view("graphql_view", schema=schema, use_playground=True)
+app.add_url_rule("/", view_func=graphiql)
 
 
-app.add_url_rule(
-    "/",
-    view_func=GraphQLAPI.as_view("graphql_view", schema=schema, use_playground=False)
-)
+# Serve Explorer at /explore
+introspection = schema.execute_sync(get_introspection_query())
+explorer = APIExplorer.as_view("explorer_view", introspection=json.dumps({'data': introspection.data}))
+app.add_url_rule("/explorer", view_func=explorer)
+
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
