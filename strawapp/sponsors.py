@@ -39,7 +39,8 @@ COMPANIES = [EVIL_CORP, NICE_CORP]
 
 def get_sponsors() -> List[Sponsor]:
     return [
-        Sponsor(company=EVIL_CORP, category=SponsorType.EXABYTE)
+        Sponsor(company=EVIL_CORP, category=SponsorType.DIAMANTE),
+        Sponsor(company=NICE_CORP, category=SponsorType.ORO)
     ]
 
 

@@ -64,9 +64,10 @@ class Company:
 
 @strawberry.enum
 class SponsorType(Enum):
-    EXABYTE = 'EXABYTE'
-    PETABYTE = 'PETABYTE'
-    TERABYTE = 'TERABYTE'
+    DIAMANTE = 'Diamante'
+    ORO = 'Oro'
+    PLATA = 'Plata'
+    BRONCE = 'Bronce'
 
 
 @strawberry.type
