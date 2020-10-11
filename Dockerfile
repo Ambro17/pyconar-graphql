@@ -11,5 +11,5 @@ RUN pip install -r requirements.txt
 COPY . /app
 WORKDIR /app
 
+CMD gunicorn -w 4 "strawapp.app:create_app()" -b 0.0.0.0:$PORT
 
-CMD gunicorn -w 4 "strawapp.app:app" -b 0.0.0.0:$PORT

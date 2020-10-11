@@ -25,7 +25,7 @@ To run the server follow these steps:
 python3.6 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-export FLASK_APP=strawapp.flask_app
+export FLASK_APP="strawapp.app:create_app()"
 flask run
 ```
 If you have docker installed you can start it with
@@ -48,4 +48,3 @@ You can also deploy to heroku with just one click
 ## GraphQL Basics
  - Schema: The API Contract. Strictly typed but readable by humans
  - Resolver: Functions attached to schema fields, that resolve to a value
- 
