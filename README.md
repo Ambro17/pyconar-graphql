@@ -33,7 +33,8 @@ If you have docker installed you can start it with
 docker build . -t pyconar-graphql
 docker run -it -p 5050:5050 pyconar-graphql
 ```
-You can also deploy it with just one click
+You can also deploy to heroku with just one click
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ambro17/pyconar-graphql/tree/master)
 
 
