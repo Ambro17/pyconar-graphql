@@ -1,0 +1,7 @@
+{
+    "name": "PyconAr GraphQL Playground",
+    "description": "A GraphQL API to explore the ecosystem",
+    "repository": "https://github.com/Ambro17/pyconar-graphql",
+    "logo": "https://graphql.org/img/logo.svg",
+    "keywords": ["graphql", "python", "pycon", "argentina", "pyconar"]
+}
