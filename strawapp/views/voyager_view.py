@@ -14,7 +14,7 @@ class APIExplorer(MethodView):
         return template.replace('{{introspection}}', self.introspection)
 
     def _get_voyager_template(self):
-        voyager_html = Path(__file__).parent / 'static' / 'voyager.html'
+        voyager_html = Path(__file__).parent.parent / 'static' / 'voyager.html'
         html_string = '<p>Voyager Error 👻</p>'
         try:
             with voyager_html.open('r') as f:
