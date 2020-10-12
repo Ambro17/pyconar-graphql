@@ -1,8 +1,29 @@
 """A company may have sponshorships for events and open positions"""
-from peewee import IntegerField, SqliteDatabase, Model, CharField, ForeignKeyField
+from operator import concat
+import os
+from urllib import parse
+from peewee import IntegerField, PostgresqlDatabase, Model, CharField, ForeignKeyField, SqliteDatabase
 
 
-db = SqliteDatabase('sponsors.sqlite')
+def get_database():
+    """Return local or remote database depending on environment config."""
+    if 'DATABASE_URL' in os.environ:
+        parse.uses_netloc.append("postgres")
+        url = parse.urlparse(os.environ.get("DATABASE_URL"))
+        config = {
+             "database" : url.path[1:],  # Strip leading /
+             "user" : url.username,
+             "password": url.password,
+             "host": url.hostname,
+             "port": url.port
+        }
+        return PostgresqlDatabase('pyconar_graphql', **config)
+    else:
+        return SqliteDatabase('sponsors.sqlite')
+
+
+
+db = get_database()
 
 
 class Company(Model):
@@ -65,6 +86,7 @@ def create_things():
             company=morgan, title='Sr Python Dev', url='https://onapsis.com/company/careers'
         ).save()    
         Sponsorship(company=morgan, category=1, event='Pyconar 2020').save()
+        print("Things Created ✨")
 
 # Uncomment to create tables
 # create_things()
