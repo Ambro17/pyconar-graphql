@@ -1,5 +1,7 @@
+import os
+from strawberry.permission import BasePermission
 from peewee import DoesNotExist
-from typing import List, Optional
+from typing import List
 import strawberry
 from strawapp.domain import Company
 from strawapp.db.database import Company as CompanyModel, OpenPosition as OpenPositionModel
@@ -45,9 +47,18 @@ class AddOpenPositionFailed:
 AddOpenPositionOutput = strawberry.union("AddOpenPositionOutput", (AddOpenPositionCreated, AddOpenPositionFailed))
 
 
+
+class MutationsEnabled(BasePermission):
+    message = "You are not authorized"
+
+    def has_permission(self, source, info, **kwargs):
+        return os.getenv('MUTATIONS_ENABLED', False)
+
+
 @strawberry.type
 class Mutation:
-    @strawberry.mutation
+
+    @strawberry.mutation(permission_classes=[MutationsEnabled])
     def add_new_company(self, input: AddCompanyInput) -> CompanyOutput:
         # Add to json
         # Add error handling with useful messages
@@ -68,7 +79,7 @@ class Mutation:
             actions=['addOpenPosition']
         )
     
-    @strawberry.mutation
+    @strawberry.mutation(permission_classes=[MutationsEnabled])
     def add_open_position(self, input: AddOpenPositionInput) -> AddOpenPositionOutput:
         name = input.company_name
         position = input.position
