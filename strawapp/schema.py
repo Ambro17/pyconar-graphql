@@ -1,12 +1,13 @@
 from typing import List
+
 import strawberry
 from strawberry import field
 
 from strawapp.sponsors import Sponsor, get_open_opportunities, get_sponsors
 from strawapp.talks import talks_repo
 from strawapp.people import people_repo
-from strawapp.domain import OpenPosition, Person, Speaker, Visitor, Talk
-
+from strawapp.domain import OpenPosition, Person, Speaker, Topic, Visitor, Talk
+from strawapp.mutations import Mutation
 
 @strawberry.type
 class Query:
@@ -25,7 +26,8 @@ class Query:
     talksByTopic: List[Talk] = field(resolver=talks_repo.get_talks_by_topic)
 
 
-schema = strawberry.Schema(query=Query, types=[Speaker, Visitor])
+schema = strawberry.Schema(query=Query, mutation=Mutation, types=[Speaker, Visitor])
+
 
 with open('strawapp/schema.gql', 'w+') as f:
     f.write(schema.as_str())

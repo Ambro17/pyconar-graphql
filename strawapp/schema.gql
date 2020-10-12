@@ -1,9 +1,25 @@
+input AddNewSponsorInput {
+  company: CompanyInput!
+  category: SponsorTypeInput!
+}
+
 type Company {
   name: String!
   tagline: String!
   website: String!
   openPositions: [OpenPosition!]!
   technologies: [String!]!
+}
+
+input CompanyInput {
+  name: String!
+  website: String!
+  tagline: String! = ""
+  technologies: [String!]!
+}
+
+type Mutation {
+  addNewSponsor(input: AddNewSponsorInput!): Sponsor!
 }
 
 type OpenPosition {
@@ -60,6 +76,13 @@ type Sponsor {
 }
 
 enum SponsorType {
+  DIAMANTE
+  ORO
+  PLATA
+  BRONCE
+}
+
+enum SponsorTypeInput {
   DIAMANTE
   ORO
   PLATA
