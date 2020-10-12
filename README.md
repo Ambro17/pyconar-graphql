@@ -46,3 +46,4 @@ You can also deploy to heroku with just one click
 ## TODO
 - Auth
 - DoS Protection
+- Remove custom GraphiQL
