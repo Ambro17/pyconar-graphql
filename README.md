@@ -44,6 +44,6 @@ You can also deploy to heroku with just one click
 - Error Handling. _HTTP, what's that?_
 
 ## TODO
-- Auth
 - DoS Protection
-- Remove custom GraphiQL
+- Remove custom GraphiQL html as it has bugs
+- Improve Mutations Auth
