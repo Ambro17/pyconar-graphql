@@ -17,7 +17,7 @@ class Query:
     findPeopleByInterest: List[Person] = field(resolver=people_repo.get_people_by_interest)
     findPeopleOpenToHiring: List[Person] = field(resolver=people_repo.get_people_open_to_proposals)
 
-    findJobOportunities: List[OpenPosition] = field(resolver=get_open_opportunities)
+    findOpenPositions: List[OpenPosition] = field(resolver=get_open_opportunities)
 
     talks: List[Talk] = field(resolver=talks_repo.get_talks)
     nextTalks: List[Talk] = field(resolver=talks_repo.get_next_talks,
