@@ -3,3 +3,4 @@ strawberry-graphql
 gunicorn
 requests
 peewee
+psycopg2
