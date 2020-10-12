@@ -1,53 +1,30 @@
-from .domain import (
-    Sponsor,
-    SponsorType,
-    Company,
-    OpenPosition,
-)
+from strawapp.domain import Company, Sponsor, OpenPosition, SponsorType
 from typing import List
+from strawapp.db.database import Sponsorship
 
-
-EVIL_CORP = Company(
-    name='Evil Inc.',
-    description='Lorem',
-    website='www.evil.inc',
-    open_positions=[
-        OpenPosition(title='Sr Python Dev', url='www.carrers.com', company=''),
-        OpenPosition(title='Jr Python Dev', url='www.carrers.com', company=''),
-    ],
-    technologies=['Python', 'React', 'GraphQL'],
-)
-for pos in EVIL_CORP.open_positions:
-    pos.company = EVIL_CORP
-
-
-NICE_CORP = Company(
-    name='Good Inc.',
-    description='Desc',
-    website='www.good.inc',
-    open_positions=[
-        OpenPosition(title='QA Engineer', url='www.carrers.com', company=''),
-        OpenPosition(title='SDET', url='www.carrers.com', company=''),
-    ],
-    technologies=['Pytest', 'Selenium'],
-)
-for pos in NICE_CORP.open_positions:
-    pos.company = NICE_CORP
-
-
-COMPANIES = [EVIL_CORP, NICE_CORP]
-
+CATEGORIES = {
+    1: SponsorType.DIAMANTE,
+    2: SponsorType.ORO,
+}
 
 def get_sponsors() -> List[Sponsor]:
     return [
-        Sponsor(company=EVIL_CORP, category=SponsorType.DIAMANTE),
-        Sponsor(company=NICE_CORP, category=SponsorType.ORO)
+        Sponsor(
+            company=Company(
+                name=s.company.name,
+                tagline=s.company.tagline,
+                website=s.company.website,
+                technologies=s.company.technologies.split(','),
+                open_positions=s.company.open_positions
+            ),
+            category=CATEGORIES[s.category]
+        )
+        for s in Sponsorship.select()
     ]
 
 
 def get_open_opportunities() -> List[OpenPosition]:
     return [
-        open_position
-        for company in COMPANIES
-        for open_position in company.open_positions
+        s.company.open_positions
+        for s in Sponsorship.select()
     ]

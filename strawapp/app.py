@@ -5,6 +5,7 @@ import json
 from strawapp.views.voyager_view import APIExplorer
 from strawapp.views.flask_view import GraphQLAPI
 from strawapp.schema import schema
+from strawapp.db.database import db
 
 
 def create_app():
@@ -25,6 +26,17 @@ def create_app():
     explorer = APIExplorer.as_view("voyager",
                                 introspection=json.dumps({'data': introspection.data}))
     app.add_url_rule("/explorer", view_func=explorer)
+
+    # Handle database connections per request
+    @app.before_request
+    def before_request():
+        db.connect()
+
+    @app.after_request
+    def after_request(response):
+        db.close()
+        return response
+
 
     return app
 

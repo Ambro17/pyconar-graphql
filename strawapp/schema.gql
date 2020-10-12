@@ -1,6 +1,6 @@
 type Company {
   name: String!
-  description: String!
+  tagline: String!
   website: String!
   openPositions: [OpenPosition!]!
   technologies: [String!]!
@@ -60,9 +60,10 @@ type Sponsor {
 }
 
 enum SponsorType {
-  EXABYTE
-  PETABYTE
-  TERABYTE
+  DIAMANTE
+  ORO
+  PLATA
+  BRONCE
 }
 
 type Talk {

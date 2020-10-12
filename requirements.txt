@@ -2,3 +2,4 @@ Flask
 strawberry-graphql
 gunicorn
 requests
+peewee

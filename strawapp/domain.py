@@ -56,7 +56,7 @@ class OpenPosition:
 @strawberry.type
 class Company:
     name: str
-    description: str
+    tagline: str
     website: Link
     open_positions: List[OpenPosition]
     technologies: List[str]

@@ -72,7 +72,7 @@ class GraphQLAPI(MethodView):
         """Initialize context with common data across resolvers"""
         return {
             'request': request,
-            'python_rocks': True,
+            'redis': None,
         }
 
     def execute(self, query, variables, operation, context, root_value=None):
