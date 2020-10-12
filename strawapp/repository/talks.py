@@ -5,7 +5,7 @@ import string
 from datetime import datetime
 from typing import List
 
-from strawapp.entities import Speaker, Talk, Topic
+from strawapp.domain import Speaker, Talk, Topic
 from strawapp.repository.abstract import AbstractTalksRepository
 
 

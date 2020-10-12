@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 
-from strawapp.entities import OpenPosition, Person, Sponsor, Talk
+from strawapp.domain import OpenPosition, Person, Sponsor, Talk
 
 
 class AbstractPeopleRepository(ABC):

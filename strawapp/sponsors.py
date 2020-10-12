@@ -1,4 +1,4 @@
-from .entities import (
+from .domain import (
     Sponsor,
     SponsorType,
     Company,
@@ -19,6 +19,7 @@ EVIL_CORP = Company(
 )
 for pos in EVIL_CORP.open_positions:
     pos.company = EVIL_CORP
+
 
 NICE_CORP = Company(
     name='Good Inc.',

@@ -4,7 +4,7 @@ from typing import List
 
 import requests
 import strawberry
-from strawapp.entities import Person, Speaker, Visitor
+from strawapp.domain import Person, Speaker, Visitor
 from strawapp.repository.abstract import AbstractPeopleRepository
 
 

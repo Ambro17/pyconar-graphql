@@ -5,7 +5,7 @@ from strawberry import field
 from strawapp.sponsors import Sponsor, get_open_opportunities, get_sponsors
 from strawapp.talks import talks_repo
 from strawapp.people import people_repo
-from strawapp.entities import OpenPosition, Person, Speaker, Visitor, Talk
+from strawapp.domain import OpenPosition, Person, Speaker, Visitor, Talk
 
 
 @strawberry.type
