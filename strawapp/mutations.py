@@ -34,13 +34,19 @@ class AddOpenPositionInput:
     position: OpenPositionInput
 
 @strawberry.type
-class AddOpenPositionOutput:
+class AddOpenPositionCreated:
     company: Company
+
+@strawberry.type
+class AddOpenPositionFailed:
+    error: str
+
+
+AddOpenPositionOutput = strawberry.union("AddOpenPositionOutput", (AddOpenPositionCreated, AddOpenPositionFailed))
 
 
 @strawberry.type
 class Mutation:
-
     @strawberry.mutation
     def add_new_company(self, input: AddCompanyInput) -> CompanyOutput:
         # Add to json
@@ -69,9 +75,11 @@ class Mutation:
         try:
             company = CompanyModel.get(CompanyModel.name==name)
         except DoesNotExist:
-            raise ValueError('Company name does not exist')
+            return AddOpenPositionFailed(
+                error='Company name does not exist'
+            )
         
         OpenPositionModel(company=company, title=position.title, url=position.url).save()
-        return AddOpenPositionOutput(
+        return AddOpenPositionCreated(
             company=company
         )

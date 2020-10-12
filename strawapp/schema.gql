@@ -2,14 +2,20 @@ input AddCompanyInput {
   company: CompanyInput!
 }
 
+type AddOpenPositionCreated {
+  company: Company!
+}
+
+type AddOpenPositionFailed {
+  error: String!
+}
+
 input AddOpenPositionInput {
   companyName: String!
   position: OpenPositionInput!
 }
 
-type AddOpenPositionOutput {
-  company: Company!
-}
+union AddOpenPositionOutput = AddOpenPositionCreated | AddOpenPositionFailed
 
 type Company {
   name: String!
@@ -65,7 +71,7 @@ type Query {
   findPeople(filter: PeopleFilter!): [Person!]!
   findPeopleByInterest(interest: String!): [Person!]!
   findPeopleOpenToHiring: [Person!]!
-  findJobOportunities: [OpenPosition!]!
+  findOpenPositions: [OpenPosition!]!
   talks: [Talk!]!
 
   """Talks which are about to start"""
