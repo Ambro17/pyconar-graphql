@@ -1,6 +1,14 @@
-input AddNewSponsorInput {
+input AddCompanyInput {
   company: CompanyInput!
-  category: SponsorTypeInput!
+}
+
+input AddOpenPositionInput {
+  companyName: String!
+  position: OpenPositionInput!
+}
+
+type AddOpenPositionOutput {
+  company: Company!
 }
 
 type Company {
@@ -18,14 +26,25 @@ input CompanyInput {
   technologies: [String!]!
 }
 
+type CompanyOutput {
+  company: Company!
+  actions: [String!]!
+}
+
 type Mutation {
-  addNewSponsor(input: AddNewSponsorInput!): Sponsor!
+  addNewCompany(input: AddCompanyInput!): CompanyOutput!
+  addOpenPosition(input: AddOpenPositionInput!): AddOpenPositionOutput!
 }
 
 type OpenPosition {
   title: String!
   url: String!
   company: Company!
+}
+
+input OpenPositionInput {
+  title: String!
+  url: String!
 }
 
 input PeopleFilter {
@@ -76,13 +95,6 @@ type Sponsor {
 }
 
 enum SponsorType {
-  DIAMANTE
-  ORO
-  PLATA
-  BRONCE
-}
-
-enum SponsorTypeInput {
   DIAMANTE
   ORO
   PLATA
