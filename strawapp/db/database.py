@@ -17,7 +17,7 @@ def get_database():
              "host": url.hostname,
              "port": url.port
         }
-        return PostgresqlDatabase('pyconar_graphql', **config)
+        return PostgresqlDatabase(**config)
     else:
         return SqliteDatabase('sponsors.sqlite')
 
