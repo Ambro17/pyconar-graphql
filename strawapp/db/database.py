@@ -83,8 +83,8 @@ def create_things():
             technologies='Python,SciPy,numpy'
         )
         OpenPosition(
-            company=morgan, title='Sr Python Dev', url='https://onapsis.com/company/careers'
-        ).save()    
+            company=morgan, title='Sr Python Dev', url='https://careers.jpmorgan.com/'
+        ).save()
         Sponsorship(company=morgan, category=1, event='Pyconar 2020').save()
         print("Things Created ✨")
 
