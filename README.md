@@ -4,7 +4,7 @@
 ![Screenshot](strawapp/static/demo.png)
 The repo has different kind of query resolvers, backed by
 - DB Models
-- CSV Files
+- JSON Files
 - REST Calls
 This is to demonstrate that there are no hard constraints on implementation details. 
 We're free to do whatever fits better to our environment.
@@ -14,8 +14,7 @@ We're free to do whatever fits better to our environment.
 
 ## About GraphQL
 [GraphQL](https://graphql.org/) is a new paradigm in API Design that is rapidly growing in popularity.
-Although it's not a replacement of REST, it does
-help solve some of its most frequent problems.
+Although it's not a replacement of REST, it does help solve some of its most frequent problems.
 I hope that exploring the API you can get a taste of the benefits of GraphQL and perhaps motivate you to write your own GraphQL PoC for your next big project.
 
 
@@ -41,10 +40,5 @@ You can also deploy to heroku with just one click
 ## Features
 - IDE in Browser. _To explore the API interactively_
 - Interactive Graph Explorer. _A visually compelling view of the API_
-- Mutations. _Useful Patterns to alter data_
+- Mutation Example. _Useful Patterns to alter data_
 - Error Handling. _HTTP, what's that?_
-
-
-## GraphQL Basics
- - Schema: The API Contract. Strictly typed but readable by humans
- - Resolver: Functions attached to schema fields, that resolve to a value
