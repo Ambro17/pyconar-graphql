@@ -1,3 +1,22 @@
+input AddCompanyInput {
+  company: CompanyInput!
+}
+
+type AddOpenPositionCreated {
+  company: Company!
+}
+
+type AddOpenPositionFailed {
+  error: String!
+}
+
+input AddOpenPositionInput {
+  companyName: String!
+  position: OpenPositionInput!
+}
+
+union AddOpenPositionOutput = AddOpenPositionCreated | AddOpenPositionFailed
+
 type Company {
   name: String!
   tagline: String!
@@ -6,10 +25,32 @@ type Company {
   technologies: [String!]!
 }
 
+input CompanyInput {
+  name: String!
+  website: String!
+  tagline: String! = ""
+  technologies: [String!]!
+}
+
+type CompanyOutput {
+  company: Company!
+  actions: [String!]!
+}
+
+type Mutation {
+  addNewCompany(input: AddCompanyInput!): CompanyOutput!
+  addOpenPosition(input: AddOpenPositionInput!): AddOpenPositionOutput!
+}
+
 type OpenPosition {
   title: String!
   url: String!
   company: Company!
+}
+
+input OpenPositionInput {
+  title: String!
+  url: String!
 }
 
 input PeopleFilter {
@@ -30,7 +71,7 @@ type Query {
   findPeople(filter: PeopleFilter!): [Person!]!
   findPeopleByInterest(interest: String!): [Person!]!
   findPeopleOpenToHiring: [Person!]!
-  findJobOportunities: [OpenPosition!]!
+  findOpenPositions: [OpenPosition!]!
   talks: [Talk!]!
 
   """Talks which are about to start"""

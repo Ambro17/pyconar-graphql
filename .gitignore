@@ -2,5 +2,6 @@
 .idea
 __pycache__
 env/
+.env/
 venv/
 *.sqlite

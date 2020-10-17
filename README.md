@@ -42,3 +42,8 @@ You can also deploy to heroku with just one click
 - Interactive Graph Explorer. _A visually compelling view of the API_
 - Mutation Example. _Useful Patterns to alter data_
 - Error Handling. _HTTP, what's that?_
+
+## TODO
+- DoS Protection
+- Remove custom GraphiQL html as it has bugs
+- Improve Mutations Auth

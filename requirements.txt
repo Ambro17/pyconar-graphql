@@ -3,4 +3,4 @@ strawberry-graphql
 gunicorn
 requests
 peewee
-psycopg2
+psycopg2>=2.8.4
