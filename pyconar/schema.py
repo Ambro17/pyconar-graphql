@@ -14,16 +14,14 @@ class Query:
     sponsors: List[Sponsor] = field(resolver=get_sponsors)
 
     findPeople: List[Person] = field(resolver=people_repo.get_people)
-    findPeopleByInterest: List[Person] = field(resolver=people_repo.get_people_by_interest)
     findPeopleOpenToHiring: List[Person] = field(resolver=people_repo.get_people_open_to_proposals)
 
     findOpenPositions: List[OpenPosition] = field(resolver=get_open_opportunities)
 
-    talks: List[Talk] = field(resolver=talks_repo.get_talks)
+    allTalks: List[Talk] = field(resolver=talks_repo.get_talks)
     nextTalks: List[Talk] = field(resolver=talks_repo.get_next_talks,
                                   description="Talks which are about to start")
     talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year)
-    talksByTopic: List[Talk] = field(resolver=talks_repo.get_talks_by_topic)
 
 
 schema = strawberry.Schema(query=Query, mutation=Mutation, types=[Speaker, Visitor])
