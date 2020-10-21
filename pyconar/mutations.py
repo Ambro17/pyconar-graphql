@@ -3,8 +3,8 @@ from strawberry.permission import BasePermission
 from peewee import DoesNotExist
 from typing import List
 import strawberry
-from strawapp.domain import Company
-from strawapp.db.database import Company as CompanyModel, OpenPosition as OpenPositionModel
+from pyconar.domain import Company
+from pyconar.db.database import Company as CompanyModel, OpenPosition as OpenPositionModel
 from dataclasses import field
 
 

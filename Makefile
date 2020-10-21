@@ -7,15 +7,15 @@ run:
 	docker run -it --rm -v $(PWD):/app -p 5050:5050 pyconar-graphql
 
 run-dev:
-	FLASK_APP="strawapp.app:create_app()" \
+	FLASK_APP="pyconar.app:create_app()" \
 	FLASK_DEBUG=1 \
 	MUTATIONS_ENABLED=1 \
 	flask run
 
 docs:
 	# Delete triple quote docstrings and then generate static docs site
-	sed -i 's/""".*"""//g' strawapp/schema.gql
-	graphdoc -s strawapp/schema.gql -o docs --force
+	sed -i 's/""".*"""//g' pyconar/schema.gql
+	graphdoc -s pyconar/schema.gql -o docs --force
 
 tunnel:
 	# Remember to add ngrok's path to your $PATH for this target to work

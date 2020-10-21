@@ -4,8 +4,8 @@ from typing import List
 
 import requests
 import strawberry
-from strawapp.domain import Person, Speaker, Visitor
-from strawapp.repository.abstract import AbstractPeopleRepository
+from pyconar.domain import Person, Speaker, Visitor
+from pyconar.repository.abstract import AbstractPeopleRepository
 
 
 SPEAKERS = [

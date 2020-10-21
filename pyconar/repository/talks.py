@@ -5,8 +5,8 @@ import string
 from datetime import datetime
 from typing import List
 
-from strawapp.domain import Speaker, Talk, Topic
-from strawapp.repository.abstract import AbstractTalksRepository
+from pyconar.domain import Speaker, Talk, Topic
+from pyconar.repository.abstract import AbstractTalksRepository
 
 
 def random_name():

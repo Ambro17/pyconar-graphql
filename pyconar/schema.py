@@ -3,11 +3,11 @@ from typing import List
 import strawberry
 from strawberry import field
 
-from strawapp.sponsors import Sponsor, get_open_opportunities, get_sponsors
-from strawapp.talks import talks_repo
-from strawapp.people import people_repo
-from strawapp.domain import OpenPosition, Person, Speaker, Topic, Visitor, Talk
-from strawapp.mutations import Mutation
+from pyconar.sponsors import Sponsor, get_open_opportunities, get_sponsors
+from pyconar.talks import talks_repo
+from pyconar.people import people_repo
+from pyconar.domain import OpenPosition, Person, Speaker, Topic, Visitor, Talk
+from pyconar.mutations import Mutation
 
 @strawberry.type
 class Query:
@@ -29,5 +29,5 @@ class Query:
 schema = strawberry.Schema(query=Query, mutation=Mutation, types=[Speaker, Visitor])
 
 
-with open('strawapp/schema.gql', 'w+') as f:
+with open('pyconar/schema.gql', 'w+') as f:
     f.write(schema.as_str())

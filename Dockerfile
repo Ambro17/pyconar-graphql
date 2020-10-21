@@ -14,5 +14,5 @@ COPY . /app
 WORKDIR /app
 
 ENV MUTATIONS_ENABLED=1
-CMD gunicorn -w 4 "strawapp.app:create_app()" -b 0.0.0.0:$PORT
+CMD gunicorn -w 4 "pyconar.app:create_app()" -b 0.0.0.0:$PORT
 

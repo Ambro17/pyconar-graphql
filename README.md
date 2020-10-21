@@ -1,7 +1,7 @@
 # PyconAr GraphQL Playground
 `PyconAr GraphQL Playground` is a playground for anyone who wants to learn graphql interactively.
 
-![Screenshot](strawapp/static/demo.png)
+![Screenshot](pyconar/static/demo.png)
 The repo has different kind of query resolvers, backed by
 - DB Models
 - JSON Files
@@ -24,7 +24,7 @@ To run the server follow these steps:
 python3.6 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-export FLASK_APP="strawapp.app:create_app()"
+export FLASK_APP="pyconar.app:create_app()"
 flask run
 ```
 If you have docker installed you can start it with

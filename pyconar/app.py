@@ -2,10 +2,10 @@ from flask import Flask
 from graphql import get_introspection_query
 import json
 
-from strawapp.views.voyager_view import APIExplorer
-from strawapp.views.flask_view import GraphQLAPI
-from strawapp.schema import schema
-from strawapp.db.database import db
+from pyconar.views.voyager_view import APIExplorer
+from pyconar.views.flask_view import GraphQLAPI
+from pyconar.schema import schema
+from pyconar.db.database import db
 
 
 def create_app():

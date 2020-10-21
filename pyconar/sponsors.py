@@ -1,6 +1,6 @@
-from strawapp.domain import Company, Sponsor, OpenPosition, SponsorType
+from pyconar.domain import Company, Sponsor, OpenPosition, SponsorType
 from typing import List
-from strawapp.db.database import Sponsorship, OpenPosition as Job
+from pyconar.db.database import Sponsorship, OpenPosition as Job
 
 CATEGORIES = {
     1: SponsorType.DIAMANTE,
