@@ -47,7 +47,6 @@ class AddOpenPositionFailed:
 AddOpenPositionOutput = strawberry.union("AddOpenPositionOutput", (AddOpenPositionCreated, AddOpenPositionFailed))
 
 
-
 class MutationsEnabled(BasePermission):
     message = "You are not authorized"
 

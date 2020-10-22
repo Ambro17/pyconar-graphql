@@ -9,6 +9,7 @@ from pyconar.people import people_repo
 from pyconar.domain import OpenPosition, Person, Speaker, Topic, Visitor, Talk
 from pyconar.mutations import Mutation
 
+
 @strawberry.type
 class Query:
     sponsors: List[Sponsor] = field(resolver=get_sponsors)
