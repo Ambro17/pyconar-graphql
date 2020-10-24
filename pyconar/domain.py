@@ -21,6 +21,7 @@ class Person:
 @strawberry.type
 class Speaker(Person):
     job: str
+    bio: str = ""
     talk: Optional['Talk'] = None
 
 
