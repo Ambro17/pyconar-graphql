@@ -35,7 +35,8 @@ class TalksRepository(AbstractTalksRepository):
                     speaker=Speaker(
                         name=talk['speaker'],
                         email=f'{random_name()}@mail.com',
-                        job='PyconAr',
+                        bio=talk.get('bio',''),
+                        job='PyconAr Inc.',
                         interests=[random_interest()],
                         open_to_job_offers=random.choice([True, False]),
                         talk=None

@@ -1,4 +1,5 @@
 from typing import List
+from datetime import datetime
 
 import strawberry
 from strawberry import field
@@ -12,17 +13,20 @@ from pyconar.mutations import Mutation
 
 @strawberry.type
 class Query:
-    sponsors: List[Sponsor] = field(resolver=get_sponsors)
+    sponsors: List[Sponsor] = field(resolver=get_sponsors, description="Get info about current pyconar sponsors")
 
-    findPeople: List[Person] = field(resolver=people_repo.get_people)
-    findPeopleOpenToHiring: List[Person] = field(resolver=people_repo.get_people_open_to_proposals)
+    findPeople: List[Person] = field(resolver=people_repo.get_people, 
+                                     description="Find people that match the given filters")
+    findPeopleOpenToHiring: List[Person] = field(resolver=people_repo.get_people_open_to_proposals,
+                                                 description="Find who is open to receive job offers")
 
-    findOpenPositions: List[OpenPosition] = field(resolver=get_open_opportunities)
+    findOpenPositions: List[OpenPosition] = field(resolver=get_open_opportunities,
+                                                  description="Find who is hiring and for what jobs")
 
-    allTalks: List[Talk] = field(resolver=talks_repo.get_talks)
-    nextTalks: List[Talk] = field(resolver=talks_repo.get_next_talks,
-                                  description="Talks which are about to start")
-    talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year)
+    talks: List[Talk] = field(resolver=talks_repo.get_next_talks,
+                              description=f"Talks ocurring on PyconAr `{datetime.utcnow().year}`")
+    talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year,
+                                    description="Talks given on specified `year`. One of `[2018, 2019, 2020]`")
 
 
 schema = strawberry.Schema(query=Query, mutation=Mutation, types=[Speaker, Visitor])

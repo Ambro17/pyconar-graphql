@@ -67,17 +67,23 @@ interface Person {
 }
 
 type Query {
+  """Get info about current pyconar sponsors"""
   sponsors: [Sponsor!]!
+
+  """Find people that match the given filters"""
   findPeople(filter: PeopleFilter!): [Person!]!
-  findPeopleByInterest(interest: String!): [Person!]!
+
+  """Find who is open to receive job offers"""
   findPeopleOpenToHiring: [Person!]!
+
+  """Find who is hiring and for what jobs"""
   findOpenPositions: [OpenPosition!]!
+
+  """Talks ocurring on PyconAr `2020`"""
   talks: [Talk!]!
 
-  """Talks which are about to start"""
-  nextTalks: [Talk!]!
+  """Talks given on specified `year`. One of `[2018, 2019, 2020]`"""
   talksByYear(year: String!): [Talk!]!
-  talksByTopic(topic: String!): [Talk!]!
 }
 
 enum Seniority {
@@ -92,6 +98,7 @@ type Speaker implements Person {
   interests: [String!]!
   openToJobOffers: Boolean!
   job: String!
+  bio: String!
   talk: Talk
 }
 
