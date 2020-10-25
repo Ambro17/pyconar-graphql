@@ -5,24 +5,6 @@ from typing import List
 import strawberry
 from pyconar.domain import Company
 from pyconar.db.database import Company as CompanyModel, OpenPosition as OpenPositionModel
-from dataclasses import field
-
-
-@strawberry.input
-class CompanyInput:
-    name: str
-    website: str
-    tagline: str = ''
-    technologies: List[str] = field(default_factory=list)
-
-@strawberry.type
-class CompanyOutput:
-    company: Company
-    actions: List[str]
-
-@strawberry.input
-class AddCompanyInput:
-    company: CompanyInput
 
 
 @strawberry.input
@@ -42,9 +24,11 @@ class AddOpenPositionCreated:
 @strawberry.type
 class AddOpenPositionFailed:
     error: str
+    suggestion: str = "Fix the error and retry"
 
 
-AddOpenPositionOutput = strawberry.union("AddOpenPositionOutput", (AddOpenPositionCreated, AddOpenPositionFailed))
+AddOpenPositionResult = strawberry.union("AddOpenPositionResult", (AddOpenPositionCreated, AddOpenPositionFailed),
+                                         description="Possible outcomes of adding a position to a company")
 
 
 class MutationsEnabled(BasePermission):
@@ -56,37 +40,17 @@ class MutationsEnabled(BasePermission):
 
 @strawberry.type
 class Mutation:
-
-    @strawberry.mutation(permission_classes=[MutationsEnabled])
-    def add_new_company(self, input: AddCompanyInput) -> CompanyOutput:
-        # Add to json
-        # Add error handling with useful messages
-        company = input.company
-        new_company = CompanyModel.create(
-            name=company.name,
-            website=company.website,
-            tagline=company.tagline,
-            technologies=','.join(company.technologies)
-        )
-        def to_graphql(c):
-            """Map database model to graphql model. Side-Effect of decoupling them.."""
-            c.technologies = c.technologies.split(',') if c.technologies else []
-            return c
-
-        return CompanyOutput(
-            company=to_graphql(new_company),
-            actions=['addOpenPosition']
-        )
-    
-    @strawberry.mutation(permission_classes=[MutationsEnabled])
-    def add_open_position(self, input: AddOpenPositionInput) -> AddOpenPositionOutput:
+   
+    @strawberry.mutation(permission_classes=[MutationsEnabled], description="Add a new open positions for the given company")
+    def add_open_position(self, input: AddOpenPositionInput) -> AddOpenPositionResult:
         name = input.company_name
         position = input.position
         try:
             company = CompanyModel.get(CompanyModel.name==name)
         except DoesNotExist:
             return AddOpenPositionFailed(
-                error='Company name does not exist'
+                error='Company name does not exist',
+                suggestion='Please review any possible typos and retry with a valid company name'
             )
         
         OpenPositionModel(company=company, title=position.title, url=position.url).save()

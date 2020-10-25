@@ -1,13 +1,10 @@
-input AddCompanyInput {
-  company: CompanyInput!
-}
-
 type AddOpenPositionCreated {
   company: Company!
 }
 
 type AddOpenPositionFailed {
   error: String!
+  suggestion: String!
 }
 
 input AddOpenPositionInput {
@@ -15,7 +12,8 @@ input AddOpenPositionInput {
   position: OpenPositionInput!
 }
 
-union AddOpenPositionOutput = AddOpenPositionCreated | AddOpenPositionFailed
+"""Possible outcomes of adding a position to a company"""
+union AddOpenPositionResult = AddOpenPositionCreated | AddOpenPositionFailed
 
 type Company {
   name: String!
@@ -25,21 +23,9 @@ type Company {
   technologies: [String!]!
 }
 
-input CompanyInput {
-  name: String!
-  website: String!
-  tagline: String! = ""
-  technologies: [String!]!
-}
-
-type CompanyOutput {
-  company: Company!
-  actions: [String!]!
-}
-
 type Mutation {
-  addNewCompany(input: AddCompanyInput!): CompanyOutput!
-  addOpenPosition(input: AddOpenPositionInput!): AddOpenPositionOutput!
+  """Add a new open positions for the given company"""
+  addOpenPosition(input: AddOpenPositionInput!): AddOpenPositionResult!
 }
 
 type OpenPosition {
