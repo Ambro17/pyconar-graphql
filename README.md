@@ -36,6 +36,11 @@ You can also deploy to heroku with just one click
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ambro17/pyconar-graphql/tree/master)
 
+## Endpoints
+ - `/` GraphiQL IDE with Explorer Plugin
+ - `/dark` Playground IDE with dark theme and multitab docs navigation
+ - `/explorer` Api Schema Visualizer with graphqql voyager`
+
 
 ## Features
 - IDE in Browser. _To explore the API interactively_
