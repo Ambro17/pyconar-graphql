@@ -641,6 +641,12 @@
         "title": "Airflow en Kubernetes: Escalando al mas alla!"
       },
       {
+        "bio": "FOSS Entusiasta",
+        "desc": "En esta presentación se dará a conocer al proyecto python-docs-es, se mostrará lo facil que es contribuir en la traducción de la documentación de Python",
+        "speaker": "Emmanuel Arias",
+        "title": "Únete a traducir la documentación de Python"
+      },
+      {
         "bio": "Docente de la materia Seminario de Python, Facultad de Informática. Me gusta andar en moto, volar en aladelta y bailar",
         "desc": "Un taller mostrando el analisis de datos usando Jupyter Notebook, Panda, MatploLib. Como depurar datos y generar gráficos.",
         "speaker": "Sofía Martin",
@@ -651,6 +657,12 @@
         "desc": "Abordaremos un enfoque práctico para la gestión de vulnerabilidades en entornos de entrega e integración continua, a través de AppSec pipelines, tools para staging de hallazgos y escalamiento",
         "speaker": "Agustin Celano",
         "title": "AppSec Vulnerability Management Pipelines"
+      },
+      {
+        "bio": "🐍 Python Dev who loves to automate the boring stuff",
+        "desc": "GraphQL es un nuevo paradigma a la hora de diseñar nuestras APIs.\nVamos a hablar sobre cómo podemos programar una API Pythonica mediante GraphQL que todos nuestros clientes amen consumir",
+        "speaker": "Nahuel Ambrosini",
+        "title": "Pythonic APIs con GraphQL"
       },
       {
         "bio": "Hola! Soy santiago, un ingeniero de software, trabajo hace mas de 8 años con python y javascript, mantengo algunos proyectos open source y contribuyo en otros de vez en cuando. Actualmente vivo en Amsterdam, Paises Bajos.",
@@ -809,12 +821,6 @@
         "title": "¿Por que no se hacen mas tests?"
       },
       {
-        "bio": "🐍 Python Dev who loves to automate the boring stuff",
-        "desc": "GraphQL es un nuevo paradigma a la hora de diseñar nuestras APIs.\nVamos a hablar sobre cómo podemos programar una API Pythonica mediante GraphQL que todos nuestros clientes amen consumir",
-        "speaker": "Nahuel Ambrosini",
-        "title": "Pythonic APIs con GraphQL"
-      },
-      {
         "bio": "Alfredo Pardo es Ingeniero en Sistemas de Información (UTN FRC), Arquitecto de Seguridad Cloud en 3XM Group, Profesor de Seguridad y Auditoría Informática (UCC) y Maestrando en Ciberdefensa (UNDEF). Actualmente trabaja en el desarrollo de soluciones de Seguridad Cloud y DevSecOps.",
         "desc": "La eficiencia de las implementaciones DevSecOps se ve favorecida por la incorporación de Python a las habilidades de Equipos de Seguridad Ágiles",
         "speaker": "Alfredo Pardo",
@@ -855,12 +861,6 @@
         "desc": "Poetry es una herramienta para manejo de dependencias y empaquetado de módulos.\nMostraremos, a través de un ejemplo, porque consideramos que es una versión superadora a alternativas preexistentes (como virtualenvs, setuptools y pipenv) y como integrarlo con otras herramientas modernas del ecosistema (como pyenv o pipx).",
         "speaker": "Pedro Ferrari",
         "title": "​ Una Apología Poética: Poetry para manejo de dependencias y empaquetado de módulos."
-      },
-      {
-        "bio": "FOSS Entusiasta",
-        "desc": "En esta presentación se dará a conocer al proyecto python-docs-es, se mostrará lo facil que es contribuir en la traducción de la documentación de Python",
-        "speaker": "Emmanuel Arias",
-        "title": "Únete a traducir la documentación de Python"
       },
       {
         "bio": "Soy Python Developer, amo codear y tengo la suerte de que me paguen por hacerlo. Actualmente trabajo en Mercado Libre resolviendo la parte técnica de las soluciones de Machine Learning. También me encanta comer (no tanto cocinar) y lo que más extraño de los tiempos pre-pandémicos son los afters.",

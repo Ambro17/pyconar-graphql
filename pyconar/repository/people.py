@@ -32,12 +32,16 @@ VISITORS = [
         email='me@mail.com',
         interests=['Python', 'GraphQL', 'API Design'],
         open_to_job_offers=True,
+        resume_link='http://www.myurk.com/',
+        github_profile='https://github.com/JuanDev'
     ),
     Visitor(
         name='Sofía',
         email='sofi@mail.com',
-        interests=['Java'],
+        interests=['Java', 'GraphQL'],
         open_to_job_offers=True,
+        resume_link='http://www.someurl.com/',
+        github_profile='https://github.com/SofiaDev'
     ),
 ]
 

@@ -59,6 +59,9 @@ type Query {
   """Find people that match the given filters"""
   findPeople(filter: PeopleFilter!): [Person!]!
 
+  """Find people that match the given filters"""
+  findPeopleInterestedIn(interest: String!): [Person!]!
+
   """Find who is open to receive job offers"""
   findPeopleOpenToHiring: [Person!]!
 

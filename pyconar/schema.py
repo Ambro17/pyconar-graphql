@@ -17,6 +17,8 @@ class Query:
 
     findPeople: List[Person] = field(resolver=people_repo.get_people, 
                                      description="Find people that match the given filters")
+    findPeopleInterestedIn: List[Person] = field(resolver=people_repo.get_people_by_interest,
+                                                 description="Find people interested in the given technology")
     findPeopleOpenToHiring: List[Person] = field(resolver=people_repo.get_people_open_to_proposals,
                                                  description="Find who is open to receive job offers")
 
