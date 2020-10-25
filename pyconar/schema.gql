@@ -97,7 +97,10 @@ type Query {
   findOpenPositions: [OpenPosition!]!
 
   """Talks ocurring on PyconAr `2020`"""
-  talks: [Talk!]!
+  nextTalks: [Talk!]!
+
+  """All talks from `2018`, `2019` and `2020`"""
+  allTalks: [Talk!]!
 
   """Talks given on specified `year`. One of `[2018, 2019, 2020]`"""
   talksByYear(year: String!): [Talk!]!

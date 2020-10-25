@@ -25,8 +25,9 @@ class Query:
     findOpenPositions: List[OpenPosition] = field(resolver=get_open_opportunities,
                                                   description="Find who is hiring and for what jobs")
 
-    talks: List[Talk] = field(resolver=talks_repo.get_next_talks,
-                              description=f"Talks ocurring on PyconAr `{datetime.utcnow().year}`")
+    nextTalks: List[Talk] = field(resolver=talks_repo.get_next_talks,
+                                  description=f"Talks ocurring on PyconAr `{datetime.utcnow().year}`")
+    allTalks: List[Talk] = field(resolver=talks_repo.get_talks, description="All talks from `2018`, `2019` and `2020`")
     talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year,
                                     description="Talks given on specified `year`. One of `[2018, 2019, 2020]`")
 
