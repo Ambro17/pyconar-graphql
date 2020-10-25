@@ -28,7 +28,7 @@ class AddOpenPositionFailed:
 
 
 AddOpenPositionResult = strawberry.union("AddOpenPositionResult", (AddOpenPositionCreated, AddOpenPositionFailed),
-                                         description="Possible outcomes of adding a position to a company")
+                                         description="Union of possible outcomes when adding a position to a company")
 
 
 class MutationsEnabled(BasePermission):
@@ -38,10 +38,42 @@ class MutationsEnabled(BasePermission):
         return os.getenv('MUTATIONS_ENABLED', False)
 
 
+ADD_OPEN_POSITION_EXAMPLE = """
+```
+mutation AgregarBusqueda {
+  addOpenPosition(input: {
+      companyName: "CompanyName", 
+      position: {title: "Architect", url: "www.url.com"}
+    }) {
+    __typename  # Field to discriminate successfull results from failed ones
+    ... on AddOpenPositionCreated {
+      # The position was added successfully
+      company {
+        name
+        openPositions {
+          title
+          url
+        }
+      }
+    }
+    ... on AddOpenPositionFailed {
+      # There was an error adding the position
+      error
+      suggestion
+    }
+
+  }
+}
+```
+""".strip()
+
 @strawberry.type
 class Mutation:
    
-    @strawberry.mutation(permission_classes=[MutationsEnabled], description="Add a new open positions for the given company")
+    @strawberry.mutation(
+        permission_classes=[MutationsEnabled], 
+        description=f"Add a new open positions for the given company. Example:\n{ADD_OPEN_POSITION_EXAMPLE}"
+    )
     def add_open_position(self, input: AddOpenPositionInput) -> AddOpenPositionResult:
         name = input.company_name
         position = input.position

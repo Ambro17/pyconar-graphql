@@ -12,7 +12,7 @@ input AddOpenPositionInput {
   position: OpenPositionInput!
 }
 
-"""Possible outcomes of adding a position to a company"""
+"""Union of possible outcomes when adding a position to a company"""
 union AddOpenPositionResult = AddOpenPositionCreated | AddOpenPositionFailed
 
 type Company {
@@ -24,7 +24,35 @@ type Company {
 }
 
 type Mutation {
-  """Add a new open positions for the given company"""
+  """
+  Add a new open positions for the given company. Example:
+  ```
+  mutation AgregarBusqueda {
+    addOpenPosition(input: {
+        companyName: "CompanyName", 
+        position: {title: "Architect", url: "www.url.com"}
+      }) {
+      __typename  # Field to discriminate successfull results from failed ones
+      ... on AddOpenPositionCreated {
+        # The position was added successfully
+        company {
+          name
+          openPositions {
+            title
+            url
+          }
+        }
+      }
+      ... on AddOpenPositionFailed {
+        # There was an error adding the position
+        error
+        suggestion
+      }
+  
+    }
+  }
+  ```
+  """
   addOpenPosition(input: AddOpenPositionInput!): AddOpenPositionResult!
 }
 
@@ -59,7 +87,7 @@ type Query {
   """Find people that match the given filters"""
   findPeople(filter: PeopleFilter!): [Person!]!
 
-  """Find people that match the given filters"""
+  """Find people interested in the given technology"""
   findPeopleInterestedIn(interest: String!): [Person!]!
 
   """Find who is open to receive job offers"""
