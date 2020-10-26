@@ -4,10 +4,10 @@ from datetime import datetime
 import strawberry
 from strawberry import field
 
-from pyconar.sponsors import Sponsor, get_open_opportunities, get_sponsors
-from pyconar.talks import talks_repo
-from pyconar.people import people_repo
-from pyconar.domain import OpenPosition, Person, Speaker, Topic, Visitor, Talk
+from pyconar.resolvers.sponsors import Sponsor, get_open_opportunities, get_sponsors
+from pyconar.resolvers.talks import talks_repo
+from pyconar.resolvers.people import people_repo
+from pyconar.domain import OpenPosition, Person, Speaker, Visitor, Talk
 from pyconar.mutations import Mutation
 
 
