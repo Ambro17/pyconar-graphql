@@ -18,7 +18,7 @@ Although it's not a replacement of REST, it does help solve some of its most fre
 I hope that exploring the API you can get a taste of the benefits of GraphQL and perhaps motivate you to write your own GraphQL PoC for your next big project.
 
 
-## Usage
+## Run Locally
 To run the server follow these steps:
 ```python
 python3.6 -m venv venv
