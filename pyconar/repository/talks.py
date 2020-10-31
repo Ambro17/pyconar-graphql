@@ -28,15 +28,8 @@ class TalksRepository(AbstractTalksRepository):
     def _load_schedule_from_file(self, schedule) -> List[UpcomingTalk]:
         with open(schedule, 'r') as f:
             schedule_2020 = json.load(f)
-        # [u'bio', u'title', u'speaker', u'schedule', u'desc']
-        """
-        class UpcomingTalk:
-            name: str
-            description: str
-            schedule: ScheduleInfo
-            speaker: Speaker
-        """
-        up_talks = [
+
+        upcoming_talks = [
             UpcomingTalk(
                 name=talk['title'],
                 description=talk['desc'],
@@ -65,12 +58,12 @@ class TalksRepository(AbstractTalksRepository):
             for talk in schedule_2020
         ]
 
-        for talk in up_talks:
+        for talk in upcoming_talks:
             # Backreference talk from each speaker
             talk.speaker.talk = talk
 
 
-        return up_talks
+        return upcoming_talks
 
     def _load_talks_from_file(self, file):
         with open(file, 'r') as f:
@@ -114,9 +107,6 @@ class TalksRepository(AbstractTalksRepository):
 
 
     def get_next_talks(self) -> List[UpcomingTalk]:
-        # Get now
-        # Filter those that already happend
-        # Return those in the future
         now = datetime.now()
 
         next_talks = []
