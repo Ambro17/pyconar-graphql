@@ -39,7 +39,7 @@ We're free to do whatever fits better in our tech stack.
 ```
 
 ### Are there people open to receive offers?
-```
+```gql
 {
   findPeopleOpenToHiring {
     name
@@ -50,7 +50,7 @@ We're free to do whatever fits better in our tech stack.
 ```
 
 ### Are there companies looking to fill positions?
-```
+```gql
 {
 	findOpenPositions {
     title
@@ -65,7 +65,7 @@ We're free to do whatever fits better in our tech stack.
 ```
 
 ### Are there people interested in GraphQL?
-```
+```gql
 {
   findPeopleInterestedIn(interest: "GraphQL") {
     name
