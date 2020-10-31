@@ -7,18 +7,75 @@ The repo has different kind of query resolvers, backed by
 - JSON Files
 - REST Calls
 This is to demonstrate that there are no hard constraints on implementation details. 
-We're free to do whatever fits better to our environment.
+We're free to do whatever fits better in our tech stack.
 
 [Live Demo](https://pyconar.herokuapp.com/)
 
+## Query Examples
 
-## About GraphQL
-[GraphQL](https://graphql.org/) is a new paradigm in API Design that is rapidly growing in popularity.
-Although it's not a replacement of REST, it does help solve some of its most frequent problems.
-I hope that exploring the API you can get a taste of the benefits of GraphQL and perhaps motivate you to write your own GraphQL PoC for your next big project.
+### What are the upcoming talks?
+```gql
+{
+  nextTalks {
+    name
+    description
+    speaker {
+      name
+      bio
+    }
+  }
+}
+```
 
+### What are the names of all people that ever gave a talk on pyconar? 
+```gql
+{
+  allTalks {
+    speaker {
+      name
+    }
+  }
+}
+```
 
-## Usage
+### Are there people open to receive offers?
+```gql
+{
+  findPeopleOpenToHiring {
+    name
+    email
+    interests
+  }
+}
+```
+
+### Are there companies looking to fill positions?
+```gql
+{
+  findOpenPositions {
+    title
+    url
+    company {
+      name
+      website
+      technologies
+    }
+  }
+}
+```
+
+### Are there people interested in GraphQL?
+```gql
+{
+  findPeopleInterestedIn(interest: "GraphQL") {
+    name
+    email
+    openToJobOffers
+  }
+}
+```
+
+## Run Locally
 To run the server follow these steps:
 ```python
 python3.6 -m venv venv
@@ -47,6 +104,13 @@ You can also deploy to heroku with just one click
 - Interactive Graph Explorer. _A visually compelling view of the API_
 - Mutation Example. _Useful Patterns to alter data_
 - Error Handling. _HTTP, what's that?_
+
+
+## About GraphQL
+[GraphQL](https://graphql.org/) is a new paradigm in API Design that is rapidly growing in popularity.
+Although it's not a replacement of REST, it does help solve some of its most frequent problems.
+I hope that exploring the API you can get a taste of the benefits of GraphQL and perhaps motivate you to write your own GraphQL PoC for your next big project.
+
 
 ## TODO
 - DoS Protection

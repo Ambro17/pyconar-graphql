@@ -4,10 +4,10 @@ from datetime import datetime
 import strawberry
 from strawberry import field
 
-from pyconar.sponsors import Sponsor, get_open_opportunities, get_sponsors
-from pyconar.talks import talks_repo
-from pyconar.people import people_repo
-from pyconar.domain import OpenPosition, Person, Speaker, Topic, Visitor, Talk
+from pyconar.resolvers.sponsors import Sponsor, get_open_opportunities, get_sponsors
+from pyconar.resolvers.talks import talks_repo
+from pyconar.resolvers.people import people_repo
+from pyconar.domain import OpenPosition, Person, Speaker, UpcomingTalk, Visitor, Talk
 from pyconar.mutations import Mutation
 
 
@@ -25,8 +25,8 @@ class Query:
     findOpenPositions: List[OpenPosition] = field(resolver=get_open_opportunities,
                                                   description="Find who is hiring and for what jobs")
 
-    nextTalks: List[Talk] = field(resolver=talks_repo.get_next_talks,
-                                  description=f"Talks ocurring on PyconAr `{datetime.utcnow().year}`")
+    nextTalks: List[UpcomingTalk] = field(resolver=talks_repo.get_next_talks,
+                                          description=f"Talks ocurring on PyconAr `{datetime.utcnow().year}`")
     allTalks: List[Talk] = field(resolver=talks_repo.get_talks, description="All talks from `2018`, `2019` and `2020`")
     talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year,
                                     description="Talks given on specified `year`. One of `[2018, 2019, 2020]`")

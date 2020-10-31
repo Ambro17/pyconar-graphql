@@ -3,4 +3,6 @@ strawberry-graphql
 gunicorn
 requests
 peewee
+python-dateutil
+humanize
 psycopg2>=2.8.4
