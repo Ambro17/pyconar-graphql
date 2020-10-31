@@ -1,453 +1,248 @@
 [
     {
-        "bio": "Somos dos desarrolladores que nos conocimos en uno de los nuestros trabajos, luego pasamos un tiempo por Devecoop (una cooperativa de desarrollo), y hoy a no trabajamos juntos pero queremos colaborar con la comunidad, especialmente en la tarea de hacer test que entendemos podría ser más amena.",
-        "title": "¿Por que no se hacen mas tests?",
-        "speaker": "Mariano Bianchi, Andrés Ramírez",
-        "schedule": {
-            "start": "19:00",
-            "end": "20:00",
-            "day": "2020-11-16"
-        },
-        "desc": "Hablar un poco sobre test en gral y lo que uno se encuentra al iniciar en esta practica.\nMostrar algún ejemplo práctico, para pasar por los conceptos principales. Todo orientado a pytest."
+        "day": "16/11/2020",
+        "titulo": "¿Por que no se hacen mas tests?",
+        "start": "2020-11-16T19:00:00",
+        "end": "2020-11-16T20:00:00"
     },
     {
-        "bio": "Nací en Bogotá, Colombia. Tengo 23 años y estudié Ingeniería de Sistemas, amo la tecnología y la educación, en mis ratos libres hago lettering y disfruto de compartir mi conocimiento con otros. Mi comida favorita es la Bandeja Paisa y",
-        "title": "\"Behave\" para entender al usuario",
-        "speaker": "María Camila Guerrero Giraldo",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-16"
-        },
-        "desc": "Únete a esta charla si quieres aprender sobre Behavior Driven Development, una técnica\nque permite entender de forma clara el comportamiento que esperan ver los usuarios en\nel software, escribiendo casos de prueba en lenguaje natural que no programadores\npuedan leer y entender. Aprenderás por qué esta técnica hace ágiles los proyectos y\nmantiene en armonía a los equipos de desarrollo y los stakeholders del negocio, además\nde cómo implementar BDD en Python con ayuda de Behave."
+        "day": "16/11/2020",
+        "titulo": "\"Behave\" para entender al usuario",
+        "start": "2020-11-16T20:00:00",
+        "end": "2020-11-16T20:30:00"
     },
     {
-        "bio": "FOSS Entusiasta",
-        "title": "Únete a traducir la documentación de Python",
-        "speaker": "Emmanuel Arias",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-16"
-        },
-        "desc": "En esta presentación se dará a conocer al proyecto python-docs-es, se mostrará lo facil que es contribuir en la traducción de la documentación de Python"
+        "day": "16/11/2020",
+        "titulo": "Únete a traducir la documentación de Python",
+        "start": "2020-11-16T20:30:00",
+        "end": "2020-11-16T21:00:00"
     },
     {
-        "bio": "Hola! Mi nombre es Francisco Yackel, soy de Esperanza, Santa Fe. Actualmente soy desarrollador de software backend y android, trabajando para Mercado Libre. Con el objetivo de seguir aprendiendo día a día, estoy llevando adelante junto a compañeros un proyecto relacionado al machine learning, con el objetivo de resolver un problema de computer vision.",
-        "title": "Visual Search, de 0 a POC!",
-        "speaker": "Facundo Salmeron, Francisco Yackel, Elbio Zapata, Diego Garcia",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-17"
-        },
-        "desc": "Te contamos cómo en unos simples pasos, usando herramientas open source, llevamos a cabo una POC para Mercado Libre. Este experimento se enfoca en mejorar la experiencia de búsqueda de los usuarios.\nQueremos presentarles Visual Search: un proyecto que todavía está en fase \"incubadora\" pero que tiene como objetivo encontrar ítems publicados en el portal parecidos a una imagen o foto que el usuario pueda cargar, basándose en la similitud de imágenes."
+        "day": "17/11/2020",
+        "titulo": "Visual Search, de 0 a POC!",
+        "start": "2020-11-17T19:00:00",
+        "end": "2020-11-17T19:30:00"
     },
     {
-        "bio": "Representamos a MetaDocencia, una comunidad inclusiva y colaborativa que mejora la educación potenciando a docentes de países menos favorecidos. Somos una organización sin fines de lucro que nutre una comunidad docente hispanohablante enseñando métodos educativos concretos, basados en evidencia y centrados en tus estudiantes. Desarrollamos colaborativamente recursos abiertos, reutilizables y accesibles para fomentar prácticas de enseñanza eficaces.",
-        "title": "Buenas prácticas para enseñar programación online",
-        "speaker": "Patricia Loto, Nicolás Palopoli, Mariela Rajngewerc,",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-17"
-        },
-        "desc": "\"Buenas prácticas para enseñar programación online\" es una charla destinada a introducir buenas prácticas basadas en evidencia para el diseño de materiales, la gestión del aula y la accesibilidad."
+        "day": "17/11/2020",
+        "titulo": "Buenas prácticas para enseñar programación online",
+        "start": "2020-11-17T19:30:00",
+        "end": "2020-11-17T20:00:00"
     },
     {
-        "bio": "Soy entusiasta de Security-as-Code, la música y el motocilismo de aventura. Trabajo como DevSecOps Engineer en Baite Consulting Services y colaboro con la comunidad difundiendo la práctica DevSecOps a través del canal DevSecOps Community Hub (@ar_devsecops).",
-        "title": "AppSec Vulnerability Management Pipelines",
-        "speaker": "Agustin Celano",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-17"
-        },
-        "desc": "Abordaremos un enfoque práctico para la gestión de vulnerabilidades en entornos de entrega e integración continua, a través de AppSec pipelines, tools para staging de hallazgos y escalamiento"
+        "day": "17/11/2020",
+        "titulo": "AppSec Vulnerability Management Pipelines",
+        "start": "2020-11-17T20:00:00",
+        "end": "2020-11-17T20:30:00"
     },
     {
-        "bio": "Soy Python Developer, amo codear y tengo la suerte de que me paguen por hacerlo. Actualmente trabajo en Mercado Libre resolviendo la parte técnica de las soluciones de Machine Learning. También me encanta comer (no tanto cocinar) y lo que más extraño de los tiempos pre-pandémicos son los afters.",
-        "title": "Unit Testing: Qué testear y cómo testear con pytest.",
-        "speaker": "Sofía Denner",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-17"
-        },
-        "desc": "¿Y esto cómo lo testeo? En esta charla quiero abordar algunas dudas típicas al momento de escribir tests. Voy a hablar de de mocks, de patchs, de coverage y va haber una demo de todo esto con pytest en su máximo esplendor."
+        "day": "17/11/2020",
+        "titulo": "Unit Testing: Qué testear y cómo testear con pytest.",
+        "start": "2020-11-17T20:30:00",
+        "end": "2020-11-17T21:00:00"
     },
     {
-        "bio": "Matematico, Machine Learning Engineer por vocacion e infra lover. Actualmente tratando de estimar eventos en Jampp.",
-        "title": "Airflow en Kubernetes: Escalando al mas alla!",
-        "speaker": "Axel Sirota",
-        "schedule": {
-            "start": "16:00",
-            "end": "18:00",
-            "day": "2020-11-18"
-        },
-        "desc": "Vamos a aprender a hacer pipelines en Airflow, como testearlos para que estemos confiades de nuestros cambios y vamos a deployarlos en Kubernetes para poder escalar Airflow tanto como se necesite. \nMate incluide."
+        "day": "18/11/2020",
+        "titulo": "Airflow en Kubernetes: Escalando al mas alla!",
+        "start": "2020-11-18T16:00:00",
+        "end": "2020-11-18T18:00:00"
     },
     {
-        "bio": "Alfredo Pardo es Ingeniero en Sistemas de Información (UTN FRC), Arquitecto de Seguridad Cloud en 3XM Group, Profesor de Seguridad y Auditoría Informática (UCC) y Maestrando en Ciberdefensa (UNDEF). Actualmente trabaja en el desarrollo de soluciones de Seguridad Cloud y DevSecOps.",
-        "title": "Python para DevSecOps",
-        "speaker": "Alfredo Pardo",
-        "schedule": {
-            "start": "18:30",
-            "end": "19:00",
-            "day": "2020-11-18"
-        },
-        "desc": "La eficiencia de las implementaciones DevSecOps se ve favorecida por la incorporación de Python a las habilidades de Equipos de Seguridad Ágiles"
+        "day": "18/11/2020",
+        "titulo": "Python para DevSecOps",
+        "start": "2020-11-18T18:30:00",
+        "end": "2020-11-18T19:00:00"
     },
     {
-        "bio": "Descubrí Python en el año 2013, empecé a trabajar con el lenguaje en el 2015 y no miré atrás. Soy participante activo de varias comunidades de software (si es libre mejor aún!), no solo de Python. Actualmente trabajo en InvGate.",
-        "title": "C para Pythonistas",
-        "speaker": "Agustín Scaramuzza",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-18"
-        },
-        "desc": "Se explicarán los conceptos más característicos del lenguaje C comparándolo con conceptos iguales o similares presentes en el lenguaje Python, con el objetivo de facilitar su aprendizaje."
+        "day": "18/11/2020",
+        "titulo": "C para Pythonistas",
+        "start": "2020-11-18T19:00:00",
+        "end": "2020-11-18T19:30:00"
     },
     {
-        "bio": "SAn has been engineering from his childhood. Lover of software and libre culture, he has been involved in different projects such as Cyclope CMS and Radioteca as part of Código Sur between 2011 and 2013, the RedPanal.org project as main developer, LibreMesh, CDPedia. He worked developing Satellogic\"s fleet of satellites for 6 years.\nHe currently leads the electronics development of the LibreRouter project and participates in its software development as part of AlterMundi. He lives in Buenos Aires, Argentina.",
-        "title": "Python y C un solo corazón",
-        "speaker": "Santiago Piccinini",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-18"
-        },
-        "desc": "SAn compartirá su experiencia desarrollando el software de comunicaciones de un satélite usando Python y CFFI."
+        "day": "18/11/2020",
+        "titulo": "Python y C un solo corazón",
+        "start": "2020-11-18T19:30:00",
+        "end": "2020-11-18T20:00:00"
     },
     {
-        "bio": "Hola! Soy santiago, un ingeniero de software, trabajo hace mas de 8 años con python y javascript, mantengo algunos proyectos open source y contribuyo en otros de vez en cuando. Actualmente vivo en Amsterdam, Paises Bajos.",
-        "title": "Automatizando releases con commitizen y github actions",
-        "speaker": "Santiago E Fraire W",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-18"
-        },
-        "desc": "Automatizaremos una release de un paquete open source en python, veremos como este proceso puede simplificar la vida de un maintainer."
+        "day": "18/11/2020",
+        "titulo": "Automatizando releases con commitizen y github actions",
+        "start": "2020-11-18T20:00:00",
+        "end": "2020-11-18T20:30:00"
     },
     {
-        "bio": "🐍 Python Dev who loves to automate the boring stuff",
-        "title": "Pythonic APIs con GraphQL",
-        "speaker": "Nahuel Ambrosini",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-18"
-        },
-        "desc": "GraphQL es un nuevo paradigma a la hora de diseñar nuestras APIs.\nVamos a hablar sobre cómo podemos programar una API Pythonica mediante GraphQL que todos nuestros clientes amen consumir"
+        "day": "18/11/2020",
+        "titulo": "Pythonic APIs con GraphQL",
+        "start": "2020-11-18T20:30:00",
+        "end": "2020-11-18T21:00:00"
     },
     {
-        "bio": "Ing. en Informática, programo en python e investigo temas de informática forense desde hace más de 10 años.",
-        "title": "Filesystems a los bytes, con python",
-        "speaker": "Bruno Constanzo",
-        "schedule": {
-            "start": "18:30",
-            "end": "19:00",
-            "day": "2020-11-19"
-        },
-        "desc": "O cómo leer un filesystem solamente con python y su librería estándar"
+        "day": "19/11/2020",
+        "titulo": "Filesystems a los bytes, con python",
+        "start": "2020-11-19T18:30:00",
+        "end": "2020-11-19T19:00:00"
     },
     {
-        "bio": "Estudiante de Licenciatura en Física y Profesorado en Física, asistente del Taller de Física al alcance de Todos. Docente particular",
-        "title": "Jupyter Notebook en la enseñanza de física ambiental",
-        "speaker": "Ignacio Joaquin Arroyo, Veronica Mercedes Javi, Sebastian Ismael Arroyo",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-19"
-        },
-        "desc": "Desarrollo de gráficos animados, con uso de gifs y widgets acompañados con texto científico para explicar la estabilidad atmosferica a estudiantes universitarios en un contexto de carencias de conectividad y equipos, en Salta."
+        "day": "19/11/2020",
+        "titulo": "Jupyter Notebook en la enseñanza de física ambiental",
+        "start": "2020-11-19T19:00:00",
+        "end": "2020-11-19T19:30:00"
     },
     {
-        "bio": "Somos el equipo de IA de Kunan, una empresa de Tecnología de Córdoba Capital. En nuestra área trabajamos con Rasa desde hace unos años, construyendo asistentes conversacionales virtuales. Tenemos en producción un proyecto de Open Data (asistocovid) que responde preguntas y provee información actualizada sobre las medidas del gobierno Argentino respecto al Coronavirus. La motivación detrás es hacer más accesible a la gente la información oficial y pública. Parte de este proyecto es proveer y mantener un dataset abierto de estas conversaciones. Con este proyecto además nos involucramos con la Diplomatura en Ciencias de Datos de la FaMAFyC (UNC), donde damos una mentoría que introduce de mantera práctica los problemas de PLN usando este dataset.",
-        "title": "Machine learning Libre: modelando conversaciones con Rasa y Python",
-        "speaker": "Karen Palacio, Florencia Alonso, Brandon Janes. (Kunan Sa)",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-19"
-        },
-        "desc": "Qué involucra una conversación humana? Qué desafíos se escanden detrás de la naturalidad del lenguaje natural? Podemos modelar esto más allá de reglas, ifs y elifs? Sí, podemos modelar este problema, y así ayudar a personas a través de asistentes virtuales conversacionales. Esta charla busca introducir las preguntas existenciales detrás de los asistentes virtuales que usan machine learning, para proponer algunas respuestas y construir intuiciones. Se introducirá a Rasa, un framework de Python para esto, que es Software Libre."
+        "day": "19/11/2020",
+        "titulo": "Machine learning Libre: modelando conversaciones con Rasa y Python",
+        "start": "2020-11-19T19:30:00",
+        "end": "2020-11-19T20:00:00"
     },
     {
-        "bio": "Sasha es un desarrollador de software amateur y autodidacta. Es aficionado por resolver problemas y obsesivo por encontrar soluciones sencillas. Hábitos que obtuvo durante su formación académica en la Facultad de Ciencias Exactas. Además tiene dejos de divulgador científico y cuando puede da charlas en meetups, colegios y otros eventos. Actualmente se desempeña como Quant Developer programando en C#.",
-        "title": "Conozco un grupo de objetos que resuelven problemas",
-        "speaker": "Augusto `Sasha` Kielbowicz",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-19"
-        },
-        "desc": "Los Decoradores:\n\nEp.1 El origen de una solución\nEp.2 El problema en la serpiente\nEp.3 Cuatro porciones para llevar\nEp.4 El recambio de yerba"
+        "day": "19/11/2020",
+        "titulo": "Conozco un grupo de objetos que resuelven problemas",
+        "start": "2020-11-19T20:00:00",
+        "end": "2020-11-19T20:30:00"
     },
     {
-        "bio": "Compañeros de equipo que actualmente se encuentran haciendo cosas entretenidas con Machine Learning y Python en Mercadolibre. Grandes jugadores de Mario Kart después de los almuerzos.",
-        "title": "Introducción al Análisis de Supervivencia con Python",
-        "speaker": "Bruno Marengo, Jesús Golindano, César Morichetti",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-19"
-        },
-        "desc": "Predecir cuándo va a ocurrir un evento determinado se ha vuelto un requerimiento muy común en la industria, donde surgen preguntas del estilo: “¿cuánto tiempo funcionará un equipo hasta que presente una falla?”, “¿En cuanto tiempo un usuario dará de baja su suscripción (churn)?”, “¿Cuánto sobrevivirá un paciente luego de ser diagnosticado con una enfermedad?”. Estas interrogantes pueden ser abordadas con Análisis de Supervivencia. En esta charla estaremos explicando los conceptos relacionados a esta técnica y cómo generar respuestas con Python."
+        "day": "19/11/2020",
+        "titulo": "Introducción al Análisis de Supervivencia con Python",
+        "start": "2020-11-19T20:30:00",
+        "end": "2020-11-19T21:00:00"
     },
     {
-        "bio": "Profesor en Informatica, programador desde hace mas de 20 años, pasando por lenguajes como Clipper, Fox y ahora Python.\nDesarrollo de aplicaciones de escritorio con Python + QT + Peewee y web con Python + Django",
-        "title": "Peewee",
-        "speaker": "Jose Oscar Vogel",
-        "schedule": {
-            "start": "18:30",
-            "end": "19:00",
-            "day": "2020-11-20"
-        },
-        "desc": "Peewee es un ORM simple y pequeño. Tiene pocos conceptos (pero expresivos), lo que lo hace fácil de aprender e intuitivo de usar."
+        "day": "20/11/2020",
+        "titulo": "Peewee",
+        "start": "2020-11-20T18:30:00",
+        "end": "2020-11-20T19:00:00"
     },
     {
-        "bio": "DevOps Engineer Senior en Onapsis, autodidacta, aprendo (alguito) de cualquier lenguaje cuando quiero automatizar algo.",
-        "title": "Introducción a type hints",
-        "speaker": "Andre Delfino",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-20"
-        },
-        "desc": "Comenzando con Python 3 y con cada nueva versión desde entonces, el lenguaje ha incorporado diversas herramientas para expresar el tipado de nuestro código mediante type hints. Si bien estos chequeos no se aplican en tiempo de ejecución, aplicaciones que pueden incorporarse en nuestro proceso de integración continua pueden interpretarlos y advertirnos de diferentes problemas."
+        "day": "20/11/2020",
+        "titulo": "Introducción a type hints",
+        "start": "2020-11-20T19:00:00",
+        "end": "2020-11-20T19:30:00"
     },
     {
-        "bio": "Licenciado en Ciencias Biológicas de la UBA con especialización en bioinformática y biología molecular. Actualmente realizando el doctorado en el instituto Max Planck de psiquiatría en Múnich, desarrollando software para el análisis de series temporales extraídas de videos de animales moviéndose libremente en espacios abiertos. Miembro de la International Max Planck Research School of Translational Psychiatry (IMPRS-TP) y de la Machine Learning Frontiers in Precision Medicine International Training Network (links en información adicional).",
-        "title": "DeepOF: un paquete para el análisis de series temporales de animales en libre movimiento",
-        "speaker": "Lucas Miranda",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-20"
-        },
-        "desc": "El análisis de videos de animales comportándose libremente (así como la comparación de videos correspondientes a distintas condiciones) es crucial para la investigación en psiquiatría, ya que permite estudiar las consecuencias en el comportamiento de distintos estímulos. Este tipo de  estudios se ha visto facilitado durante los últimos años gracias a avances en computer vision y deep learning. Esta charla introduce deepof, una suite de herramientas para postprocessing de series temporales extraídas de video implementada en python y tensorflow 2.0. La disertación se enfoca tanto en los algoritmos como en la importancia de las DevOps en ciencia."
+        "day": "20/11/2020",
+        "titulo": "DeepOF: un paquete para el análisis de series temporales de animales en libre movimiento",
+        "start": "2020-11-20T19:30:00",
+        "end": "2020-11-20T20:00:00"
     },
     {
-        "bio": "Soy desarrollador de software, y trabajo haciendo software para integraciones y enseñando computación.\nTengo una hermosa familia y con mi esposa criamos a los dos niños más lindos del planeta.\nhttps://cv-nahueltori-api.herokuapp.com/",
-        "title": "La API de tu currículum vitae",
-        "speaker": "Nahuel Tori",
-        "schedule": {
-            "start": "10:00",
-            "end": "12:00",
-            "day": "2020-11-21"
-        },
-        "desc": "Vamos a crear una API con Python y Flask, mediante la cual podrás mostrar tu currículum vitae al mundo. Después vamos a subir el código a Github, y luego relacionar nuestra cuenta con Heroku, para hacer el deploy y que nuestra API esté publicada al mundo.\nAl finalizar, tendrás un proyecto funcionando y una API que le podrás pasar a tus contactos de RRHH!"
+        "day": "21/11/2020",
+        "titulo": "La API de tu currículum vitae",
+        "start": "2020-11-21T10:00:00",
+        "end": "2020-11-21T12:00:00"
     },
     {
-        "bio": "Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.\nDoy clases en varias materias de Ingeniería en Sistemas (usando bastante Python para ello también), me entusiasma el software libre, y me gustan mucho las espadas.",
-        "title": "Desarrollo web con Python: introducción a Django",
-        "speaker": "Juan Pedro Fisanotti",
-        "schedule": {
-            "start": "19:00",
-            "end": "20:00",
-            "day": "2020-11-23"
-        },
-        "desc": "Django es la herramienta más usada hoy en día para hacer desarrollo web en Python, en gran medida gracias a lo poderoso que es, pero también a lo sencillo que es comenzar a utilizarlo, como veremos en esta charla."
+        "day": "23/11/2020",
+        "titulo": "Desarrollo web con Python: introducción a Django",
+        "start": "2020-11-23T19:00:00",
+        "end": "2020-11-23T20:00:00"
     },
     {
-        "bio": "Analista Programador Universitario por la Universidad Nacional de La Plata (UNLP), actualmente ejerciendo como Full Stack Developer en Devsar, trabajando diariamente con Python y Django como stack principal.\nCuando no estoy programando, es posible que me encuentren recorriendo las aulas como Ayudante Docente en las cátedras Ingeniería de Software I y II, ambas propias de la Facultad de Informática, UNLP.",
-        "title": "Diseño de RESTful Web APIs",
-        "speaker": "Mariano Martinelli",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-23"
-        },
-        "desc": "En esta charla presentaremos a REST como uno de los estilos de arquitectura de APIs dominantes en la actualidad.\nVamos a introducir los componentes básicos presentes en el estilo de arquitectura, entendiendo cómo se relacionan y qué restricciones se deben aplicar a los mismos para que se ajusten a los estándares RESTful."
+        "day": "23/11/2020",
+        "titulo": "Diseño de RESTful Web APIs",
+        "start": "2020-11-23T20:00:00",
+        "end": "2020-11-23T20:30:00"
     },
     {
-        "bio": "Pythonista desde la 2.5. Docente en cuarentena.  El locro no se mancha.",
-        "title": "Pasaron cosas: logging efectivo para entender qué sucedió",
-        "speaker": "Martín Gaitán",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-23"
-        },
-        "desc": "El logging es una técnica indispensable en el software productivo, pero hay muchos conceptos y una API confusa que hacen su uso innecesariamente complicado. Entendamoslo... antes del segundo semestre."
+        "day": "23/11/2020",
+        "titulo": "Pasaron cosas: logging efectivo para entender qué sucedió",
+        "start": "2020-11-23T20:30:00",
+        "end": "2020-11-23T21:00:00"
     },
     {
-        "bio": "Pratibha is Sr Python developer looking over the development and maintenance of backend including APIs and internal python packages. Via this talk, she want to share how we can improved our code by removing anti-patterns.",
-        "title": "Python worst Practices AKA Anti-Patterns",
-        "speaker": "Pratibha Jagnere",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-24"
-        },
-        "desc": "This talk is aim to summarize the common Anti-Patterns in Python. It is overwhelming to see so many resources to learn best practices in Python. However it is more scary that there are very few places which will teach you what you should NOT do while coding."
+        "day": "24/11/2020",
+        "titulo": "Python worst Practices AKA Anti-Patterns",
+        "start": "2020-11-24T19:00:00",
+        "end": "2020-11-24T19:30:00"
     },
     {
-        "bio": "Docente de la materia Seminario de Python, Facultad de Informática. Me gusta andar en moto, volar en aladelta y bailar",
-        "title": "Análisis de datos con Panda",
-        "speaker": "Sofía Martin",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-24"
-        },
-        "desc": "Un taller mostrando el analisis de datos usando Jupyter Notebook, Panda, MatploLib. Como depurar datos y generar gráficos."
+        "day": "24/11/2020",
+        "titulo": "Análisis de datos con Panda",
+        "start": "2020-11-24T19:30:00",
+        "end": "2020-11-24T20:00:00"
     },
     {
-        "bio": "Mi gusto por la computación, matemática y educación me ha llevado a la empresa u-planner, donde actualmente dirijo la gerencia de Data Science. He participado en proyectos de ingeniería y de software con una fuerte componente de matemáticas aplicadas e implementaciones numéricas. He dictado asignaturas de Matemática e Informática en UTFSM, y en cursos en línea en Thinkful.com, con especial énfasis en la utilización de nuevas metodologías de aprendizaje como flipped classroom y problem based learning, y el uso de nuevas tecnologías como jupyter notebooks. Programando en python desde el 2008, y siempre buscando nuevas librerías: todavía prefiero matplotlib para los gráficos, pero pandas para la manipulación de datos, y por supuesto, jupyter notebooks para la colaboración y exploración.",
-        "title": "Coding as a Service: librería pypsdier, aprendizajes y metodología",
-        "speaker": "Sebastian Flores Benner",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-24"
-        },
-        "desc": "¿Cuál es la mejor manera para compartir un código, de manera que sea fácil de instalar, reproducible y fácilmente actualizable? En el desarrollo de la librería pypsdier (simulación numérica de ecuaciones de reacción difusión para catalizadores en medio poroso) hemos enfrentado estos desafíos y desarrollado una metodología que nos ha permitido iterar rápidamente y entregar “Coding as a Service” con facilidades tanto para el desarrollador como el usuario final."
+        "day": "24/11/2020",
+        "titulo": "Coding as a Service: librería pypsdier, aprendizajes y metodología",
+        "start": "2020-11-24T20:00:00",
+        "end": "2020-11-24T20:30:00"
     },
     {
-        "bio": "Sysadmin en BBVA, un sysadmin que se la da de programador.",
-        "title": "Elasticsearch no reemplaza a Mysql/Psql, pero cómo ayuda!",
-        "speaker": "Ignacio Nicolás Feijoo",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-24"
-        },
-        "desc": "Un breve recorrido sobre la integración de ES en nuestro código para optimizar tu search, find o get."
+        "day": "24/11/2020",
+        "titulo": "Elasticsearch no reemplaza a Mysql/Psql, pero cómo ayuda!",
+        "start": "2020-11-24T20:30:00",
+        "end": "2020-11-24T21:00:00"
     },
     {
-        "bio": "Ingeniero en sistemas de la Universidad Tecnológica Nacional. Ayudante de cátedra en la UTN durante 4 años. Desarrollador en Python.",
-        "title": "Houdini un poroto... Python Magic Methods!",
-        "speaker": "Rodrigo Cetera, Lucas Esposito",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-25"
-        },
-        "desc": "Fácilmente identificables por sus “dunders” o “double underscores”, los Magic Methods son métodos especiales que permiten definir el comportamiento de un objeto ante los operadores provistos por Python y ante determinadas circunstancias. En esta charla veremos cómo se utilizan, cuáles son sus ventajas y qué aplicaciones prácticas pueden tener."
+        "day": "25/11/2020",
+        "titulo": "Houdini un poroto... Python Magic Methods!",
+        "start": "2020-11-25T19:00:00",
+        "end": "2020-11-25T19:30:00"
     },
     {
-        "bio": "Mi carrera profesional como desarrollador comenzó hace 5 años, luego de recibirme de Técnico Electrónico. Durante este período, estuve relacionado laboralmente a múltiples empresas y tecnologías, capacitándome constantemente en búsqueda de nuevos conocimientos, además de informarme y aprender de las últimas tendencias. He participado en distintos proyectos, desde sitios web hasta aplicaciones y desarrollos IOT e IA.",
-        "title": "Internet of Things con Raspberry PI y Python",
-        "speaker": "Sebastian Bauer",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-25"
-        },
-        "desc": "Conectemos todo a Internet. La idea de esta charla es introducirnos al mundo IOT y sobre cómo podríamos iniciar un proyecto con nuestro Raspberry Pi y Python. Adicionalmente, veremos ejemplos caseros de Domótica y Seguridad."
+        "day": "25/11/2020",
+        "titulo": "Internet of Things con Raspberry PI y Python",
+        "start": "2020-11-25T19:30:00",
+        "end": "2020-11-25T20:00:00"
     },
     {
-        "bio": "Guillermo es co-fundador de Lambda Sistemas, empresa creadora de Fierro y RadioCut. Programa en Python desde 2004.\nGabriel trabaja en el área de desarrollo de Fierro, implementando la transición a prácticas DevOps y en la (re)arquitectura de los distintos componentes del sistema.",
-        "title": "Rompiendo el monolito",
-        "speaker": "Guillermo Narvaja, Gabriel Parrondo",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-25"
-        },
-        "desc": "Experiencias de descomposición y/o extracción de funcionalidad en microservicios, como forma de hacer frente a la deuda técnica y la mantenibilidad del código"
+        "day": "25/11/2020",
+        "titulo": "Rompiendo el monolito",
+        "start": "2020-11-25T20:00:00",
+        "end": "2020-11-25T20:30:00"
     },
     {
-        "bio": "Soy María Andrea Vignau, Ingeniera en Sistemas de Información, trabajo como Perito Informático Oficial en el Gabinete Científico del Ministerio Público Fiscal Poder Judicial de la Provincia del Chaco. Últimamente estoy colaborando con las comunidades de software libre, como socia de Asociación Civil Python Argentina, y coorganizadora del Festival de Instalación de Software Libre, que hacemos en el Centro Cultural Alternativo de Resistencia el 28 de Abril, y del Python Day NEA en el Club de Emprendedores en Corrientes el 19 de mayo, de Meetup Python de Resistencia, disertante por última vez en la NotPinkConf",
-        "title": "SQLite, la (des) conocida super hormiga",
-        "speaker": "María Andrea Vignau",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-25"
-        },
-        "desc": "SQLite, disponible desde hace tanto tiempo y tan desconocido. \nEs una base de datos relacional, optimizada para ser pequeñísima, rápida, flexible, para usos individuales, sus grandes bondades, especialmente a la hora de integrarlo a nuestro software en Python y las múltiples posibilidades que da para ser optimizado para los más variados usos, son mayormente desconocidas"
+        "day": "25/11/2020",
+        "titulo": "SQLite, la (des) conocida super hormiga",
+        "start": "2020-11-25T20:30:00",
+        "end": "2020-11-25T21:00:00"
     },
     {
-        "bio": "Pedro Ferrari actualmente es Co-Founder de Mutt Data donde se dedica a liderar proyectos de Data Science con un enfoque en buenas prácticas de desarrollo de software combinadas con know how de implementación de modelos en producción. Es ademas profesor ayudante de la materia Machine Learning en la Maestría en Analytics de la UTDT y ayudante del Seminario de Tópicos Avanzados de Datos en la Especialización en Ciencia de Datos del ITBA. En su tiempo libre es un acérrimo usuario de Vim y Arch Linux y disfruta enormemente contribuyendo al mundo open source. Desde el lado académico es Licenciado en Economía de la Universidad Torcuato Di Tella (UTDT) y está finalizando su carrera de Actuario en la Universidad de Buenos Aires. Tiene asimismo una Maestría en Economía, también de la UTDT.",
-        "title": "​ Una Apología Poética: Poetry para manejo de dependencias y empaquetado de módulos.",
-        "speaker": "Pedro Ferrari",
-        "schedule": {
-            "start": "18:30",
-            "end": "19:00",
-            "day": "2020-11-26"
-        },
-        "desc": "Poetry es una herramienta para manejo de dependencias y empaquetado de módulos.\nMostraremos, a través de un ejemplo, porque consideramos que es una versión superadora a alternativas preexistentes (como virtualenvs, setuptools y pipenv) y como integrarlo con otras herramientas modernas del ecosistema (como pyenv o pipx)."
+        "day": "26/11/2020",
+        "titulo": "​ Una Apología Poética: Poetry para manejo de dependencias y empaquetado de módulos.",
+        "start": "2020-11-26T18:30:00",
+        "end": "2020-11-26T19:00:00"
     },
     {
-        "bio": "Ingeniero de datos en Mutt Data. Analista de sistemas de Ort. Intento de youtuber",
-        "title": "Great Expectations: Validar data pipelines como un profesional",
-        "speaker": "Eric Rishmüller",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-26"
-        },
-        "desc": "Cuando hablamos de validaciones lo primero que pensamos es en el código, unit test, integration tests, etc. Pero ¿Quién mira a los datos?  Great Expectations!"
+        "day": "26/11/2020",
+        "titulo": "Great Expectations: Validar data pipelines como un profesional",
+        "start": "2020-11-26T19:00:00",
+        "end": "2020-11-26T19:30:00"
     },
     {
-        "bio": "Soy un entusiasta de Python desde el 2007 en diferentes roles. Como docente aplicado materias como al area de Sistemas Operativos, Redes y Seguridad y también como desarrollador en aplicaciones web de diverso tipo y proyectos de IoT.\nRecientemente me encuentro como responsable de tecnología de Hello Tractor \nutilizando el lenguaje para mejorar una plataforma que ayuda a la mecanización de pequeños productores.",
-        "title": "Mejorando el acceso a la mecanización de pequeños productores arigcolas con Python y GeoDajngo",
-        "speaker": "Nahuel Defosse",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-26"
-        },
-        "desc": "Python tiene un ecosistema muy interesante para el desarrollo de aplicaciones que hacen uso de GIS. También es una excelente herramienta para el análisis de datos y consumo de datos IoT.\nEsta charla intenta introducir la experiencia de trabajar con proyecto de Python consiente en un back-end para aplicaciones móviles y aplicación web y un conjunto de herramientas para facilitar el trabajo de analistas de datos."
+        "day": "26/11/2020",
+        "titulo": "Mejorando el acceso a la mecanización de pequeños productores arigcolas con Python y GeoDajngo",
+        "start": "2020-11-26T19:30:00",
+        "end": "2020-11-26T20:00:00"
     },
     {
-        "bio": "Soy estudiante de Ingeniería Mecatrónica en la UNCuyo, Mendoza. Me gusta aprender sobre cómo funcionan las cosas y hacia dónde se dirigen en el futuro. Y últimamente le he estado metiendo ficha a librería OpenCV en Python.",
-        "title": "Introducción al procesamiento de imágenes con Python",
-        "speaker": "Carlos Bustillo",
-        "schedule": {
-            "start": "20:00",
-            "end": "20:30",
-            "day": "2020-11-26"
-        },
-        "desc": "un agente racional que aprende, \nno omnisciente, que al entrenarlo aprenda a partir de sus percepciones y le permita ser autónomo \ngracias a la experiencia adquirida.\n\n Se mostrará las 6 etapas básicas de procesamiento de imágenes para ese agente y su correspondiente implementación en Python."
+        "day": "26/11/2020",
+        "titulo": "Introducción al procesamiento de imágenes con Python",
+        "start": "2020-11-26T20:00:00",
+        "end": "2020-11-26T20:30:00"
     },
     {
-        "bio": "Especialista en telecomunicaciones y entusiasta de la programación. Amante de la automatización y las nuevas tecnologías. Desde hace algunos años trabajo como DevNetOps desarrollando soluciones para el despliegue y mantenimiento de infraestructura.",
-        "title": "Como desarrollar un switch de capa 2 sobre un controlador SDN con Ryu framework",
-        "speaker": "Joaquin Gonzalez",
-        "schedule": {
-            "start": "20:30",
-            "end": "21:00",
-            "day": "2020-11-26"
-        },
-        "desc": "Las redes definidas por software (SDN) vienen a cambiar la forma en la que pensamos como las aplicaciones se vinculan con las redes sobre las que funcionan. En esta charla intentaré dar una breve introducción a la arquitectura y protocolos propuestos por SDN y como desarrollar nuevas funcionalidades  de red usando un framework/controlador hecho en Python."
+        "day": "26/11/2020",
+        "titulo": "Como desarrollar un switch de capa 2 sobre un controlador SDN con Ryu framework",
+        "start": "2020-11-26T20:30:00",
+        "end": "2020-11-26T21:00:00"
     },
     {
-        "bio": "Curious being with a passion for learning. I like to read, do cool stuff with technology and tell stories with data. I work as a FreeLancer on projects related to data science, software engineering and communication networks. I am a co-founder of an IoT / automation startup where I work and learn from people I admire.",
-        "title": "Engineer",
-        "speaker": "Karl Niebuhr",
-        "schedule": {
-            "start": "18:30",
-            "end": "19:00",
-            "day": "2020-11-27"
-        },
-        "desc": "Mostraré cómo utilizo Python para descargar datos públicos para posteriormente realizar análisis explorativo y/o auditoria de datos."
+        "day": "27/11/2020",
+        "titulo": "Engineer",
+        "start": "2020-11-27T18:30:00",
+        "end": "2020-11-27T19:00:00"
     },
     {
-        "bio": "Emprendedor, entusiasta y apasionado por el software libre. \nFundador de bitson, co-fundador de la Asociación Civil de Python Argentina. Actualmente trabajando en mejorar el ecosistema Python dentro de Mercado Libre.",
-        "title": "Dataclasses to rule 'em all",
-        "speaker": "Leandro E. Colombo Viña (Aka @Lecovi)",
-        "schedule": {
-            "start": "19:00",
-            "end": "19:30",
-            "day": "2020-11-27"
-        },
-        "desc": "Breve introducción al uso de Dataclasses de Python 3.7. Qué son, para qué sirve y por qué está bueno usarlas."
+        "day": "27/11/2020",
+        "titulo": "Dataclasses to rule 'em all",
+        "start": "2020-11-27T19:00:00",
+        "end": "2020-11-27T19:30:00"
     },
     {
-        "bio": "Soy una persona muy curiosa que descubrió la programación de chico y no pudo parar. Hace un tiempo comencé a indagar en Ciencia de Datos y fue amor a primera vista. Pase por muchos roles en mi carrera lo que me llevó a conocer muchas tecnologías interesantes sobre las que disfruté mucho aprender e indagar. Disfruto mucho de dar clases, fui ayudante alumno en varias cátedras y actualmente soy profesor en la academia DesafioLatam en la ciudad de Cordoba donde dicto cursos de Introducción a Python y Fundamentos de Ciencia de Datos. Actualmente me desempeño como Data Science Analyst Sr en MercadoLibre.",
-        "title": "Recetas para ser más feliz con Docker.",
-        "speaker": "Serafin Fernandez",
-        "schedule": {
-            "start": "19:30",
-            "end": "20:00",
-            "day": "2020-11-27"
-        },
-        "desc": "Docker es una de las herramientas de mayor crecimiento en los últimos años. Esto se debe a la simplicidad con las que nos permite armar grandes entornos tanto locales como en producción. En esta charla nos centraremos en repasar algunos conceptos básicos para poder crear un entorno de desarrollo simple y confiable, que se parezca lo más posible a nuestro entorno productivo y así evitar sorpresas a la hora de hacer un deploy."
+        "day": "27/11/2020",
+        "titulo": "Recetas para ser más feliz con Docker.",
+        "start": "2020-11-27T19:30:00",
+        "end": "2020-11-27T20:00:00"
     }
 ]

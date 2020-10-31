@@ -1,9 +1,23 @@
+from datetime import timedelta
 import json
 
 from playwright import sync_playwright
 from dateutil.parser import parse
 
 charlas = []
+
+def parse_dates(dia:str, start_hour: str, end_hour: str):
+    """Build datetime from day string plus hour and minute string """
+    start = parse(start_hour)
+    end = parse(end_hour)
+
+    # 16/11/2020 + 19h + 30m
+    start_datetime = parse(dia) + timedelta(hours=start.hour, minutes=start.minute)
+    # 16/11/2020 + 20h + 0m
+    end_datetime = parse(dia) + timedelta(hours=end.hour, minutes=end.minute)
+
+    return start_datetime, end_datetime
+
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
@@ -19,7 +33,7 @@ with sync_playwright() as p:
         dia = day.querySelector('h2').innerText().strip()
         print(dia)
 
-        dia = parse(dia.split('- ')[1])  # Día 1 - 16/11/2020 --> 16/11/2020
+        dia = dia.split('- ')[1] # Día 1 - 16/11/2020 --> 16/11/2020
         # Get all talks from that day.
         charlas_divs = day.querySelectorAll('css=div .fc-content')
         for charla in charlas_divs:
@@ -33,18 +47,19 @@ with sync_playwright() as p:
             # For each talk, get its schedule and its title
             horario = charla.querySelector('.fc-time').innerText()
             start, end = horario.split(' - ')
-            start, end = parse(start).strftime('%H:%M'), parse(end).strftime('%H:%M')
+            start_date, end_date = parse_dates(dia, start, end)
 
             titulo = charla.querySelector('.fc-title').innerText()
             print('Charla ', titulo)
             charlas.append({
                 'day': str(dia),
-                'start': start,
-                'end': end,
-                'titulo': titulo
+                'titulo': titulo,
+                'start': start_date.isoformat(),
+                'end': end_date.isoformat(),
             })
 
-    browser.close()
+    browser.close()    
 
-with open('charlas.json', 'w') as f:
-    json.dump(charlas, f)
+
+with open('./pyconar/data/2020_schedule.json', 'w', encoding='utf-8') as f:
+    json.dump(charlas, f, indent=4, ensure_ascii=False)
