@@ -52,7 +52,7 @@ We're free to do whatever fits better in our tech stack.
 ### Are there companies looking to fill positions?
 ```gql
 {
-	findOpenPositions {
+  findOpenPositions {
     title
     url
     company {
