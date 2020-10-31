@@ -22,8 +22,8 @@ def random_interest():
 
 class TalksRepository(AbstractTalksRepository):
     def __init__(self, file, schedule) -> None:
-        self.talks = self._load_talks_from_file(file)
-        self.schedule = self._load_schedule_from_file(schedule)
+        self.talks: List[Talk] = self._load_talks_from_file(file)
+        self.schedule: List[UpcomingTalk] = self._load_schedule_from_file(schedule)
 
     def _load_schedule_from_file(self, schedule) -> List[UpcomingTalk]:
         with open(schedule, 'r') as f:
@@ -117,7 +117,21 @@ class TalksRepository(AbstractTalksRepository):
         # Get now
         # Filter those that already happend
         # Return those in the future
-        return self.schedule
+        now = datetime.now()
+
+        next_talks = []
+        for talk in self.schedule:
+            talk_date = parse(talk.schedule.start)
+            if talk_date < now:
+                continue
+
+            talk.schedule.starting_in = humanize.precisedelta(
+                now - talk_date,
+                format='%0.f'
+            )
+            next_talks.append(talk)
+
+        return next_talks
 
 
     def get_talks_by_year(self, year: str) -> List[Talk]:
