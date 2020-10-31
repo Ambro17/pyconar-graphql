@@ -2,10 +2,13 @@ import itertools
 import json
 import random
 import string
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List
 
-from pyconar.domain import Speaker, Talk, Topic
+from dateutil.parser import parse
+import humanize
+
+from pyconar.domain import ScheduleInfo, Speaker, Talk, Topic, UpcomingTalk
 from pyconar.repository.abstract import AbstractTalksRepository
 
 
@@ -18,8 +21,56 @@ def random_interest():
 
 
 class TalksRepository(AbstractTalksRepository):
-    def __init__(self, file) -> None:
+    def __init__(self, file, schedule) -> None:
         self.talks = self._load_talks_from_file(file)
+        self.schedule = self._load_schedule_from_file(schedule)
+
+    def _load_schedule_from_file(self, schedule) -> List[UpcomingTalk]:
+        with open(schedule, 'r') as f:
+            schedule_2020 = json.load(f)
+        # [u'bio', u'title', u'speaker', u'schedule', u'desc']
+        """
+        class UpcomingTalk:
+            name: str
+            description: str
+            schedule: ScheduleInfo
+            speaker: Speaker
+        """
+        up_talks = [
+            UpcomingTalk(
+                name=talk['title'],
+                description=talk['desc'],
+                topic=Topic.PYTHON,
+                year=str(datetime.now().year),
+                schedule=ScheduleInfo(
+                    when=talk['schedule']['day'],
+                    start=talk['schedule']['start'],
+                    end=talk['schedule']['end'],
+                    starting_in=(
+                        humanize.precisedelta(
+                            datetime.now() - parse(talk['schedule']['day']),
+                            format='%0.f')
+                    ),
+                ),
+                speaker=Speaker(
+                    name=talk['speaker'],
+                    email=f'{random_name()}@mail.com',
+                    bio=talk.get('bio',''),
+                    job='PyconAr Inc.',
+                    interests=[random_interest()],
+                    open_to_job_offers=random.choice([True, False]),
+                    talk=None
+                ),
+            ) 
+            for talk in schedule_2020
+        ]
+
+        for talk in up_talks:
+            # Backreference talk from each speaker
+            talk.speaker.talk = talk
+
+
+        return up_talks
 
     def _load_talks_from_file(self, file):
         with open(file, 'r') as f:
@@ -62,10 +113,11 @@ class TalksRepository(AbstractTalksRepository):
         return self._unwrap_list(self.talks.values())
 
 
-    def get_next_talks(self) -> List[Talk]:
-        year = str(datetime.utcnow().year)
-        next_talks = self.talks.get(year, [])
-        return next_talks
+    def get_next_talks(self) -> List[UpcomingTalk]:
+        # Get now
+        # Filter those that already happend
+        # Return those in the future
+        return self.schedule
 
 
     def get_talks_by_year(self, year: str) -> List[Talk]:

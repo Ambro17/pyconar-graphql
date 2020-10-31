@@ -48,6 +48,24 @@ class Talk:
 
 
 @strawberry.type
+class ScheduleInfo:
+    when: str
+    start: str
+    end: str
+    starting_in: str
+
+
+@strawberry.type
+class UpcomingTalk:
+    name: str
+    topic: Topic
+    year: str
+    description: str
+    speaker: Speaker
+    schedule: ScheduleInfo
+
+
+@strawberry.type
 class OpenPosition:
     title: str
     url: Link

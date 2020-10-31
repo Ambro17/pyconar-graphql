@@ -97,13 +97,20 @@ type Query {
   findOpenPositions: [OpenPosition!]!
 
   """Talks ocurring on PyconAr `2020`"""
-  nextTalks: [Talk!]!
+  nextTalks: [UpcomingTalk!]!
 
   """All talks from `2018`, `2019` and `2020`"""
   allTalks: [Talk!]!
 
   """Talks given on specified `year`. One of `[2018, 2019, 2020]`"""
   talksByYear(year: String!): [Talk!]!
+}
+
+type ScheduleInfo {
+  when: String!
+  start: String!
+  end: String!
+  startingIn: String!
 }
 
 enum Seniority {
@@ -146,6 +153,15 @@ enum Topic {
   PYTHON
   REST
   DIVERSITY
+}
+
+type UpcomingTalk {
+  name: String!
+  topic: Topic!
+  year: String!
+  description: String!
+  speaker: Speaker!
+  schedule: ScheduleInfo!
 }
 
 type Visitor implements Person {
