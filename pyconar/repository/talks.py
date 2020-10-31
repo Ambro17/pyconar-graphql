@@ -43,12 +43,12 @@ class TalksRepository(AbstractTalksRepository):
                 topic=Topic.PYTHON,
                 year=str(datetime.now().year),
                 schedule=ScheduleInfo(
-                    when=talk['schedule']['day'],
+                    when=talk['schedule']['time'],
                     start=talk['schedule']['start'],
                     end=talk['schedule']['end'],
                     starting_in=(
                         humanize.precisedelta(
-                            datetime.now() - parse(talk['schedule']['day']),
+                            datetime.now() - parse(talk['schedule']['time']),
                             format='%0.f')
                     ),
                 ),
