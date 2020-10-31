@@ -1,0 +1,248 @@
+[
+    {
+        "day": "2020-11-16 00:00:00",
+        "start": "19:00",
+        "end": "20:00",
+        "titulo": "¿Por que no se hacen mas tests?"
+    },
+    {
+        "day": "2020-11-16 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "\"Behave\" para entender al usuario"
+    },
+    {
+        "day": "2020-11-16 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Únete a traducir la documentación de Python"
+    },
+    {
+        "day": "2020-11-17 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Visual Search, de 0 a POC!"
+    },
+    {
+        "day": "2020-11-17 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Buenas prácticas para enseñar programación online"
+    },
+    {
+        "day": "2020-11-17 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "AppSec Vulnerability Management Pipelines"
+    },
+    {
+        "day": "2020-11-17 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Unit Testing: Qué testear y cómo testear con pytest."
+    },
+    {
+        "day": "2020-11-18 00:00:00",
+        "start": "16:00",
+        "end": "18:00",
+        "titulo": "Airflow en Kubernetes: Escalando al mas alla!"
+    },
+    {
+        "day": "2020-11-18 00:00:00",
+        "start": "18:30",
+        "end": "19:00",
+        "titulo": "Python para DevSecOps"
+    },
+    {
+        "day": "2020-11-18 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "C para Pythonistas"
+    },
+    {
+        "day": "2020-11-18 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Python y C un solo corazón"
+    },
+    {
+        "day": "2020-11-18 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "Automatizando releases con commitizen y github actions"
+    },
+    {
+        "day": "2020-11-18 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Pythonic APIs con GraphQL"
+    },
+    {
+        "day": "2020-11-19 00:00:00",
+        "start": "18:30",
+        "end": "19:00",
+        "titulo": "Filesystems a los bytes, con python"
+    },
+    {
+        "day": "2020-11-19 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Jupyter Notebook en la enseñanza de física ambiental"
+    },
+    {
+        "day": "2020-11-19 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Machine learning Libre: modelando conversaciones con Rasa y Python"
+    },
+    {
+        "day": "2020-11-19 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "Conozco un grupo de objetos que resuelven problemas"
+    },
+    {
+        "day": "2020-11-19 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Introducción al Análisis de Supervivencia con Python"
+    },
+    {
+        "day": "2020-11-20 00:00:00",
+        "start": "18:30",
+        "end": "19:00",
+        "titulo": "Peewee"
+    },
+    {
+        "day": "2020-11-20 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Introducción a type hints"
+    },
+    {
+        "day": "2020-11-20 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "DeepOF: un paquete para el análisis de series temporales de animales en libre movimiento"
+    },
+    {
+        "day": "2020-11-21 00:00:00",
+        "start": "10:00",
+        "end": "12:00",
+        "titulo": "La API de tu currículum vitae"
+    },
+    {
+        "day": "2020-11-23 00:00:00",
+        "start": "19:00",
+        "end": "20:00",
+        "titulo": "Desarrollo web con Python: introducción a Django"
+    },
+    {
+        "day": "2020-11-23 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "Diseño de RESTful Web APIs"
+    },
+    {
+        "day": "2020-11-23 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Pasaron cosas: logging efectivo para entender qué sucedió"
+    },
+    {
+        "day": "2020-11-24 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Python worst Practices AKA Anti-Patterns"
+    },
+    {
+        "day": "2020-11-24 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Análisis de datos con Panda"
+    },
+    {
+        "day": "2020-11-24 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "Coding as a Service: librería pypsdier, aprendizajes y metodología"
+    },
+    {
+        "day": "2020-11-24 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Elasticsearch no reemplaza a Mysql/Psql, pero cómo ayuda!"
+    },
+    {
+        "day": "2020-11-25 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Houdini un poroto... Python Magic Methods!"
+    },
+    {
+        "day": "2020-11-25 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Internet of Things con Raspberry PI y Python"
+    },
+    {
+        "day": "2020-11-25 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "Rompiendo el monolito"
+    },
+    {
+        "day": "2020-11-25 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "SQLite, la (des) conocida super hormiga"
+    },
+    {
+        "day": "2020-11-26 00:00:00",
+        "start": "18:30",
+        "end": "19:00",
+        "titulo": "​ Una Apología Poética: Poetry para manejo de dependencias y empaquetado de módulos."
+    },
+    {
+        "day": "2020-11-26 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Great Expectations: Validar data pipelines como un profesional"
+    },
+    {
+        "day": "2020-11-26 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Mejorando el acceso a la mecanización de pequeños productores arigcolas con Python y GeoDajngo"
+    },
+    {
+        "day": "2020-11-26 00:00:00",
+        "start": "20:00",
+        "end": "20:30",
+        "titulo": "Introducción al procesamiento de imágenes con Python"
+    },
+    {
+        "day": "2020-11-26 00:00:00",
+        "start": "20:30",
+        "end": "21:00",
+        "titulo": "Como desarrollar un switch de capa 2 sobre un controlador SDN con Ryu framework"
+    },
+    {
+        "day": "2020-11-27 00:00:00",
+        "start": "18:30",
+        "end": "19:00",
+        "titulo": "Engineer"
+    },
+    {
+        "day": "2020-11-27 00:00:00",
+        "start": "19:00",
+        "end": "19:30",
+        "titulo": "Dataclasses to rule 'em all"
+    },
+    {
+        "day": "2020-11-27 00:00:00",
+        "start": "19:30",
+        "end": "20:00",
+        "titulo": "Recetas para ser más feliz con Docker."
+    }
+]
