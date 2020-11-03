@@ -19,7 +19,7 @@ def dump_videos_info(yt_data, filename):
 with open('pyconar/data/charlas.json', 'r') as f: charlas = json.load(f)
 #charlas_2018_titles = [re.split('[,.]', x['title'], maxsplit=1)[0] for x in charlas['2018']]
 #yt_2018 = [re.split('[,.]', x['title'], maxsplit=1)[0] for x in videos]
-video_with_titles = [
+videos_2018 = [
     {
         'title': item['snippet']['title'],
         'video': f"https://www.youtube.com/watch?v={item['snippet']['resourceId']['videoId']}"
@@ -36,18 +36,17 @@ videos_2019 = [
 
 #diff = set(charlas_2018_titles) - set(yt_2018)
 #print(len(diff), diff)
-#print('charlas 2018:', len(charlas['2018']))
-print('charlas 2019:', len(charlas['2019']))
-print('videos 2019:', len(videos_2019))
+print('charlas 2018:', len(charlas['2018']))
+print('videos 2018:', len(videos_2018))
 has_video = [
     x['title'] 
-    for x in charlas['2019']
-    if any(x['title'][:10].lower() in video['title'].lower() for video in videos_2019)
+    for x in charlas['2018']
+    if any(x['title'][:10].lower() in video['title'].lower() for video in videos_2018)
 ]
 doesnt_have_video = [
     x['title'] 
-    for x in charlas['2019']
-    if not any(x['title'][:10].lower() in video['title'].lower() for video in videos_2019)    
+    for x in charlas['2018']
+    if not any(x['title'][:10].lower() in video['title'].lower() for video in videos_2018)    
 ]
 
 def save_video_info_to_charlas(charlas, year, videos, filename):
@@ -61,12 +60,13 @@ def save_video_info_to_charlas(charlas, year, videos, filename):
             sin_video.append(charla)
 
     print(f"Charlas without video={len(sin_video)}")
+    print([x['title'] for x in sin_video])
     with open(filename, 'w') as f:
         json.dump(charlas, f, ensure_ascii=False, indent=4)
 
 print('Has Video: ', len(has_video), 'Doesnt: ', len(doesnt_have_video))
 import pprint
 pprint.pprint(doesnt_have_video)
-#save_video_info_to_charlas(charlas, '2018', video_with_titles, 'pyconar/data/charlas.json')
+save_video_info_to_charlas(charlas, '2018', videos_2018, 'pyconar/data/charlas.json')
 
-save_video_info_to_charlas(charlas, '2019', videos_2019, 'pyconar/data/charlas.json')
+# save_video_info_to_charlas(charlas, '2018', videos_2019, 'pyconar/data/charlas.json')
