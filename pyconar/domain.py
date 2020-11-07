@@ -45,6 +45,7 @@ class Talk:
     description: str
     year: str
     speaker: Speaker
+    video: str
 
 
 @strawberry.type

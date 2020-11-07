@@ -147,6 +147,7 @@ type Talk {
   description: String!
   year: String!
   speaker: Speaker!
+  video: String!
 }
 
 enum Topic {
