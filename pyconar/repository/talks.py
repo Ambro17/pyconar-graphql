@@ -107,6 +107,19 @@ class TalksRepository(AbstractTalksRepository):
         return self._unwrap_list(self.talks.values())
 
 
+    def search_talks(self, keywords: List[str]) -> List[Talk]:
+        return [
+            talk
+            for talk in self._unwrap_list(self.talks.values())
+            if any(
+                keyword in talk.name.lower()
+                or
+                keyword in talk.description
+                for keyword in keywords
+            )
+        ]
+
+
     def get_next_talks(self) -> List[UpcomingTalk]:
         now = datetime.now()
 

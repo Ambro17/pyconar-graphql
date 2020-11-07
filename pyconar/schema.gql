@@ -99,6 +99,9 @@ type Query {
   """Talks ocurring on PyconAr `2020`"""
   nextTalks: [UpcomingTalk!]!
 
+  """Search talks by keywords. i.e: `['django', 'web']`"""
+  searchTalks(keywords: [String!]!): [Talk!]!
+
   """All talks from `2018`, `2019` and `2020`"""
   allTalks: [Talk!]!
 

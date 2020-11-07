@@ -27,6 +27,7 @@ class Query:
 
     nextTalks: List[UpcomingTalk] = field(resolver=talks_repo.get_next_talks,
                                           description=f"Talks ocurring on PyconAr `{datetime.utcnow().year}`")
+    searchTalks: List[Talk] = field(resolver=talks_repo.search_talks, description="Search talks by keywords. i.e: `['django', 'web']`")
     allTalks: List[Talk] = field(resolver=talks_repo.get_talks, description="All talks from `2018`, `2019` and `2020`")
     talksByYear: List[Talk] = field(resolver=talks_repo.get_talks_by_year,
                                     description="Talks given on specified `year`. One of `[2018, 2019, 2020]`")

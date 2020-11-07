@@ -75,6 +75,16 @@ We're free to do whatever fits better in our tech stack.
   }
 }
 ```
+### What talks should i see if i'm interested in microservices?
+```gql
+{
+  searchTalks(keywords: ["microservicios", "microservices"]) {
+    name
+    description
+    video
+  }
+}
+```
 
 ## Run Locally
 To run the server follow these steps:
