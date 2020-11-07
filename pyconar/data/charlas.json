@@ -1,884 +1,1045 @@
 {
     "2018": [
         {
-          "title": "Análisis de texto y data mining con Pattern",
-          "speaker": "Sofía Martin",
-          "desc": "Cómo realizar búsquedas en Flick, Twitter, Wikipedia\r\nAnálisis de texto automático, plural, singular..."
+            "title": "Análisis de texto y data mining con Pattern",
+            "speaker": "Sofía Martin",
+            "desc": "Cómo realizar búsquedas en Flick, Twitter, Wikipedia\r\nAnálisis de texto automático, plural, singular...",
+            "video": "https://www.youtube.com/watch?v=KgK2dDtL3p4"
         },
         {
-          "title": "Armar el cv un mal necesario",
-          "speaker": "Carolina Maristany",
-          "desc": "Tips para armar tu cv y atravesar un proceso de selección\nArmar el cv (.doc o LinkedIn) es un pain i..."
+            "title": "Armar el cv un mal necesario",
+            "speaker": "Carolina Maristany",
+            "desc": "Tips para armar tu cv y atravesar un proceso de selección\nArmar el cv (.doc o LinkedIn) es un pain i...",
+            "video": "https://www.youtube.com/watch?v=-OawaAdYu5g"
         },
         {
-          "title": "AttributeError: ‘Talk’ object has no attribute ‘title’",
-          "speaker": "Nahuel Lascano",
-          "desc": "En esta charla vamos a hablar sobre la nueva sintaxis de anotaciones de tipos introducidos en Python..."
+            "title": "AttributeError: ‘Talk’ object has no attribute ‘title’",
+            "speaker": "Nahuel Lascano",
+            "desc": "En esta charla vamos a hablar sobre la nueva sintaxis de anotaciones de tipos introducidos en Python...",
+            "video": "https://www.youtube.com/watch?v=cUPcnv7zfrY"
         },
         {
-          "title": "Autopsias informáticas: software libre forense",
-          "speaker": "María Andrea Vignau",
-          "desc": "Voy a explicar la realización de plugins para el software forense llamado Autopsy SleuthKit, el más ..."
+            "title": "Autopsias informáticas: software libre forense",
+            "speaker": "María Andrea Vignau",
+            "desc": "Voy a explicar la realización de plugins para el software forense llamado Autopsy SleuthKit, el más ...",
+            "video": "https://www.youtube.com/watch?v=t2yEmbPQlY4"
         },
         {
-          "title": "Basta de loops, hagamos exploración de datos con Pandas y Altair.",
-          "speaker": "Augusto Kielbowicz",
-          "desc": "Taller para aprender a hacer análisis de datos de una manera sencilla aprovechando la sintaxis decla..."
+            "title": "Basta de loops, hagamos exploración de datos con Pandas y Altair.",
+            "speaker": "Augusto Kielbowicz",
+            "desc": "Taller para aprender a hacer análisis de datos de una manera sencilla aprovechando la sintaxis decla...",
+            "video": "No hay video para esta charla :("
         },
         {
-          "title": "Blockchain: El camino de una transacción.",
-          "speaker": "Miguel Felipe Duarte",
-          "desc": "Cada vez mas la blockchain está de moda. Escuchamos la palabra \"bitcoin\" en todos lados, incluso Inf..."
+            "title": "Blockchain: El camino de una transacción.",
+            "speaker": "Miguel Felipe Duarte",
+            "desc": "Cada vez mas la blockchain está de moda. Escuchamos la palabra \"bitcoin\" en todos lados, incluso Inf...",
+            "video": "https://www.youtube.com/watch?v=wQZPf_V0H0o"
         },
         {
-          "title": "Bulding a Start Up with Lean Python",
-          "speaker": "Juan Carlos Abdala",
-          "desc": "En esta charla veremos como el Foco en tu idea puede verse afectado por algunas practicas de Ing. de..."
+            "title": "Bulding a Start Up with Lean Python",
+            "speaker": "Juan Carlos Abdala",
+            "desc": "En esta charla veremos como el Foco en tu idea puede verse afectado por algunas practicas de Ing. de...",
+            "video": "https://www.youtube.com/watch?v=vdyvWsmyu54"
         },
         {
-          "title": "Cómo enfrentamos los desafíos de mantener una comunidad inclusiva en Brasil",
-          "speaker": "Mário Sérgio",
-          "desc": "The purpose of this talk is to present the challenges we face in Brazil for Python community integra..."
+            "title": "Cómo enfrentamos los desafíos de mantener una comunidad inclusiva en Brasil",
+            "speaker": "Mário Sérgio",
+            "desc": "The purpose of this talk is to present the challenges we face in Brazil for Python community integra...",
+            "video": "https://www.youtube.com/watch?v=tCqe9OaReu8"
         },
         {
-          "title": "Conectando partes con ZMQ",
-          "speaker": "Martin Alderete",
-          "desc": "Introducir ZeroMQ (zmq), una libreria de mensajes con esteroides para comunicacion de sistemas altam..."
+            "title": "Conectando partes con ZMQ",
+            "speaker": "Martin Alderete",
+            "desc": "Introducir ZeroMQ (zmq), una libreria de mensajes con esteroides para comunicacion de sistemas altam...",
+            "video": "https://www.youtube.com/watch?v=_Kcb090aOOw"
         },
         {
-          "title": "Conectando sistemas Tryton con el mundo",
-          "speaker": "Luciano Rossi",
-          "desc": "Tryton es un framework para desarrollos de sistemas de gestión. Mi deseo es que los participantes co..."
+            "title": "Conectando sistemas Tryton con el mundo",
+            "speaker": "Luciano Rossi",
+            "desc": "Tryton es un framework para desarrollos de sistemas de gestión. Mi deseo es que los participantes co...",
+            "video": "https://www.youtube.com/watch?v=_Kcb090aOOw"
         },
         {
-          "title": "Convivencia entre objetos y experimentos científicos, ¿Alguien tiene que ceder?",
-          "speaker": "Agustín Garassino",
-          "desc": "En esta charla vamos a hablar sobre la implementación de un sistema de experimentos para resolver un..."
+            "title": "Convivencia entre objetos y experimentos científicos, ¿Alguien tiene que ceder?",
+            "speaker": "Agustín Garassino",
+            "desc": "En esta charla vamos a hablar sobre la implementación de un sistema de experimentos para resolver un...",
+            "video": "https://www.youtube.com/watch?v=RQDyHUWNm7A"
         },
         {
-          "title": "Cortaste toda la looz: cuando la solución más obvia, no es la mejor",
-          "speaker": "Diego Cañizares",
-          "desc": "A veces, aunque la solución más obvia sea meter el cutucuchillo, hay que pensar que te poés quedar l..."
+            "title": "Cortaste toda la looz: cuando la solución más obvia, no es la mejor",
+            "speaker": "Diego Cañizares",
+            "desc": "A veces, aunque la solución más obvia sea meter el cutucuchillo, hay que pensar que te poés quedar l...",
+            "video": "https://www.youtube.com/watch?v=BxzjsdScE_Y"
         },
         {
-          "title": "Crea y realiza un blog personal con Pelican",
-          "speaker": "Gessica Paniagua, Laura Sofia Enriquez",
-          "desc": "Pelican es un python framework que nos permite generar sitios estáticos. En este taller vamos a crea..."
+            "title": "Crea y realiza un blog personal con Pelican",
+            "speaker": "Gessica Paniagua, Laura Sofia Enriquez",
+            "desc": "Pelican es un python framework que nos permite generar sitios estáticos. En este taller vamos a crea...",
+            "video": "No hay video para esta charla :("
         },
         {
-          "title": "Datawarehousing para datos genéticos, socioeconómicos y fenotípicos, con visualización 3D",
-          "speaker": "Luciano Serruya Aloisi, Pablo Toledo Margalef",
-          "desc": "Se presenta una aplicación para el almacenamiento, análisis, y visualización interactiva de datos he..."
+            "title": "Datawarehousing para datos genéticos, socioeconómicos y fenotípicos, con visualización 3D",
+            "speaker": "Luciano Serruya Aloisi, Pablo Toledo Margalef",
+            "desc": "Se presenta una aplicación para el almacenamiento, análisis, y visualización interactiva de datos he...",
+            "video": "https://www.youtube.com/watch?v=RD3m0Z6OpIA"
         },
         {
-          "title": "Deconstrui tu machismo geek",
-          "speaker": "Dax",
-          "desc": "El machismo está presente en todos lados, todos en algún grado u otro somos machistas. En esta charl..."
+            "title": "Deconstrui tu machismo geek",
+            "speaker": "Dax",
+            "desc": "El machismo está presente en todos lados, todos en algún grado u otro somos machistas. En esta charl...",
+            "video": "https://www.youtube.com/watch?v=zf_1AdUUCs0"
         },
         {
-          "title": "Deuda técnica para todes",
-          "speaker": "Carlos Matías De La Torre",
-          "desc": "En esta charla intento recuperar la noción original del concepto de \"deuda técnica\", contando sobre ..."
+            "title": "Deuda técnica para todes",
+            "speaker": "Carlos Matías De La Torre",
+            "desc": "En esta charla intento recuperar la noción original del concepto de \"deuda técnica\", contando sobre ...",
+            "video": "https://www.youtube.com/watch?v=cEL2ZRjZZpM"
         },
         {
-          "title": "Diversidad, accesibilidad y trabajo",
-          "speaker": "Katherine Jenkins",
-          "desc": "Hablaremos sobre cómo las personas con discapacidades usan las aplicaciones y cuáles son las mejores..."
+            "title": "Diversidad, accesibilidad y trabajo",
+            "speaker": "Katherine Jenkins",
+            "desc": "Hablaremos sobre cómo las personas con discapacidades usan las aplicaciones y cuáles son las mejores...",
+            "video": "https://www.youtube.com/watch?v=jcdJhqKmNyI"
         },
         {
-          "title": "Django Girls (inscripción cerrada, sin vacantes)",
-          "speaker": "-",
-          "desc": "Taller de programación dirigido a mujeres\nLa inscripción al taller cerró el 31 de octubre, y no hay ..."
+            "title": "Django Girls (inscripción cerrada, sin vacantes)",
+            "speaker": "-",
+            "desc": "Taller de programación dirigido a mujeres\nLa inscripción al taller cerró el 31 de octubre, y no hay ...",
+            "video": "No hay video para esta charla :("
         },
         {
-          "title": "Django Girls (inscripción cerrada, sin vacantes)",
-          "speaker": "-",
-          "desc": "Taller de programación dirigido a mujeres\nLa inscripción al taller cerró el 31 de octubre, y no hay ..."
+            "title": "Django + React",
+            "speaker": "Federico Gonzalez (Fedeg)",
+            "desc": "En esta charla vas a aprender como juntar lo mejor de dos mundos sin morir en el intento. Para el ba...",
+            "video": "https://www.youtube.com/watch?v=rYQ0d8ooU14"
         },
         {
-          "title": "Django + React",
-          "speaker": "Federico Gonzalez (Fedeg)",
-          "desc": "En esta charla vas a aprender como juntar lo mejor de dos mundos sin morir en el intento. Para el ba..."
+            "title": "Django REST Framework: lo mejor de Django sin lo peor de Django",
+            "speaker": "Sofía Denner, Aylen Bombelli",
+            "desc": "Django REST Framework existe para que el backend se dedique única y exclusivamente a realizar tareas...",
+            "video": "https://www.youtube.com/watch?v=-hPQf2qWC38"
         },
         {
-          "title": "Django REST Framework: lo mejor de Django sin lo peor de Django",
-          "speaker": "Sofía Denner, Aylen Bombelli",
-          "desc": "Django REST Framework existe para que el backend se dedique única y exclusivamente a realizar tareas..."
+            "title": "El desarrollo de software como debería ser",
+            "speaker": "Hernan Wilkinson",
+            "desc": "¿Es el desarrollo de software como “debería ser”? ¿Nos informaron durante la historia de nuestra pro...",
+            "video": "https://www.youtube.com/watch?v=lV9ozQbYEnc"
         },
         {
-          "title": "El desarrollo de software como debería ser",
-          "speaker": "Hernan Wilkinson",
-          "desc": "¿Es el desarrollo de software como “debería ser”? ¿Nos informaron durante la historia de nuestra pro..."
+            "title": "El otro 90% del laburo: docs/site/support/issues/contributions",
+            "speaker": "Roberto Alsina",
+            "desc": "Desarrollar una aplicación o una biblioteca es un montón de trabajo. Pero aún si está perfecta, nadi...",
+            "video": "https://www.youtube.com/watch?v=j-gNzw55wAo"
         },
         {
-          "title": "El otro 90% del laburo: docs/site/support/issues/contributions",
-          "speaker": "Roberto Alsina",
-          "desc": "Desarrollar una aplicación o una biblioteca es un montón de trabajo. Pero aún si está perfecta, nadi..."
+            "title": "Empecemos con un bot de Telegram",
+            "speaker": "Matias Barriento",
+            "desc": "Librerias, trucos y consejos sobre como crear un bot en Telegram. Ideal si recien te sumas a la prog...",
+            "video": "https://www.youtube.com/watch?v=AkGM_SEf2Xk"
         },
         {
-          "title": "Empecemos con un bot de Telegram",
-          "speaker": "Matias Barriento",
-          "desc": "Librerias, trucos y consejos sobre como crear un bot en Telegram. Ideal si recien te sumas a la prog..."
+            "title": "Entendiendo asyncio sin usar asyncio",
+            "speaker": "Juan Pedro Fisanotti",
+            "desc": "Tratando de entender asyncio con cero conocimientos previos de asincronismo\nAsyncio nos permite prog...",
+            "video": "https://www.youtube.com/watch?v=BenwwgMx3Hg"
         },
         {
-          "title": "Entendiendo asyncio sin usar asyncio",
-          "speaker": "Juan Pedro Fisanotti",
-          "desc": "Tratando de entender asyncio con cero conocimientos previos de asincronismo\nAsyncio nos permite prog..."
+            "title": "Flatpak: Apps que corren en cualquier distro, ¡y tal como lo esperabas!",
+            "speaker": "Damián Nohales, Manuel Quiñones",
+            "desc": "Apps que corren en cualquier distro Linux, y funcionan tal como lo esperabas. Dirigida a usuarios de...",
+            "video": "https://www.youtube.com/watch?v=dOk7ZvYxDPE"
         },
         {
-          "title": "Flatpak: Apps que corren en cualquier distro, ¡y tal como lo esperabas!",
-          "speaker": "Damián Nohales, Manuel Quiñones",
-          "desc": "Apps que corren en cualquier distro Linux, y funcionan tal como lo esperabas. Dirigida a usuarios de..."
+            "title": "Gamificación: un enfoque de la vida desde los videojuegos",
+            "speaker": "Federico Brest",
+            "desc": "La charla analizará las formas de educar a través de la historia, y demostrará que a través de los v...",
+            "video": "https://www.youtube.com/watch?v=w-pMbTGwsyk"
         },
         {
-          "title": "Gamificación: un enfoque de la vida desde los videojuegos",
-          "speaker": "Federico Brest",
-          "desc": "La charla analizará las formas de educar a través de la historia, y demostrará que a través de los v..."
+            "title": "Gauchito GIL",
+            "speaker": "Yonatan Romero",
+            "desc": "Concurrencia en Python. Entendiendo el GIL (Global Interpreter Lock).\nProgramar aplicaciones concurr...",
+            "video": "https://www.youtube.com/watch?v=o57oA8Gxtt0"
         },
         {
-          "title": "Gauchito GIL",
-          "speaker": "Yonatan Romero",
-          "desc": "Concurrencia en Python. Entendiendo el GIL (Global Interpreter Lock).\nProgramar aplicaciones concurr..."
+            "title": "(GNU/Linux) Instalado para durar",
+            "speaker": "Eduardo Casarero, Juan Manuel Santos",
+            "desc": "Esta charla propone un check list básico para la instalción de gnu/linux en servidores con el objeti...",
+            "video": "https://www.youtube.com/watch?v=gYxXrqbTcAA"
         },
         {
-          "title": "\"(GNU/Linux) Instalado para durar\"",
-          "speaker": "Eduardo Casarero, Juan Manuel Santos",
-          "desc": "Esta charla propone un check list básico para la instalción de gnu/linux en servidores con el objeti..."
+            "title": "Haciendo Voip con Python y Asterisk",
+            "speaker": "Alejandro Zamora Fonseca, Ana Almada",
+            "desc": "A partir de comprender las APIs de Asterisk (AMI/AGI) y la gran cantidad de librerías de la comunida...",
+            "video": "https://www.youtube.com/watch?v=VpMSo1GNDRk"
         },
         {
-          "title": "Haciendo Voip con Python y Asterisk",
-          "speaker": "Alejandro Zamora Fonseca, Ana Almada",
-          "desc": "A partir de comprender las APIs de Asterisk (AMI/AGI) y la gran cantidad de librerías de la comunida..."
+            "title": "Imágenes satelitales n  Python",
+            "speaker": "Mariela Rajngewerc",
+            "desc": "En este tutorial el objetivo será obtener un mapa de coberturas (suelo, agua,\r\nvegetación) a partir ...",
+            "video": "No hay video para esta charla :("
         },
         {
-          "title": "Imágenes satelitales n  Python",
-          "speaker": "Mariela Rajngewerc",
-          "desc": "En este tutorial el objetivo será obtener un mapa de coberturas (suelo, agua,\r\nvegetación) a partir ..."
+            "title": "import género, diversidad",
+            "speaker": "Debate Sobre Género Y Diversidad",
+            "desc": "Debate sobre género y diversidad\nHablemos del avance del movimiento de mujeres e identidades disiden...",
+            "video": "https://www.youtube.com/watch?v=jcdJhqKmNyI"
         },
         {
-          "title": "import género, diversidad",
-          "speaker": "Debate Sobre Género Y Diversidad",
-          "desc": "Debate sobre género y diversidad\nHablemos del avance del movimiento de mujeres e identidades disiden..."
+            "title": "__init__ Jupyter Notebook",
+            "speaker": "Berenice Larsen Pereyra",
+            "desc": "Jupyter Notebook es una herramienta interactiva para generar archivos que contengan código ejecutabl...",
+            "video": "https://www.youtube.com/watch?v=G38jtwxDK4I"
         },
         {
-          "title": "__init__ Jupyter Notebook",
-          "speaker": "Berenice Larsen Pereyra",
-          "desc": "Jupyter Notebook es una herramienta interactiva para generar archivos que contengan código ejecutabl..."
+            "title": "Introducción a GIS con geopandas",
+            "speaker": "Leonardo Morales",
+            "desc": "La propuesta es que al finalizar la charla, el asistente tenga un vistazo general de dos aspectos: L...",
+            "video": "https://www.youtube.com/watch?v=oY75bkGhoKY"
         },
         {
-          "title": "Introducción a GIS con geopandas",
-          "speaker": "Leonardo Morales",
-          "desc": "La propuesta es que al finalizar la charla, el asistente tenga un vistazo general de dos aspectos: L..."
+            "title": "Introducción al Aprendizaje Automático (Machine Learning)",
+            "speaker": "Emilio Crudele",
+            "desc": "Machine learning consiste en permitir que las computadoras aprendan por sí solas a realizar tareas, ...",
+            "video": "https://www.youtube.com/watch?v=oY75bkGhoKY"
         },
         {
-          "title": "Introducción al Aprendizaje Automático (Machine Learning)",
-          "speaker": "Emilio Crudele",
-          "desc": "Machine learning consiste en permitir que las computadoras aprendan por sí solas a realizar tareas, ..."
+            "title": "Introducción a seguridad de aplicaciones web",
+            "speaker": "Francisco Capdevila, Carlos De La Torre",
+            "desc": "Una conversación sobre los conceptos más básicos e importantes asociados a la seguridad de aplicacio...",
+            "video": "https://www.youtube.com/watch?v=oY75bkGhoKY"
         },
         {
-          "title": "Introducción a seguridad de aplicaciones web",
-          "speaker": "Francisco Capdevila, Carlos De La Torre",
-          "desc": "Una conversación sobre los conceptos más básicos e importantes asociados a la seguridad de aplicacio..."
+            "title": "Juegos electromecánicos con Micropython",
+            "speaker": "Alejandro J. Cura",
+            "desc": "Micropython es muchísimo más pequeño que Python, por lo que es ideal para usarlo en microcontrolador...",
+            "video": "https://www.youtube.com/watch?v=AfyNGO7sDww"
         },
         {
-          "title": "Juegos electromecánicos con Micropython",
-          "speaker": "Alejandro J. Cura",
-          "desc": "Micropython es muchísimo más pequeño que Python, por lo que es ideal para usarlo en microcontrolador..."
+            "title": "Jugando con el ORM de Django",
+            "speaker": "Federico Martinez, Santiago Avendaño",
+            "desc": "El ORM de Django es una herramienta muy potente que simplifica muchísimo el desarrollo de aplicacion...",
+            "video": "https://www.youtube.com/watch?v=S6vwCy6tW2M"
         },
         {
-          "title": "Jugando con el ORM de Django",
-          "speaker": "Federico Martinez, Santiago Avendaño",
-          "desc": "El ORM de Django es una herramienta muy potente que simplifica muchísimo el desarrollo de aplicacion..."
+            "title": "Activation Energy, by Brandon Rhodes",
+            "speaker": "Brandon Rhodes",
+            "desc": "Keynote - Brandon Rhodes\nKeynote - Brandon Rhodes...",
+            "video": "https://www.youtube.com/watch?v=pybtvFFRYFs"
         },
         {
-          "title": "Keynote - Brandon Rhodes",
-          "speaker": "Brandon Rhodes",
-          "desc": "Keynote - Brandon Rhodes\nKeynote - Brandon Rhodes..."
+            "title": "Sharing, by Carol Willing",
+            "speaker": "Carol Willing",
+            "desc": "Keynote - Carol Willing\nKeynote - Carol Willing...",
+            "video": "https://www.youtube.com/watch?v=cSWzPXDsgXQ"
         },
         {
-          "title": "Keynote - Carol Willing",
-          "speaker": "Carol Willing",
-          "desc": "Keynote - Carol Willing\nKeynote - Carol Willing..."
+            "title": "La Computación de Alto Desempeño puede ser versátil: comunicando C y FORTRAN con Python",
+            "speaker": "Pablo Alcain, Cecilia Jarne, Rodrigo Lugones, Graciela Molina",
+            "desc": "No sólo Python logró penetrar fuertemente en el mundo científico, sino que además avanza a mucha vel...",
+            "video": "https://www.youtube.com/watch?v=oz2Xcn9udsw"
         },
         {
-          "title": "La Computación de Alto Desempeño puede ser versátil: comunicando C y FORTRAN con Python",
-          "speaker": "Pablo Alcain, Cecilia Jarne, Rodrigo Lugones, Graciela Molina",
-          "desc": "No sólo Python logró penetrar fuertemente en el mundo científico, sino que además avanza a mucha vel..."
+            "title": "Las buenas, las malas, y las feas practicas",
+            "speaker": "Juan Bagnera, Lucio Delelis",
+            "desc": "Planteamos situaciones que encontramos en el sistema Fierro,   cómo logramos (o intentamos) resolver...",
+            "video": "https://www.youtube.com/watch?v=0SlQdeurESc"
         },
         {
-          "title": "Las buenas, las malas, y las feas practicas",
-          "speaker": "Juan Bagnera, Lucio Delelis",
-          "desc": "Planteamos situaciones que encontramos en el sistema Fierro,   cómo logramos (o intentamos) resolver..."
+            "title": "La última pregunta",
+            "speaker": "Damián Avila",
+            "desc": "La idea de esta charla es contar una historia. Pero contarla a través de los ojos de un pythonista.\r...",
+            "video": "https://www.youtube.com/watch?v=3Hj2MKnofxY"
         },
         {
-          "title": "La última pregunta",
-          "speaker": "Damián Avila",
-          "desc": "La idea de esta charla es contar una historia. Pero contarla a través de los ojos de un pythonista.\r..."
+            "title": "Lidiando con formatos y unidades en nuestra API REST",
+            "speaker": "Matias Varela",
+            "desc": "Mediante un proyecto con django rest framework, veremos como lidiar con las distintas unidades de me...",
+            "video": "https://www.youtube.com/watch?v=8g97P6S6Yyk"
         },
         {
-          "title": "Lidiando con formatos y unidades en nuestra API REST",
-          "speaker": "Matias Varela",
-          "desc": "Mediante un proyecto con django rest framework, veremos como lidiar con las distintas unidades de me..."
+            "title": "Machine Learning, del Notebook a Produccion",
+            "speaker": "German Bourdin",
+            "desc": "Ya le armaste el modelo que predice valores de propiedades a tu primo el de la inmobiliaria y, anda ...",
+            "video": "https://www.youtube.com/watch?v=Tx-mFDzRilI"
         },
         {
-          "title": "Machine Learning, del Notebook a Produccion",
-          "speaker": "German Bourdin",
-          "desc": "Ya le armaste el modelo que predice valores de propiedades a tu primo el de la inmobiliaria y, anda ..."
+            "title": "Mallas Poliedrales para Aproximar Soluciones de Ecuaciones Diferenciales en Derivadas Parciales",
+            "speaker": "Alexis Jawtuschenko",
+            "desc": "Implementación de un proceso de mallado para dominios tridimensionales, y que permite refinar arbitr...",
+            "video": "https://www.youtube.com/watch?v=ywt5wY4HB9E"
         },
         {
-          "title": "Mallas Poliedrales para Aproximar Soluciones de Ecuaciones Diferenciales en Derivadas Parciales",
-          "speaker": "Alexis Jawtuschenko",
-          "desc": "Implementación de un proceso de mallado para dominios tridimensionales, y que permite refinar arbitr..."
+            "title": "Microservices con Nameko",
+            "speaker": "Juan Pablo Giménez",
+            "desc": "Nameko es un framework para desarrollo de microservicios. Usando heramientas como rabbitmq y kuberne...",
+            "video": "https://www.youtube.com/watch?v=B3lSAAc-a-4"
         },
         {
-          "title": "Microservices con Nameko",
-          "speaker": "Juan Pablo Giménez",
-          "desc": "Nameko es un framework para desarrollo de microservicios. Usando heramientas como rabbitmq y kuberne..."
+            "title": "Normalizá datos con la nueva API del Servicio de Normalización de Datos Geográficos",
+            "speaker": "Federico Tedin",
+            "desc": "Te mostramos cómo usar la API del Servicio de Normalización de Datos\r\nGeográficos de Argentina (apis...",
+            "video": "No hay video para esta charla :("
         },
         {
-          "title": "Normalizá datos con la nueva API del Servicio de Normalización de Datos Geográficos",
-          "speaker": "Federico Tedin",
-          "desc": "Te mostramos cómo usar la API del Servicio de Normalización de Datos\r\nGeográficos de Argentina (apis..."
+            "title": "Observabilidad: El debugger es para gente que nunca sale a producción",
+            "speaker": "Nicolás Demarchi, Lucio Torre",
+            "desc": "Si, estamos diciendo que debuggear con printf es “the one true way”.\nEn la era de los microservicios...",
+            "video": "https://www.youtube.com/watch?v=Zl0kq6SjDYc"
         },
         {
-          "title": "Observabilidad: El debugger es para gente que nunca sale a producción",
-          "speaker": "Nicolás Demarchi, Lucio Torre",
-          "desc": "Si, estamos diciendo que debuggear con printf es “the one true way”.\nEn la era de los microservicios..."
+            "title": "Optimizando el procesamiento de cadenas de ADN con Pandas y Multiprocessing",
+            "speaker": "Daniel Espinoza",
+            "desc": "Demostrar como en uBiome bajamos los tiempos de procesamiento para cadenas de ADN usando Pandas + Mu...",
+            "video": "https://www.youtube.com/watch?v=HFsX7-JY6gM"
         },
         {
-          "title": "Optimizando el procesamiento de cadenas de ADN con Pandas y Multiprocessing",
-          "speaker": "Daniel Espinoza",
-          "desc": "Demostrar como en uBiome bajamos los tiempos de procesamiento para cadenas de ADN usando Pandas + Mu..."
+            "title": "Optimizando Python usando Cython",
+            "speaker": "Tomas Zulberti",
+            "desc": "Mostrar como usar Cython para optimizar el codigo python, comparando la performance contra C\nUsando ...",
+            "video": "https://www.youtube.com/watch?v=HFsX7-JY6gM"
         },
         {
-          "title": "Optimizando Python usando Cython",
-          "speaker": "Tomas Zulberti",
-          "desc": "Mostrar como usar Cython para optimizar el codigo python, comparando la performance contra C\nUsando ..."
+            "title": "Por qué TENÉS que conocer GIT",
+            "speaker": "Sofía Denner",
+            "desc": "El versionado de código te puede salvar la vida. Incluso si trabajás solo/a, pero con mucha más razó...",
+            "video": "https://www.youtube.com/watch?v=okJf65oIxJ8"
         },
         {
-          "title": "Por qué TENÉS que conocer GIT",
-          "speaker": "Sofía Denner",
-          "desc": "El versionado de código te puede salvar la vida. Incluso si trabajás solo/a, pero con mucha más razó..."
+            "title": "Presentación de Las de Sistemas",
+            "speaker": "Ana Laura Almada, Estefania Miguel",
+            "desc": "Presentación de Las de Sistemas\nPresentación de Las de Sistemas, una comunidad de sistemas que traba...",
+            "video": "https://www.youtube.com/watch?v=0hB0cGncCTM"
         },
         {
-          "title": "Presentación de Las de Sistemas",
-          "speaker": "Ana Laura Almada, Estefania Miguel",
-          "desc": "Presentación de Las de Sistemas\nPresentación de Las de Sistemas, una comunidad de sistemas que traba..."
+            "title": "Procesando datos en paralelo con Dask.",
+            "speaker": "Ariel Rossanigo",
+            "desc": "Durante la charla se presentará una introducción a Dask para el procesamiento de datos en forma para...",
+            "video": "https://www.youtube.com/watch?v=APcUJOVrFlk"
         },
         {
-          "title": "Procesando datos en paralelo con Dask.",
-          "speaker": "Ariel Rossanigo",
-          "desc": "Durante la charla se presentará una introducción a Dask para el procesamiento de datos en forma para..."
+            "title": "PyJustice: aplicaciones de Python en el área legal. Un lenguaje al servicio de la justicia.",
+            "speaker": "Johanna Caterina Faliero, Pablo Cruz Casas",
+            "desc": "La presente charla explorará las diversas ventajas características que ofrece el lenguaje de program...",
+            "video": "https://www.youtube.com/watch?v=Ltn6jPbhKP0"
         },
         {
-          "title": "PyJustice: aplicaciones de Python en el área legal. Un lenguaje al servicio de la justicia.",
-          "speaker": "Johanna Caterina Faliero, Pablo Cruz Casas",
-          "desc": "La presente charla explorará las diversas ventajas características que ofrece el lenguaje de program..."
+            "title": "Python en los primeros años de Ingeniería en Informática: One tool to rule ‘em all",
+            "speaker": "Ana Czarnitzki, Gaston Alberto Martinez",
+            "desc": "En los últimos tiempos Python ganó mucho terreno en el campo de la enseñanza para desarrolladores pr...",
+            "video": "https://www.youtube.com/watch?v=Ltn6jPbhKP0"
         },
         {
-          "title": "Python en los primeros años de Ingeniería en Informática: One tool to rule ‘em all",
-          "speaker": "Ana Czarnitzki, Gaston Alberto Martinez",
-          "desc": "En los últimos tiempos Python ganó mucho terreno en el campo de la enseñanza para desarrolladores pr..."
+            "title": "Python: Primera Generación.",
+            "speaker": "Valeria Rocha",
+            "desc": "La famosa escuela de Charles X abre sus puertas para quienes quieran dar sus primeros pasos en el mu...",
+            "video": "https://www.youtube.com/watch?v=SJSGACbuFX0"
         },
         {
-          "title": "Python: Primera Generación.",
-          "speaker": "Valeria Rocha",
-          "desc": "La famosa escuela de Charles X abre sus puertas para quienes quieran dar sus primeros pasos en el mu..."
+            "title": "Qué necesitás saber para usar Amazon Lambda con python.",
+            "speaker": "Garcia Craia, Gustavo",
+            "desc": "Descripción, ventajas, restricciones y vericuetos del uso de este servicio serverless de AWS con pyt...",
+            "video": "https://www.youtube.com/watch?v=WDKKqbh5dYw"
         },
         {
-          "title": "Qué necesitás saber para usar Amazon Lambda con python.",
-          "speaker": "Garcia Craia, Gustavo",
-          "desc": "Descripción, ventajas, restricciones y vericuetos del uso de este servicio serverless de AWS con pyt..."
+            "title": "qutebrowser - Navegando al estilo Vim",
+            "speaker": "Javier Ayres",
+            "desc": "Demostración completa de qutebrowser, el navegador controlado por teclado y programado en Python.\nEs...",
+            "video": "https://www.youtube.com/watch?v=xZ2CdBOtIwI"
         },
         {
-          "title": "qutebrowser - Navegando al estilo Vim",
-          "speaker": "Javier Ayres",
-          "desc": "Demostración completa de qutebrowser, el navegador controlado por teclado y programado en Python.\nEs..."
+            "title": "Redes neuronales con python usando Keras",
+            "speaker": "Juan Pedro Fisanotti",
+            "desc": "Cerebros artificiales??? No tanto, pero igualmente una herramienta muy poderosa. Las redes neuronale...",
+            "video": "https://www.youtube.com/watch?v=L2k1GUyisIo"
         },
         {
-          "title": "Redes neuronales con python usando Keras",
-          "speaker": "Juan Pedro Fisanotti",
-          "desc": "Cerebros artificiales??? No tanto, pero igualmente una herramienta muy poderosa. Las redes neuronale..."
+            "title": "Reverse-engineering 170 mil líneas de documentación para traerla al siglo XXI",
+            "speaker": "Ramiro Morales Aka 'El Cramm'",
+            "desc": "Usamos Python para la conversión de la documentación de un producto de software que usa un formato d...",
+            "video": "https://www.youtube.com/watch?v=ywP4I49_tHQ"
         },
         {
-          "title": "Reverse-engineering 170 mil líneas de documentación para traerla al siglo XXI",
-          "speaker": "Ramiro Morales Aka 'El Cramm'",
-          "desc": "Usamos Python para la conversión de la documentación de un producto de software que usa un formato d..."
+            "title": "Sobreviviendo al síndrome del segundo sistema con Python",
+            "speaker": "Matias Lang, Leonardo Lazzaro",
+            "desc": "Reescribir una gran parte de un proyecto para saldar una deuda técnica puede ser un trabajo muy cans...",
+            "video": "https://www.youtube.com/watch?v=gPuqrHuRD0U"
         },
         {
-          "title": "Sobreviviendo al síndrome del segundo sistema con Python",
-          "speaker": "Matias Lang, Leonardo Lazzaro",
-          "desc": "Reescribir una gran parte de un proyecto para saldar una deuda técnica puede ser un trabajo muy cans..."
+            "title": "Taller de Introducción a Python",
+            "speaker": "Leandro E. Colombo Viña (Aka @Lecovi).",
+            "desc": "Clásico taller de introducción a Python. Para el que busca saber qué es Python o necesita un primer ...",
+            "video": "No hay video para esta charla :("
         },
         {
-          "title": "Taller de Introducción a Python",
-          "speaker": "Leandro E. Colombo Viña (Aka @Lecovi).",
-          "desc": "Clásico taller de introducción a Python. Para el que busca saber qué es Python o necesita un primer ..."
+            "title": "Testing en Proyectos de Machine Learning",
+            "speaker": "Javier Mansilla",
+            "desc": "Machine learning productivo, en el mundo real. \r\n¿Qué testeamos? ¿Cómo?\r\nLa tortuga se quiere escapa...",
+            "video": "https://www.youtube.com/watch?v=Tx-mFDzRilI"
         },
         {
-          "title": "Testing en Proyectos de Machine Learning",
-          "speaker": "Javier Mansilla",
-          "desc": "Machine learning productivo, en el mundo real. \r\n¿Qué testeamos? ¿Cómo?\r\nLa tortuga se quiere escapa..."
+            "title": "Todo lo que no querés saber de async",
+            "speaker": "Claudio Freire",
+            "desc": "Async está de moda, y todo el mundo dice que la rompe. Pero tiene sus falencias, y también hay que h...",
+            "video": "https://www.youtube.com/watch?v=s6wsTgY9ySk"
         },
         {
-          "title": "Todo lo que no querés saber de async",
-          "speaker": "Claudio Freire",
-          "desc": "Async está de moda, y todo el mundo dice que la rompe. Pero tiene sus falencias, y también hay que h..."
-        },
-        {
-          "title": "Uso de asyncio",
-          "speaker": "David Pineda",
-          "desc": "Un taller en que se dan las nociones básicas para el uso de asyncio y la implementación de funcional..."
+            "title": "Uso de asyncio",
+            "speaker": "David Pineda",
+            "desc": "Un taller en que se dan las nociones básicas para el uso de asyncio y la implementación de funcional...",
+            "video": "No hay video para esta charla :("
         }
     ],
     "2019": [
-      {
-        "title": "Airflow para Data Scientists",
-        "speaker": "Ignacio Javier Mermet",
-        "desc": "Data Scientists: amantes de los notebooks, en eterna enemistad con los entornos productivos. Pero ha..."
-      },
-      {
-        "title": "Análisis Exploratorio de Datos com Python",
-        "speaker": "João André",
-        "desc": "Una charla  que muestra cómo usar Python para procesar datos y extraer información para la toma de d..."
-      },
-      {
-        "title": "Aprendiendo CURSES y BLESSINGS para Terminal Scripting",
-        "speaker": "Martín Nieva",
-        "desc": "En la charla voy a enseñarles las dos librerías blessings y curses, ambas usadas para el mismo fin: ..."
-      },
-      {
-        "title": "Astrofotografía pythónica con scikit-image y rawpy",
-        "speaker": "Claudio Freire",
-        "desc": "Python tiene abundantes herramientas para astronomía y astrofotografía. Al que le interesa el tema, ..."
-      },
-      {
-        "title": "Buenas prácticas para lograr que el trabajo en Jupyter notebooks sea reproducible",
-        "speaker": "Diego Piloni",
-        "desc": "Una charla en la que intentaré mostrar buenas prácticas aplicadas en el día a día de mi trabajo para..."
-      },
-      {
-        "title": "Caer con estilo: El modelo Buzz Lightyear de desarrollo de software",
-        "speaker": "Roberto Alsina",
-        "desc": "Programar es una actividad peculiar en la que uno intenta hacer cosas que no sabe cómo se hacen. Si ..."
-      },
-      {
-        "title": "Celular, un testigo posible y silencioso",
-        "speaker": "María Andrea Vignau",
-        "desc": "Describiré las técnicas usadas para identificar al asesino de una mujer a partir del análisis y deco..."
-      },
-      {
-        "title": "CertMailer - Automatizar envío de certificados",
-        "speaker": "María Andrea Vignau",
-        "desc": "Terminan los eventos y muchos quieren un certificado de asistencia. \r\nUn detalle más para mantener e..."
-      },
-      {
-        "title": "Cierre del III Concurso de Bioinformática para Escuelas Secundarias",
-        "speaker": "Cierre Del Iii Concurso De Bioinformática Para Escuelas Secundarias",
-        "desc": "Cierre del III Concurso de Bioinformática para Escuelas Secundarias\nEste año la PyCon es sede del ci..."
-      },
-      {
-        "title": "¿Cómo funcionan los Widgets de Jupyter?",
-        "speaker": "Augusto ( Sasha ) Kielbowicz",
-        "desc": "Una de las características más importantes del ecosistema de Jupyter es la posibilidad que tiene el ..."
-      },
-      {
-        "title": "Conectando microservicios con Python",
-        "speaker": "Rodolfo E. Edelmann",
-        "desc": "En esta charla presentamos las distintas pruebas y los resultados de comunicar cientos de microservi..."
-      },
-      {
-        "title": "Configuration-friendly apps.",
-        "speaker": "Hernan Lozano",
-        "desc": "La configuración es solo otra API de una aplicación, dirigida a usuarios que la instalarán y ejecuta..."
-      },
-      {
-        "title": "Conociendo las baterías de Python",
-        "speaker": "Martín Alderete",
-        "desc": "La idea de la charla es mostrar \"las baterías de Python\", es decir, conocer los módulos de la librer..."
-      },
-      {
-        "title": "¡Construyamos juntos! Cómo y por qué tener un PyPi interno en tu organización.",
-        "speaker": "Sofía Denner",
-        "desc": "Con un PyPi interno es fácil construir herramientas de forma colaborativa. En este espacio vamos a c..."
-      },
-      {
-        "title": "¡Contribuir al Software Libre es la tarea!",
-        "speaker": "Luciano Rossi",
-        "desc": "Como desarrolladores de software, no debemos de quedarnos únicamente en el uso de las herramientas l..."
-      },
-      {
-        "title": "Creación y deployment de aplicaciones web para visualización de datos georeferenciados",
-        "speaker": "Ramiro Caro",
-        "desc": "El objetivo del tutorial es la creación de una aplicación web usando Dash, en donde podamos mostrar ..."
-      },
-      {
-        "title": "Creating Microservices with Django Rest Framework",
-        "speaker": "Alexandre Rosa",
-        "desc": "The whole idea is present to the audience how it's easy to create a microservice with Django Rest Fr..."
-      },
-      {
-        "title": "Cultura Constructiva y visión tecnológica",
-        "speaker": "Carlos Matías De La Torre (A.K.A. Litox) Y Javier Mansilla",
-        "desc": "¿Qué aspectos hay que mirar para evaluar la “salud tecnológica” de mi proyecto?\r\n¿Qué cosas son más ..."
-      },
-      {
-        "title": "Data-science a escala, con Python, en Mercadolibre",
-        "speaker": "Carlos Matías De La Torre (A.K.A. Litox)",
-        "desc": "El foco de la charla está en las diferencias entre el desarrollo de un prototipo o POC de machine-le..."
-      },
-      {
-        "title": "Desmitificando python: típicas preguntas del primer tiempo",
-        "speaker": "Juan Pedro Fisanotti",
-        "desc": "Los parámetros se pasan por valor o referencia? Las variables tienen tipo? Es python compilado, inte..."
-      },
-      {
-        "title": "El bug invisible",
-        "speaker": "Yonatan Romero",
-        "desc": "La arquitectura de nuestro sistema va a definir su futuro  ¡Por sistemas con una vida prospera!\nEn l..."
-      },
-      {
-        "title": "El desafío de ENSEÑAR PYTHON a nivel universitario",
-        "speaker": "Lic. Felipe Morales",
-        "desc": "Enseñanza de programación Python a alumnos informáticos y no informáticos.\nLa enseñanza de programac..."
-      },
-      {
-        "title": "El onboarding es invisible a los ojos",
-        "speaker": "Mati Barriento",
-        "desc": "Ingresar una nueva persona al equipo es y debe tomarse como un momento importante tanto para quien i..."
-      },
-      {
-        "title": "Enseñar programación y robótica sin morir en el intento",
-        "speaker": "Romina Fairbairn",
-        "desc": "¿Cómo no enseñar programación y Robótica? ¿Por qué promover la enseñanza en los más chicos? Mitos y ..."
-      },
-      {
-        "title": "Entendiendo asyncio sin usar asyncio",
-        "speaker": "Juan Pedro Fisanotti",
-        "desc": "Tratando de entender asyncio con cero conocimientos previos de asincronismo.\nAsyncio nos permite pro..."
-      },
-      {
-        "title": "En un mundo de unos y ceros,  vamos por la diversidad",
-        "speaker": "Las De Sistemas",
-        "desc": "Inclusión, visibilidad y espacios seguros para mujeres e identidades diversas dentro del mundo IT.\nI..."
-      },
-      {
-        "title": "Fuzz & Property Based Testing",
-        "speaker": "Pablo Fernandez",
-        "desc": "Introducción al origen de fuzz testing a través de los papers de Miller.\r\n\r\nLuego, la diferencia ent..."
-      },
-      {
-        "title": "Grafos temporales sobre NetworkX",
-        "speaker": "Leonardo Morales",
-        "desc": "El presente trabajo busca mostrar una capa de software construida utilizando el paquete networkX que..."
-      },
-      {
-        "title": "High Perfomance Pandas: Leveraging the power of pandas data manipulation.",
-        "speaker": "Luis David Camacho",
-        "desc": "Pandas is an standard data handling library commonly misused, however, this powerful library include..."
-      },
-      {
-        "title": "Ignis, una herramienta computacional para la educación, la ciencia y la innovación",
-        "speaker": "Gonzalo Quiroga",
-        "desc": "Charla de presentación de Ignis, un software de cálculo simbólico desarrolaldo en Python y C++ que t..."
-      },
-      {
-        "title": "Introducción a Python y Pandas para usuarios de Excel",
-        "speaker": "Fernando González Prada",
-        "desc": "La idea es mostrarle a los usuarios de Excel, como utilizar Python y Pandas como complemento para su..."
-      },
-      {
-        "title": "Introduccion a TDD: Uso luego implemento",
-        "speaker": "Matias Pereira",
-        "desc": "Entendiendo TDD y como nos simplifica el desarrollo de cualquier proyecto pensando en el uso y no en..."
-      },
-      {
-        "title": "Keynote - Martin Sarsale",
-        "speaker": "Martin Sarsale",
-        "desc": "Keynote - Martin Sarsale\nKeynote - Martin Sarsale..."
-      },
-      {
-        "title": "Levantar una aplicación Django productiva de cero",
-        "speaker": "Dylan Gustavo Alvarez Avalos",
-        "desc": "En devartis elaboramos un repositorio template con todos los pasos necesarios para el setup de una a..."
-      },
-      {
-        "title": "LinuxChix: Open source minds",
-        "speaker": "Gessica Paniagua",
-        "desc": "LinuxChix Argentina comenzó a mediados del 2014 de la mano de un grupo de usuarios de Linux con dife..."
-      },
-      {
-        "title": "Live Typing - Anotación automática de tipos para lenguajes dinámicos",
-        "speaker": "Hernan Wilkinson",
-        "desc": "Los lenguajes dinámicamente tipados adolecen de información de tipos lo cual dificulta la implementa..."
-      },
-      {
-        "title": "Lo que nadie te dijo de migrar a Python 3",
-        "speaker": "Matias Lang, Eric Horvat",
-        "desc": "Resumen: Trabajamos sobre un proyecto de 6 años, y tuvimos que migrarlo a Python 3. Que puede malir ..."
-      },
-      {
-        "title": "Los desafíos de formar a la nueva generación de chicas líderes en tecnología",
-        "speaker": "Chicas En Tecnología",
-        "desc": "Datos sobre la brecha de género en Argentina y qué estamos haciendo desde Chcias en Tecnologia junto..."
-      },
-      {
-        "title": "Machine Learning y grafos",
-        "speaker": "Federico Albanese, Leandro Lombardi",
-        "desc": "La charla tiene como objetivo hacer una introducción sobre el tema del aprendizaje automático y most..."
-      },
-      {
-        "title": "Message in a BOT-tle",
-        "speaker": "Mauricio Ghiorzi",
-        "desc": "Aumentar la productividad laboral, generar ingresos por publicidad o simplemente para pasar el rato...."
-      },
-      {
-        "title": "Modernizando la clase de Simulación con Python (¿Cómo aprendí Python para dar clases de Simulación?)",
-        "speaker": "Pablo Akerman",
-        "desc": "Se contará la experiencia de actualización de la materia Simulación (Carrera Terciario Analisita de ..."
-      },
-      {
-        "title": "no podemos innovar si seguimos realizando tareas manuales",
-        "speaker": "Osiris Gómez, Cristian G. Segarra",
-        "desc": "Ansible es la herramienta que permite fácilmente automatizar todas las tareas de administración, con..."
-      },
-      {
-        "title": "Objetos en Python de 0 a 99,9",
-        "speaker": "Matias Pereira",
-        "desc": "En la charla hablaremos sobre la programación orientada a objetos, como usarla en Python y como los ..."
-      },
-      {
-        "title": "PEPificate: 10 PEPs a los que deberías prestarles atención",
-        "speaker": "Juan Manuel Santos",
-        "desc": "Leer documentos de estándares es una tarea dura. Pero como en otros campos, los estándares en Python..."
-      },
-      {
-        "title": "Pipeline Jungles: Es una selva ahí fuera",
-        "speaker": "Axel Sirota",
-        "desc": "Alguna vez deployaste un modelo de ML a producción? Y 20 en simultáneo? En esta charla vamos a habla..."
-      },
-      {
-        "title": "Procesing big data with Vaex, dataframes and no clusters",
-        "speaker": "Marco Carranza",
-        "desc": "Data is getting bigger and bigger, making it almost impossible to processed it in desktop machines w..."
-      },
-      {
-        "title": "Python en Debian: desde la visión de un novato.",
-        "speaker": "Arias Emmanuel",
-        "desc": "Empaquetado de proyectos Python para Debian. Un paseo rápido sobre cómo empezar a contribuir en Debi..."
-      },
-      {
-        "title": "Python para Contadores y Administrativos",
-        "speaker": "Gustavo Mena",
-        "desc": "El objetivo es mostrar herramientas prácticas de cómo los Contadores y personal administrativo puede..."
-      },
-      {
-        "title": "Qué es y qué hacemos WWCode - Nuestros primeros 6 meses de gestión",
-        "speaker": "Silvia Daniela Belvedere",
-        "desc": "El objetivo de la charla es dar a conocer nuestra comunidad global, su mision y visión, en qué princ..."
-      },
-      {
-        "title": "¿Qué tienen en común un código QR, un peluche, los Kanjis e ir a la casa de Damián?",
-        "speaker": "Franco Bulgarelli, Gustavo Trucco",
-        "desc": "El Pensamiento Computacional, a pesar de su nombre, es una habilidad humana que cada vez cobra más r..."
-      },
-      {
-        "title": "Resolviendo la tarea con Jupyter",
-        "speaker": "Augusto ( Sasha ) Kielbowicz",
-        "desc": "Es claro que la tecnología es algo que está inmerso en la vida cotidiana. Y además cada vez es más a..."
-      },
-      {
-        "title": "RTB en Jampp: Arquitectura, optimizaciones y otras yerbas",
-        "speaker": "Luciano Lo Giudice",
-        "desc": "Cómo aprovechar la flexibilidad y el dinamismo de Python y transformarlo en una herramienta performa..."
-      },
-      {
-        "title": "Serpientes y Roedores",
-        "speaker": "Ricardo Kirkner",
-        "desc": "Se verán algunos aspectos y prácticas comunes de Go y cómo pueden ser aplicadas en Python para mejor..."
-      },
-      {
-        "title": "Taller de Programacion para LGTBIQ y Mujeres",
-        "speaker": "Taller De Programacion Para Lgtbiq Y Mujeres",
-        "desc": "Taller de Programacion para LGTBIQ y Mujeres\nPara participar se quiere inscripción, con cupos limita..."
-      },
-      {
-        "title": "Trans-TI: Una empresa de IT que solamente emplea personas trans",
-        "speaker": "Trans-Ti",
-        "desc": "En esta charla contamos sobre la experiencia de Trans-TI, una empresa que trabaja al revés, ve las h..."
-      },
-      {
-        "title": "uWSGI y Gunicorn - Cuando elegir uno o otro",
-        "speaker": "Tárliton Godoy",
-        "desc": "Presente ejemplos de API web donde uWSGI y Gunicorn se puedan usar mejor.\n- uWSGI\r\n  - Modos: nginx ..."
-      },
-      {
-        "title": "Viaje al centro de Django",
-        "speaker": "Agustín Scaramuzza",
-        "desc": "¿Qué hace que Django sea tan poderoso? En esta charla examinaremos las funcionalidades de Python que..."
-      },
-      {
-        "title": "Visor Ambiental. Herramienta para integrar datos científicos en intervención territorial sostenible.",
-        "speaker": "Marcos Vaira, Ariel Silvio Norberto Ramos.",
-        "desc": "Gran cantidad de datos científicos son de difícil acceso y se pasan por alto. Desarrollos en tecnolo..."
-      },
-      {
-        "title": "Workshop LEGO Education®: Creatividad, Innovación y Robótica Educativa",
-        "speaker": "Equipo Pedagógico De Educación Tecnológica",
-        "desc": "Desarrollo de habilidades y competencias en los estudiantes del siglo XXI mediante proyectos STEM (S..."
-      },
-      {
-        "title": "μwsgi en producción: los defaults estan mal.",
-        "speaker": "Mariano \"Nassty\" García Berrotarán",
-        "desc": "En varios de los equipos que participé, elegimos μwsgi como tecnología para servir nuestras aplicaci..."
-      }
+        {
+            "title": "Airflow para Data Scientists",
+            "speaker": "Ignacio Javier Mermet",
+            "desc": "Data Scientists: amantes de los notebooks, en eterna enemistad con los entornos productivos. Pero ha...",
+            "video": "https://www.youtube.com/watch?v=GcdNZB-JxFI"
+        },
+        {
+            "title": "Análisis Exploratorio de Datos com Python",
+            "speaker": "João André",
+            "desc": "Una charla  que muestra cómo usar Python para procesar datos y extraer información para la toma de d...",
+            "video": "https://www.youtube.com/watch?v=oQAI0UXr7rk"
+        },
+        {
+            "title": "Aprendiendo CURSES y BLESSINGS para Terminal Scripting",
+            "speaker": "Martín Nieva",
+            "desc": "En la charla voy a enseñarles las dos librerías blessings y curses, ambas usadas para el mismo fin: ...",
+            "video": "https://www.youtube.com/watch?v=cy8jvp6YHOc"
+        },
+        {
+            "title": "Astrofotografía pythónica con scikit-image y rawpy",
+            "speaker": "Claudio Freire",
+            "desc": "Python tiene abundantes herramientas para astronomía y astrofotografía. Al que le interesa el tema, ...",
+            "video": "https://www.youtube.com/watch?v=AKooB724Wug"
+        },
+        {
+            "title": "Buenas prácticas para lograr que el trabajo en Jupyter notebooks sea reproducible",
+            "speaker": "Diego Piloni",
+            "desc": "Una charla en la que intentaré mostrar buenas prácticas aplicadas en el día a día de mi trabajo para...",
+            "video": "https://www.youtube.com/watch?v=ZOy32az2WLE"
+        },
+        {
+            "title": "Caer con estilo: El modelo Buzz Lightyear de desarrollo de software",
+            "speaker": "Roberto Alsina",
+            "desc": "Programar es una actividad peculiar en la que uno intenta hacer cosas que no sabe cómo se hacen. Si ...",
+            "video": "https://www.youtube.com/watch?v=vBOKLCDAXQg"
+        },
+        {
+            "title": "Celular, un testigo posible y silencioso",
+            "speaker": "María Andrea Vignau",
+            "desc": "Describiré las técnicas usadas para identificar al asesino de una mujer a partir del análisis y deco...",
+            "video": "https://www.youtube.com/watch?v=q2TKsFmlY4c"
+        },
+        {
+            "title": "CertMailer - Automatizar envío de certificados",
+            "speaker": "María Andrea Vignau",
+            "desc": "Terminan los eventos y muchos quieren un certificado de asistencia. \r\nUn detalle más para mantener e...",
+            "video": "https://www.youtube.com/watch?v=WE_EqJAjPAE"
+        },
+        {
+            "title": "Cierre del III Concurso de Bioinformática para Escuelas Secundarias",
+            "speaker": "Cierre Del Iii Concurso De Bioinformática Para Escuelas Secundarias",
+            "desc": "Cierre del III Concurso de Bioinformática para Escuelas Secundarias\nEste año la PyCon es sede del ci...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "¿Cómo funcionan los Widgets de Jupyter?",
+            "speaker": "Augusto ( Sasha ) Kielbowicz",
+            "desc": "Una de las características más importantes del ecosistema de Jupyter es la posibilidad que tiene el ...",
+            "video": "https://www.youtube.com/watch?v=qqLrHzNaD28"
+        },
+        {
+            "title": "Conectando microservicios con Python",
+            "speaker": "Rodolfo E. Edelmann",
+            "desc": "En esta charla presentamos las distintas pruebas y los resultados de comunicar cientos de microservi...",
+            "video": "https://www.youtube.com/watch?v=lITNAI_u9LE"
+        },
+        {
+            "title": "Configuration-friendly apps.",
+            "speaker": "Hernan Lozano",
+            "desc": "La configuración es solo otra API de una aplicación, dirigida a usuarios que la instalarán y ejecuta...",
+            "video": "https://www.youtube.com/watch?v=YciVleW7mzk"
+        },
+        {
+            "title": "Conociendo las baterías de Python",
+            "speaker": "Martín Alderete",
+            "desc": "La idea de la charla es mostrar \"las baterías de Python\", es decir, conocer los módulos de la librer...",
+            "video": "https://www.youtube.com/watch?v=LvPcY7MNpUk"
+        },
+        {
+            "title": "¡Construyamos juntos! Cómo y por qué tener un PyPi interno en tu organización.",
+            "speaker": "Sofía Denner",
+            "desc": "Con un PyPi interno es fácil construir herramientas de forma colaborativa. En este espacio vamos a c...",
+            "video": "https://www.youtube.com/watch?v=7aFOerl1b1o"
+        },
+        {
+            "title": "¡Contribuir al Software Libre es la tarea!",
+            "speaker": "Luciano Rossi",
+            "desc": "Como desarrolladores de software, no debemos de quedarnos únicamente en el uso de las herramientas l...",
+            "video": "https://www.youtube.com/watch?v=pOhd1GQ-8Po"
+        },
+        {
+            "title": "Creación y deployment de aplicaciones web para visualización de datos georeferenciados",
+            "speaker": "Ramiro Caro",
+            "desc": "El objetivo del tutorial es la creación de una aplicación web usando Dash, en donde podamos mostrar ...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "Creating Microservices with Django Rest Framework",
+            "speaker": "Alexandre Rosa",
+            "desc": "The whole idea is present to the audience how it's easy to create a microservice with Django Rest Fr...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "Cultura Constructiva y visión tecnológica",
+            "speaker": "Carlos Matías De La Torre (A.K.A. Litox) Y Javier Mansilla",
+            "desc": "¿Qué aspectos hay que mirar para evaluar la “salud tecnológica” de mi proyecto?\r\n¿Qué cosas son más ...",
+            "video": "https://www.youtube.com/watch?v=GXxA59Bq32A"
+        },
+        {
+            "title": "Data-science a escala, con Python, en Mercadolibre",
+            "speaker": "Carlos Matías De La Torre (A.K.A. Litox)",
+            "desc": "El foco de la charla está en las diferencias entre el desarrollo de un prototipo o POC de machine-le...",
+            "video": "https://www.youtube.com/watch?v=Wgdy57Qn2rM"
+        },
+        {
+            "title": "Desmitificando python: típicas preguntas del primer tiempo",
+            "speaker": "Juan Pedro Fisanotti",
+            "desc": "Los parámetros se pasan por valor o referencia? Las variables tienen tipo? Es python compilado, inte...",
+            "video": "https://www.youtube.com/watch?v=_oNiQJTL97A"
+        },
+        {
+            "title": "El bug invisible",
+            "speaker": "Yonatan Romero",
+            "desc": "La arquitectura de nuestro sistema va a definir su futuro  ¡Por sistemas con una vida prospera!\nEn l...",
+            "video": "https://www.youtube.com/watch?v=j7Ce0kG-wwc"
+        },
+        {
+            "title": "El desafío de ENSEÑAR PYTHON a nivel universitario",
+            "speaker": "Lic. Felipe Morales",
+            "desc": "Enseñanza de programación Python a alumnos informáticos y no informáticos.\nLa enseñanza de programac...",
+            "video": "https://www.youtube.com/watch?v=VoL6n2uoD4E"
+        },
+        {
+            "title": "El onboarding es invisible a los ojos",
+            "speaker": "Mati Barriento",
+            "desc": "Ingresar una nueva persona al equipo es y debe tomarse como un momento importante tanto para quien i...",
+            "video": "https://www.youtube.com/watch?v=iWx4Z7G953g"
+        },
+        {
+            "title": "Enseñar programación y robótica sin morir en el intento",
+            "speaker": "Romina Fairbairn",
+            "desc": "¿Cómo no enseñar programación y Robótica? ¿Por qué promover la enseñanza en los más chicos? Mitos y ...",
+            "video": "https://www.youtube.com/watch?v=bypC3L21jeI"
+        },
+        {
+            "title": "Entendiendo asyncio sin usar asyncio",
+            "speaker": "Juan Pedro Fisanotti",
+            "desc": "Tratando de entender asyncio con cero conocimientos previos de asincronismo.\nAsyncio nos permite pro...",
+            "video": "https://www.youtube.com/watch?v=u_NDCBdHhzc"
+        },
+        {
+            "title": "En un mundo de unos y ceros,  vamos por la diversidad",
+            "speaker": "Las De Sistemas",
+            "desc": "Inclusión, visibilidad y espacios seguros para mujeres e identidades diversas dentro del mundo IT.\nI...",
+            "video": "https://www.youtube.com/watch?v=PM6Zo9Q1ZJM"
+        },
+        {
+            "title": "Fuzz & Property Based Testing",
+            "speaker": "Pablo Fernandez",
+            "desc": "Introducción al origen de fuzz testing a través de los papers de Miller.\r\n\r\nLuego, la diferencia ent...",
+            "video": "https://www.youtube.com/watch?v=5Z8w6b6Dlvk"
+        },
+        {
+            "title": "Grafos temporales sobre NetworkX",
+            "speaker": "Leonardo Morales",
+            "desc": "El presente trabajo busca mostrar una capa de software construida utilizando el paquete networkX que...",
+            "video": "https://www.youtube.com/watch?v=aFthpWpWmuU"
+        },
+        {
+            "title": "High Perfomance Pandas: Leveraging the power of pandas data manipulation.",
+            "speaker": "Luis David Camacho",
+            "desc": "Pandas is an standard data handling library commonly misused, however, this powerful library include...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "Ignis, una herramienta computacional para la educación, la ciencia y la innovación",
+            "speaker": "Gonzalo Quiroga",
+            "desc": "Charla de presentación de Ignis, un software de cálculo simbólico desarrolaldo en Python y C++ que t...",
+            "video": "https://www.youtube.com/watch?v=wYJkKxailPE"
+        },
+        {
+            "title": "Introducción a Python y Pandas para usuarios de Excel",
+            "speaker": "Fernando González Prada",
+            "desc": "La idea es mostrarle a los usuarios de Excel, como utilizar Python y Pandas como complemento para su...",
+            "video": "https://www.youtube.com/watch?v=vHUfBtoCZjQ"
+        },
+        {
+            "title": "Introduccion a TDD: Uso luego implemento",
+            "speaker": "Matias Pereira",
+            "desc": "Entendiendo TDD y como nos simplifica el desarrollo de cualquier proyecto pensando en el uso y no en...",
+            "video": "https://www.youtube.com/watch?v=vHUfBtoCZjQ"
+        },
+        {
+            "title": "Keynote: Martín Sarsale",
+            "speaker": "Martin Sarsale",
+            "desc": "Keynote - Martin Sarsale\nKeynote - Martin Sarsale...",
+            "video": "https://www.youtube.com/watch?v=i3WOyAXp4KU"
+        },
+        {
+            "title": "Levantar una aplicación Django productiva de cero",
+            "speaker": "Dylan Gustavo Alvarez Avalos",
+            "desc": "En devartis elaboramos un repositorio template con todos los pasos necesarios para el setup de una a...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "LinuxChix: Open source minds",
+            "speaker": "Gessica Paniagua",
+            "desc": "LinuxChix Argentina comenzó a mediados del 2014 de la mano de un grupo de usuarios de Linux con dife...",
+            "video": "https://www.youtube.com/watch?v=z4_uCnjbOQA"
+        },
+        {
+            "title": "Live Typing - Anotación automática de tipos para lenguajes dinámicos",
+            "speaker": "Hernan Wilkinson",
+            "desc": "Los lenguajes dinámicamente tipados adolecen de información de tipos lo cual dificulta la implementa...",
+            "video": "https://www.youtube.com/watch?v=Mm64fpPZ2wc"
+        },
+        {
+            "title": "Lo que nadie te dijo de migrar a Python 3",
+            "speaker": "Matias Lang, Eric Horvat",
+            "desc": "Resumen: Trabajamos sobre un proyecto de 6 años, y tuvimos que migrarlo a Python 3. Que puede malir ...",
+            "video": "https://www.youtube.com/watch?v=Qmvo_eNVf60"
+        },
+        {
+            "title": "Los desafíos de formar a la nueva generación de chicas líderes en tecnología",
+            "speaker": "Chicas En Tecnología",
+            "desc": "Datos sobre la brecha de género en Argentina y qué estamos haciendo desde Chcias en Tecnologia junto...",
+            "video": "https://www.youtube.com/watch?v=_uZKkwBSBcw"
+        },
+        {
+            "title": "Machine Learning y grafos",
+            "speaker": "Federico Albanese, Leandro Lombardi",
+            "desc": "La charla tiene como objetivo hacer una introducción sobre el tema del aprendizaje automático y most...",
+            "video": "https://www.youtube.com/watch?v=5rIQkEy6gVA"
+        },
+        {
+            "title": "Message in a BOT-tle",
+            "speaker": "Mauricio Ghiorzi",
+            "desc": "Aumentar la productividad laboral, generar ingresos por publicidad o simplemente para pasar el rato....",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "Modernizando la clase de Simulación con Python (¿Cómo aprendí Python para dar clases de Simulación?)",
+            "speaker": "Pablo Akerman",
+            "desc": "Se contará la experiencia de actualización de la materia Simulación (Carrera Terciario Analisita de ...",
+            "video": "https://www.youtube.com/watch?v=e2iPu0xVcKM"
+        },
+        {
+            "title": "no podemos innovar si seguimos realizando tareas manuales",
+            "speaker": "Osiris Gómez, Cristian G. Segarra",
+            "desc": "Ansible es la herramienta que permite fácilmente automatizar todas las tareas de administración, con...",
+            "video": "https://www.youtube.com/watch?v=f93KQ0cAbxI"
+        },
+        {
+            "title": "Objetos en Python de 0 a 99,9",
+            "speaker": "Matias Pereira",
+            "desc": "En la charla hablaremos sobre la programación orientada a objetos, como usarla en Python y como los ...",
+            "video": "https://www.youtube.com/watch?v=6gb0Q8zHWIc"
+        },
+        {
+            "title": "PEPificate: 10 PEPs a los que deberías prestarles atención",
+            "speaker": "Juan Manuel Santos",
+            "desc": "Leer documentos de estándares es una tarea dura. Pero como en otros campos, los estándares en Python...",
+            "video": "https://www.youtube.com/watch?v=f0FnTKth6C0"
+        },
+        {
+            "title": "Pipeline Jungles: Es una selva ahí fuera",
+            "speaker": "Axel Sirota",
+            "desc": "Alguna vez deployaste un modelo de ML a producción? Y 20 en simultáneo? En esta charla vamos a habla...",
+            "video": "https://www.youtube.com/watch?v=mP1CU_xToIg"
+        },
+        {
+            "title": "Procesing big data with Vaex, dataframes and no clusters",
+            "speaker": "Marco Carranza",
+            "desc": "Data is getting bigger and bigger, making it almost impossible to processed it in desktop machines w...",
+            "video": "https://www.youtube.com/watch?v=RaOYg6bA9z4"
+        },
+        {
+            "title": "Python en Debian: desde la visión de un novato.",
+            "speaker": "Arias Emmanuel",
+            "desc": "Empaquetado de proyectos Python para Debian. Un paseo rápido sobre cómo empezar a contribuir en Debi...",
+            "video": "https://www.youtube.com/watch?v=GGFpOMMCJpk"
+        },
+        {
+            "title": "Python para Contadores y Administrativos",
+            "speaker": "Gustavo Mena",
+            "desc": "El objetivo es mostrar herramientas prácticas de cómo los Contadores y personal administrativo puede...",
+            "video": "https://www.youtube.com/watch?v=9sTvnxAgdPg"
+        },
+        {
+            "title": "Qué es y qué hacemos WWCode - Nuestros primeros 6 meses de gestión",
+            "speaker": "Silvia Daniela Belvedere",
+            "desc": "El objetivo de la charla es dar a conocer nuestra comunidad global, su mision y visión, en qué princ...",
+            "video": "https://www.youtube.com/watch?v=z5gyjWjOeig"
+        },
+        {
+            "title": "¿Qué tienen en común un código QR, un peluche, los Kanjis e ir a la casa de Damián?",
+            "speaker": "Franco Bulgarelli, Gustavo Trucco",
+            "desc": "El Pensamiento Computacional, a pesar de su nombre, es una habilidad humana que cada vez cobra más r...",
+            "video": "https://www.youtube.com/watch?v=wMwgKXc2npo"
+        },
+        {
+            "title": "Resolviendo la tarea con Jupyter",
+            "speaker": "Augusto ( Sasha ) Kielbowicz",
+            "desc": "Es claro que la tecnología es algo que está inmerso en la vida cotidiana. Y además cada vez es más a...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "RTB en Jampp: Arquitectura, optimizaciones y otras yerbas",
+            "speaker": "Luciano Lo Giudice",
+            "desc": "Cómo aprovechar la flexibilidad y el dinamismo de Python y transformarlo en una herramienta performa...",
+            "video": "https://www.youtube.com/watch?v=B8Gq3dNNONU"
+        },
+        {
+            "title": "Serpientes y Roedores",
+            "speaker": "Ricardo Kirkner",
+            "desc": "Se verán algunos aspectos y prácticas comunes de Go y cómo pueden ser aplicadas en Python para mejor...",
+            "video": "https://www.youtube.com/watch?v=NoIRA5WBOlI"
+        },
+        {
+            "title": "Taller de Programacion para LGTBIQ y Mujeres",
+            "speaker": "Taller De Programacion Para Lgtbiq Y Mujeres",
+            "desc": "Taller de Programacion para LGTBIQ y Mujeres\nPara participar se quiere inscripción, con cupos limita...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "Trans-TI: Una empresa de IT que solamente emplea personas trans",
+            "speaker": "Trans-Ti",
+            "desc": "En esta charla contamos sobre la experiencia de Trans-TI, una empresa que trabaja al revés, ve las h...",
+            "video": "https://www.youtube.com/watch?v=zKDnCzlO5qg"
+        },
+        {
+            "title": "uWSGI y Gunicorn - Cuando elegir uno o otro",
+            "speaker": "Tárliton Godoy",
+            "desc": "Presente ejemplos de API web donde uWSGI y Gunicorn se puedan usar mejor.\n- uWSGI\r\n  - Modos: nginx ...",
+            "video": "https://www.youtube.com/watch?v=-QOuTR7g0hY"
+        },
+        {
+            "title": "Viaje al centro de Django",
+            "speaker": "Agustín Scaramuzza",
+            "desc": "¿Qué hace que Django sea tan poderoso? En esta charla examinaremos las funcionalidades de Python que...",
+            "video": "https://www.youtube.com/watch?v=pXVsoNoHQ9g"
+        },
+        {
+            "title": "Visor Ambiental. Herramienta para integrar datos científicos en intervención territorial sostenible.",
+            "speaker": "Marcos Vaira, Ariel Silvio Norberto Ramos.",
+            "desc": "Gran cantidad de datos científicos son de difícil acceso y se pasan por alto. Desarrollos en tecnolo...",
+            "video": "https://www.youtube.com/watch?v=3_VJascDAns"
+        },
+        {
+            "title": "Workshop LEGO Education®: Creatividad, Innovación y Robótica Educativa",
+            "speaker": "Equipo Pedagógico De Educación Tecnológica",
+            "desc": "Desarrollo de habilidades y competencias en los estudiantes del siglo XXI mediante proyectos STEM (S...",
+            "video": "No hay video para esta charla :("
+        },
+        {
+            "title": "μwsgi en producción: los defaults estan mal.",
+            "speaker": "Mariano \"Nassty\" García Berrotarán",
+            "desc": "En varios de los equipos que participé, elegimos μwsgi como tecnología para servir nuestras aplicaci...",
+            "video": "https://www.youtube.com/watch?v=B-8ndakL6i4"
+        }
     ],
     "2020": [
-      {
-        "bio": "Matematico, Machine Learning Engineer por vocacion e infra lover. Actualmente tratando de estimar eventos en Jampp.",
-        "desc": "Vamos a aprender a hacer pipelines en Airflow, como testearlos para que estemos confiades de nuestros cambios y vamos a deployarlos en Kubernetes para poder escalar Airflow tanto como se necesite. \nMate incluide.",
-        "speaker": "Axel Sirota",
-        "title": "Airflow en Kubernetes: Escalando al mas alla!"
-      },
-      {
-        "bio": "FOSS Entusiasta",
-        "desc": "En esta presentación se dará a conocer al proyecto python-docs-es, se mostrará lo facil que es contribuir en la traducción de la documentación de Python",
-        "speaker": "Emmanuel Arias",
-        "title": "Únete a traducir la documentación de Python"
-      },
-      {
-        "bio": "Docente de la materia Seminario de Python, Facultad de Informática. Me gusta andar en moto, volar en aladelta y bailar",
-        "desc": "Un taller mostrando el analisis de datos usando Jupyter Notebook, Panda, MatploLib. Como depurar datos y generar gráficos.",
-        "speaker": "Sofía Martin",
-        "title": "Análisis de datos con Panda"
-      },
-      {
-        "bio": "Soy entusiasta de Security-as-Code, la música y el motocilismo de aventura. Trabajo como DevSecOps Engineer en Baite Consulting Services y colaboro con la comunidad difundiendo la práctica DevSecOps a través del canal DevSecOps Community Hub (@ar_devsecops).",
-        "desc": "Abordaremos un enfoque práctico para la gestión de vulnerabilidades en entornos de entrega e integración continua, a través de AppSec pipelines, tools para staging de hallazgos y escalamiento",
-        "speaker": "Agustin Celano",
-        "title": "AppSec Vulnerability Management Pipelines"
-      },
-      {
-        "bio": "🐍 Python Dev who loves to automate the boring stuff",
-        "desc": "GraphQL es un nuevo paradigma a la hora de diseñar nuestras APIs.\nVamos a hablar sobre cómo podemos programar una API Pythonica mediante GraphQL que todos nuestros clientes amen consumir",
-        "speaker": "Nahuel Ambrosini",
-        "title": "Pythonic APIs con GraphQL"
-      },
-      {
-        "bio": "Hola! Soy santiago, un ingeniero de software, trabajo hace mas de 8 años con python y javascript, mantengo algunos proyectos open source y contribuyo en otros de vez en cuando. Actualmente vivo en Amsterdam, Paises Bajos.",
-        "desc": "Automatizaremos una release de un paquete open source en python, veremos como este proceso puede simplificar la vida de un maintainer.",
-        "speaker": "Santiago E Fraire W",
-        "title": "Automatizando releases con commitizen y github actions"
-      },
-      {
-        "bio": "Nací en Bogotá, Colombia. Tengo 23 años y estudié Ingeniería de Sistemas, amo la tecnología y la educación, en mis ratos libres hago lettering y disfruto de compartir mi conocimiento con otros. Mi comida favorita es la Bandeja Paisa y",
-        "desc": "Únete a esta charla si quieres aprender sobre Behavior Driven Development, una técnica\nque permite entender de forma clara el comportamiento que esperan ver los usuarios en\nel software, escribiendo casos de prueba en lenguaje natural que no programadores\npuedan leer y entender. Aprenderás por qué esta técnica hace ágiles los proyectos y\nmantiene en armonía a los equipos de desarrollo y los stakeholders del negocio, además\nde cómo implementar BDD en Python con ayuda de Behave.",
-        "speaker": "María Camila Guerrero Giraldo",
-        "title": "\"Behave\" para entender al usuario"
-      },
-      {
-        "bio": "Representamos a MetaDocencia, una comunidad inclusiva y colaborativa que mejora la educación potenciando a docentes de países menos favorecidos. Somos una organización sin fines de lucro que nutre una comunidad docente hispanohablante enseñando métodos educativos concretos, basados en evidencia y centrados en tus estudiantes. Desarrollamos colaborativamente recursos abiertos, reutilizables y accesibles para fomentar prácticas de enseñanza eficaces.",
-        "desc": "\"Buenas prácticas para enseñar programación online\" es una charla destinada a introducir buenas prácticas basadas en evidencia para el diseño de materiales, la gestión del aula y la accesibilidad.",
-        "speaker": "Patricia Loto, Nicolás Palopoli, Mariela Rajngewerc,",
-        "title": "Buenas prácticas para enseñar programación online"
-      },
-      {
-        "bio": "Mi gusto por la computación, matemática y educación me ha llevado a la empresa u-planner, donde actualmente dirijo la gerencia de Data Science. He participado en proyectos de ingeniería y de software con una fuerte componente de matemáticas aplicadas e implementaciones numéricas. He dictado asignaturas de Matemática e Informática en UTFSM, y en cursos en línea en Thinkful.com, con especial énfasis en la utilización de nuevas metodologías de aprendizaje como flipped classroom y problem based learning, y el uso de nuevas tecnologías como jupyter notebooks. Programando en python desde el 2008, y siempre buscando nuevas librerías: todavía prefiero matplotlib para los gráficos, pero pandas para la manipulación de datos, y por supuesto, jupyter notebooks para la colaboración y exploración.",
-        "desc": "¿Cuál es la mejor manera para compartir un código, de manera que sea fácil de instalar, reproducible y fácilmente actualizable? En el desarrollo de la librería pypsdier (simulación numérica de ecuaciones de reacción difusión para catalizadores en medio poroso) hemos enfrentado estos desafíos y desarrollado una metodología que nos ha permitido iterar rápidamente y entregar “Coding as a Service” con facilidades tanto para el desarrollador como el usuario final.",
-        "speaker": "Sebastian Flores Benner",
-        "title": "Coding as a Service: librería pypsdier, aprendizajes y metodología"
-      },
-      {
-        "bio": "Especialista en telecomunicaciones y entusiasta de la programación. Amante de la automatización y las nuevas tecnologías. Desde hace algunos años trabajo como DevNetOps desarrollando soluciones para el despliegue y mantenimiento de infraestructura.",
-        "desc": "Las redes definidas por software (SDN) vienen a cambiar la forma en la que pensamos como las aplicaciones se vinculan con las redes sobre las que funcionan. En esta charla intentaré dar una breve introducción a la arquitectura y protocolos propuestos por SDN y como desarrollar nuevas funcionalidades  de red usando un framework/controlador hecho en Python.",
-        "speaker": "Joaquin Gonzalez",
-        "title": "Como desarrollar un switch de capa 2 sobre un controlador SDN con Ryu framework"
-      },
-      {
-        "bio": "Sasha es un desarrollador de software amateur y autodidacta. Es aficionado por resolver problemas y obsesivo por encontrar soluciones sencillas. Hábitos que obtuvo durante su formación académica en la Facultad de Ciencias Exactas. Además tiene dejos de divulgador científico y cuando puede da charlas en meetups, colegios y otros eventos. Actualmente se desempeña como Quant Developer programando en C#.",
-        "desc": "Los Decoradores:\n\nEp.1 El origen de una solución\nEp.2 El problema en la serpiente\nEp.3 Cuatro porciones para llevar\nEp.4 El recambio de yerba",
-        "speaker": "Augusto `Sasha` Kielbowicz",
-        "title": "Conozco un grupo de objetos que resuelven problemas"
-      },
-      {
-        "bio": "Descubrí Python en el año 2013, empecé a trabajar con el lenguaje en el 2015 y no miré atrás. Soy participante activo de varias comunidades de software (si es libre mejor aún!), no solo de Python. Actualmente trabajo en InvGate.",
-        "desc": "Se explicarán los conceptos más característicos del lenguaje C comparándolo con conceptos iguales o similares presentes en el lenguaje Python, con el objetivo de facilitar su aprendizaje.",
-        "speaker": "Agustín Scaramuzza",
-        "title": "C para Pythonistas"
-      },
-      {
-        "bio": "Emprendedor, entusiasta y apasionado por el software libre. \nFundador de bitson, co-fundador de la Asociación Civil de Python Argentina. Actualmente trabajando en mejorar el ecosistema Python dentro de Mercado Libre.",
-        "desc": "Breve introducción al uso de Dataclasses de Python 3.7. Qué son, para qué sirve y por qué está bueno usarlas.",
-        "speaker": "Leandro E. Colombo Viña (Aka @Lecovi)",
-        "title": "Dataclasses to rule 'em all"
-      },
-      {
-        "bio": "Licenciado en Ciencias Biológicas de la UBA con especialización en bioinformática y biología molecular. Actualmente realizando el doctorado en el instituto Max Planck de psiquiatría en Múnich, desarrollando software para el análisis de series temporales extraídas de videos de animales moviéndose libremente en espacios abiertos. Miembro de la International Max Planck Research School of Translational Psychiatry (IMPRS-TP) y de la Machine Learning Frontiers in Precision Medicine International Training Network (links en información adicional).",
-        "desc": "El análisis de videos de animales comportándose libremente (así como la comparación de videos correspondientes a distintas condiciones) es crucial para la investigación en psiquiatría, ya que permite estudiar las consecuencias en el comportamiento de distintos estímulos. Este tipo de  estudios se ha visto facilitado durante los últimos años gracias a avances en computer vision y deep learning. Esta charla introduce deepof, una suite de herramientas para postprocessing de series temporales extraídas de video implementada en python y tensorflow 2.0. La disertación se enfoca tanto en los algoritmos como en la importancia de las DevOps en ciencia.",
-        "speaker": "Lucas Miranda",
-        "title": "DeepOF: un paquete para el análisis de series temporales de animales en libre movimiento"
-      },
-      {
-        "bio": "Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.\nDoy clases en varias materias de Ingeniería en Sistemas (usando bastante Python para ello también), me entusiasma el software libre, y me gustan mucho las espadas.",
-        "desc": "Django es la herramienta más usada hoy en día para hacer desarrollo web en Python, en gran medida gracias a lo poderoso que es, pero también a lo sencillo que es comenzar a utilizarlo, como veremos en esta charla.",
-        "speaker": "Juan Pedro Fisanotti",
-        "title": "Desarrollo web con Python: introducción a Django"
-      },
-      {
-        "bio": "Analista Programador Universitario por la Universidad Nacional de La Plata (UNLP), actualmente ejerciendo como Full Stack Developer en Devsar, trabajando diariamente con Python y Django como stack principal.\nCuando no estoy programando, es posible que me encuentren recorriendo las aulas como Ayudante Docente en las cátedras Ingeniería de Software I y II, ambas propias de la Facultad de Informática, UNLP.",
-        "desc": "En esta charla presentaremos a REST como uno de los estilos de arquitectura de APIs dominantes en la actualidad.\nVamos a introducir los componentes básicos presentes en el estilo de arquitectura, entendiendo cómo se relacionan y qué restricciones se deben aplicar a los mismos para que se ajusten a los estándares RESTful.",
-        "speaker": "Mariano Martinelli",
-        "title": "Diseño de RESTful Web APIs"
-      },
-      {
-        "bio": "Sysadmin en BBVA, un sysadmin que se la da de programador.",
-        "desc": "Un breve recorrido sobre la integración de ES en nuestro código para optimizar tu search, find o get.",
-        "speaker": "Ignacio Nicolás Feijoo",
-        "title": "Elasticsearch no reemplaza a Mysql/Psql, pero cómo ayuda!"
-      },
-      {
-        "bio": "Ing. en Informática, programo en python e investigo temas de informática forense desde hace más de 10 años.",
-        "desc": "O cómo leer un filesystem solamente con python y su librería estándar",
-        "speaker": "Bruno Constanzo",
-        "title": "Filesystems a los bytes, con python"
-      },
-      {
-        "bio": "Ingeniero de datos en Mutt Data. Analista de sistemas de Ort. Intento de youtuber",
-        "desc": "Cuando hablamos de validaciones lo primero que pensamos es en el código, unit test, integration tests, etc. Pero ¿Quién mira a los datos?  Great Expectations!",
-        "speaker": "Eric Rishmüller",
-        "title": "Great Expectations: Validar data pipelines como un profesional"
-      },
-      {
-        "bio": "Ingeniero en sistemas de la Universidad Tecnológica Nacional. Ayudante de cátedra en la UTN durante 4 años. Desarrollador en Python.",
-        "desc": "Fácilmente identificables por sus “dunders” o “double underscores”, los Magic Methods son métodos especiales que permiten definir el comportamiento de un objeto ante los operadores provistos por Python y ante determinadas circunstancias. En esta charla veremos cómo se utilizan, cuáles son sus ventajas y qué aplicaciones prácticas pueden tener.",
-        "speaker": "Rodrigo Cetera, Lucas Esposito",
-        "title": "Houdini un poroto... Python Magic Methods!"
-      },
-      {
-        "bio": "Mi carrera profesional como desarrollador comenzó hace 5 años, luego de recibirme de Técnico Electrónico. Durante este período, estuve relacionado laboralmente a múltiples empresas y tecnologías, capacitándome constantemente en búsqueda de nuevos conocimientos, además de informarme y aprender de las últimas tendencias. He participado en distintos proyectos, desde sitios web hasta aplicaciones y desarrollos IOT e IA.",
-        "desc": "Conectemos todo a Internet. La idea de esta charla es introducirnos al mundo IOT y sobre cómo podríamos iniciar un proyecto con nuestro Raspberry Pi y Python. Adicionalmente, veremos ejemplos caseros de Domótica y Seguridad.",
-        "speaker": "Sebastian Bauer",
-        "title": "Internet of Things con Raspberry PI y Python"
-      },
-      {
-        "bio": "Compañeros de equipo que actualmente se encuentran haciendo cosas entretenidas con Machine Learning y Python en Mercadolibre. Grandes jugadores de Mario Kart después de los almuerzos.",
-        "desc": "Predecir cuándo va a ocurrir un evento determinado se ha vuelto un requerimiento muy común en la industria, donde surgen preguntas del estilo: “¿cuánto tiempo funcionará un equipo hasta que presente una falla?”, “¿En cuanto tiempo un usuario dará de baja su suscripción (churn)?”, “¿Cuánto sobrevivirá un paciente luego de ser diagnosticado con una enfermedad?”. Estas interrogantes pueden ser abordadas con Análisis de Supervivencia. En esta charla estaremos explicando los conceptos relacionados a esta técnica y cómo generar respuestas con Python.",
-        "speaker": "Bruno Marengo, Jesús Golindano, César Morichetti",
-        "title": "Introducción al Análisis de Supervivencia con Python"
-      },
-      {
-        "bio": "Soy estudiante de Ingeniería Mecatrónica en la UNCuyo, Mendoza. Me gusta aprender sobre cómo funcionan las cosas y hacia dónde se dirigen en el futuro. Y últimamente le he estado metiendo ficha a librería OpenCV en Python.",
-        "desc": "un agente racional que aprende, \nno omnisciente, que al entrenarlo aprenda a partir de sus percepciones y le permita ser autónomo \ngracias a la experiencia adquirida.\n\n Se mostrará las 6 etapas básicas de procesamiento de imágenes para ese agente y su correspondiente implementación en Python.",
-        "speaker": "Carlos Bustillo",
-        "title": "Introducción al procesamiento de imágenes con Python"
-      },
-      {
-        "bio": "DevOps Engineer Senior en Onapsis, autodidacta, aprendo (alguito) de cualquier lenguaje cuando quiero automatizar algo.",
-        "desc": "Comenzando con Python 3 y con cada nueva versión desde entonces, el lenguaje ha incorporado diversas herramientas para expresar el tipado de nuestro código mediante type hints. Si bien estos chequeos no se aplican en tiempo de ejecución, aplicaciones que pueden incorporarse en nuestro proceso de integración continua pueden interpretarlos y advertirnos de diferentes problemas.",
-        "speaker": "Andre Delfino",
-        "title": "Introducción a type hints"
-      },
-      {
-        "bio": "Estudiante de Licenciatura en Física y Profesorado en Física, asistente del Taller de Física al alcance de Todos. Docente particular",
-        "desc": "Desarrollo de gráficos animados, con uso de gifs y widgets acompañados con texto científico para explicar la estabilidad atmosferica a estudiantes universitarios en un contexto de carencias de conectividad y equipos, en Salta.",
-        "speaker": "Ignacio Joaquin Arroyo, Veronica Mercedes Javi, Sebastian Ismael Arroyo",
-        "title": "Jupyter Notebook en la enseñanza de física ambiental"
-      },
-      {
-        "bio": "Soy desarrollador de software, y trabajo haciendo software para integraciones y enseñando computación.\nTengo una hermosa familia y con mi esposa criamos a los dos niños más lindos del planeta.\nhttps://cv-nahueltori-api.herokuapp.com/",
-        "desc": "Vamos a crear una API con Python y Flask, mediante la cual podrás mostrar tu currículum vitae al mundo. Después vamos a subir el código a Github, y luego relacionar nuestra cuenta con Heroku, para hacer el deploy y que nuestra API esté publicada al mundo.\nAl finalizar, tendrás un proyecto funcionando y una API que le podrás pasar a tus contactos de RRHH!",
-        "speaker": "Nahuel Tori",
-        "title": "La API de tu currículum vitae"
-      },
-      {
-        "bio": "Somos el equipo de IA de Kunan, una empresa de Tecnología de Córdoba Capital. En nuestra área trabajamos con Rasa desde hace unos años, construyendo asistentes conversacionales virtuales. Tenemos en producción un proyecto de Open Data (asistocovid) que responde preguntas y provee información actualizada sobre las medidas del gobierno Argentino respecto al Coronavirus. La motivación detrás es hacer más accesible a la gente la información oficial y pública. Parte de este proyecto es proveer y mantener un dataset abierto de estas conversaciones. Con este proyecto además nos involucramos con la Diplomatura en Ciencias de Datos de la FaMAFyC (UNC), donde damos una mentoría que introduce de mantera práctica los problemas de PLN usando este dataset.",
-        "desc": "Qué involucra una conversación humana? Qué desafíos se escanden detrás de la naturalidad del lenguaje natural? Podemos modelar esto más allá de reglas, ifs y elifs? Sí, podemos modelar este problema, y así ayudar a personas a través de asistentes virtuales conversacionales. Esta charla busca introducir las preguntas existenciales detrás de los asistentes virtuales que usan machine learning, para proponer algunas respuestas y construir intuiciones. Se introducirá a Rasa, un framework de Python para esto, que es Software Libre.",
-        "speaker": "Karen Palacio, Florencia Alonso, Brandon Janes. (Kunan Sa)",
-        "title": "Machine learning Libre: modelando conversaciones con Rasa y Python"
-      },
-      {
-        "bio": "Soy un entusiasta de Python desde el 2007 en diferentes roles. Como docente aplicado materias como al area de Sistemas Operativos, Redes y Seguridad y también como desarrollador en aplicaciones web de diverso tipo y proyectos de IoT.\nRecientemente me encuentro como responsable de tecnología de Hello Tractor \nutilizando el lenguaje para mejorar una plataforma que ayuda a la mecanización de pequeños productores.",
-        "desc": "Python tiene un ecosistema muy interesante para el desarrollo de aplicaciones que hacen uso de GIS. También es una excelente herramienta para el análisis de datos y consumo de datos IoT.\nEsta charla intenta introducir la experiencia de trabajar con proyecto de Python consiente en un back-end para aplicaciones móviles y aplicación web y un conjunto de herramientas para facilitar el trabajo de analistas de datos.",
-        "speaker": "Nahuel Defosse",
-        "title": "Mejorando el acceso a la mecanización de pequeños productores arigcolas con Python y GeoDajngo"
-      },
-      {
-        "bio": "Pythonista desde la 2.5. Docente en cuarentena.  El locro no se mancha.",
-        "desc": "El logging es una técnica indispensable en el software productivo, pero hay muchos conceptos y una API confusa que hacen su uso innecesariamente complicado. Entendamoslo... antes del segundo semestre.",
-        "speaker": "Martín Gaitán",
-        "title": "Pasaron cosas: logging efectivo para entender qué sucedió"
-      },
-      {
-        "bio": "Profesor en Informatica, programador desde hace mas de 20 años, pasando por lenguajes como Clipper, Fox y ahora Python.\nDesarrollo de aplicaciones de escritorio con Python + QT + Peewee y web con Python + Django",
-        "desc": "Peewee es un ORM simple y pequeño. Tiene pocos conceptos (pero expresivos), lo que lo hace fácil de aprender e intuitivo de usar.",
-        "speaker": "Jose Oscar Vogel",
-        "title": "Peewee"
-      },
-      {
-        "bio": "Somos dos desarrolladores que nos conocimos en uno de los nuestros trabajos, luego pasamos un tiempo por Devecoop (una cooperativa de desarrollo), y hoy a no trabajamos juntos pero queremos colaborar con la comunidad, especialmente en la tarea de hacer test que entendemos podría ser más amena.",
-        "desc": "Hablar un poco sobre test en gral y lo que uno se encuentra al iniciar en esta practica.\nMostrar algún ejemplo práctico, para pasar por los conceptos principales. Todo orientado a pytest.",
-        "speaker": "Mariano Bianchi, Andrés Ramírez",
-        "title": "¿Por que no se hacen mas tests?"
-      },
-      {
-        "bio": "Alfredo Pardo es Ingeniero en Sistemas de Información (UTN FRC), Arquitecto de Seguridad Cloud en 3XM Group, Profesor de Seguridad y Auditoría Informática (UCC) y Maestrando en Ciberdefensa (UNDEF). Actualmente trabaja en el desarrollo de soluciones de Seguridad Cloud y DevSecOps.",
-        "desc": "La eficiencia de las implementaciones DevSecOps se ve favorecida por la incorporación de Python a las habilidades de Equipos de Seguridad Ágiles",
-        "speaker": "Alfredo Pardo",
-        "title": "Python para DevSecOps"
-      },
-      {
-        "bio": "Pratibha is Sr Python developer looking over the development and maintenance of backend including APIs and internal python packages. Via this talk, she want to share how we can improved our code by removing anti-patterns.",
-        "desc": "This talk is aim to summarize the common Anti-Patterns in Python. It is overwhelming to see so many resources to learn best practices in Python. However it is more scary that there are very few places which will teach you what you should NOT do while coding.",
-        "speaker": "Pratibha Jagnere",
-        "title": "Python worst Practices AKA Anti-Patterns"
-      },
-      {
-        "bio": "SAn has been engineering from his childhood. Lover of software and libre culture, he has been involved in different projects such as Cyclope CMS and Radioteca as part of Código Sur between 2011 and 2013, the RedPanal.org project as main developer, LibreMesh, CDPedia. He worked developing Satellogic\"s fleet of satellites for 6 years.\nHe currently leads the electronics development of the LibreRouter project and participates in its software development as part of AlterMundi. He lives in Buenos Aires, Argentina.",
-        "desc": "SAn compartirá su experiencia desarrollando el software de comunicaciones de un satélite usando Python y CFFI.",
-        "speaker": "Santiago Piccinini",
-        "title": "Python y C un solo corazón"
-      },
-      {
-        "bio": "Soy una persona muy curiosa que descubrió la programación de chico y no pudo parar. Hace un tiempo comencé a indagar en Ciencia de Datos y fue amor a primera vista. Pase por muchos roles en mi carrera lo que me llevó a conocer muchas tecnologías interesantes sobre las que disfruté mucho aprender e indagar. Disfruto mucho de dar clases, fui ayudante alumno en varias cátedras y actualmente soy profesor en la academia DesafioLatam en la ciudad de Cordoba donde dicto cursos de Introducción a Python y Fundamentos de Ciencia de Datos. Actualmente me desempeño como Data Science Analyst Sr en MercadoLibre.",
-        "desc": "Docker es una de las herramientas de mayor crecimiento en los últimos años. Esto se debe a la simplicidad con las que nos permite armar grandes entornos tanto locales como en producción. En esta charla nos centraremos en repasar algunos conceptos básicos para poder crear un entorno de desarrollo simple y confiable, que se parezca lo más posible a nuestro entorno productivo y así evitar sorpresas a la hora de hacer un deploy.",
-        "speaker": "Serafin Fernandez",
-        "title": "Recetas para ser más feliz con Docker."
-      },
-      {
-        "bio": "Guillermo es co-fundador de Lambda Sistemas, empresa creadora de Fierro y RadioCut. Programa en Python desde 2004.\nGabriel trabaja en el área de desarrollo de Fierro, implementando la transición a prácticas DevOps y en la (re)arquitectura de los distintos componentes del sistema.",
-        "desc": "Experiencias de descomposición y/o extracción de funcionalidad en microservicios, como forma de hacer frente a la deuda técnica y la mantenibilidad del código",
-        "speaker": "Guillermo Narvaja, Gabriel Parrondo",
-        "title": "Rompiendo el monolito"
-      },
-      {
-        "bio": "Soy María Andrea Vignau, Ingeniera en Sistemas de Información, trabajo como Perito Informático Oficial en el Gabinete Científico del Ministerio Público Fiscal Poder Judicial de la Provincia del Chaco. Últimamente estoy colaborando con las comunidades de software libre, como socia de Asociación Civil Python Argentina, y coorganizadora del Festival de Instalación de Software Libre, que hacemos en el Centro Cultural Alternativo de Resistencia el 28 de Abril, y del Python Day NEA en el Club de Emprendedores en Corrientes el 19 de mayo, de Meetup Python de Resistencia, disertante por última vez en la NotPinkConf",
-        "desc": "SQLite, disponible desde hace tanto tiempo y tan desconocido. \nEs una base de datos relacional, optimizada para ser pequeñísima, rápida, flexible, para usos individuales, sus grandes bondades, especialmente a la hora de integrarlo a nuestro software en Python y las múltiples posibilidades que da para ser optimizado para los más variados usos, son mayormente desconocidas",
-        "speaker": "María Andrea Vignau",
-        "title": "SQLite, la (des) conocida super hormiga"
-      },
-      {
-        "bio": "Pedro Ferrari actualmente es Co-Founder de Mutt Data donde se dedica a liderar proyectos de Data Science con un enfoque en buenas prácticas de desarrollo de software combinadas con know how de implementación de modelos en producción. Es ademas profesor ayudante de la materia Machine Learning en la Maestría en Analytics de la UTDT y ayudante del Seminario de Tópicos Avanzados de Datos en la Especialización en Ciencia de Datos del ITBA. En su tiempo libre es un acérrimo usuario de Vim y Arch Linux y disfruta enormemente contribuyendo al mundo open source. Desde el lado académico es Licenciado en Economía de la Universidad Torcuato Di Tella (UTDT) y está finalizando su carrera de Actuario en la Universidad de Buenos Aires. Tiene asimismo una Maestría en Economía, también de la UTDT.",
-        "desc": "Poetry es una herramienta para manejo de dependencias y empaquetado de módulos.\nMostraremos, a través de un ejemplo, porque consideramos que es una versión superadora a alternativas preexistentes (como virtualenvs, setuptools y pipenv) y como integrarlo con otras herramientas modernas del ecosistema (como pyenv o pipx).",
-        "speaker": "Pedro Ferrari",
-        "title": "​ Una Apología Poética: Poetry para manejo de dependencias y empaquetado de módulos."
-      },
-      {
-        "bio": "Soy Python Developer, amo codear y tengo la suerte de que me paguen por hacerlo. Actualmente trabajo en Mercado Libre resolviendo la parte técnica de las soluciones de Machine Learning. También me encanta comer (no tanto cocinar) y lo que más extraño de los tiempos pre-pandémicos son los afters.",
-        "desc": "¿Y esto cómo lo testeo? En esta charla quiero abordar algunas dudas típicas al momento de escribir tests. Voy a hablar de de mocks, de patchs, de coverage y va haber una demo de todo esto con pytest en su máximo esplendor.",
-        "speaker": "Sofía Denner",
-        "title": "Unit Testing: Qué testear y cómo testear con pytest."
-      },
-      {
-        "bio": "Hola! Mi nombre es Francisco Yackel, soy de Esperanza, Santa Fe. Actualmente soy desarrollador de software backend y android, trabajando para Mercado Libre. Con el objetivo de seguir aprendiendo día a día, estoy llevando adelante junto a compañeros un proyecto relacionado al machine learning, con el objetivo de resolver un problema de computer vision.",
-        "desc": "Te contamos cómo en unos simples pasos, usando herramientas open source, llevamos a cabo una POC para Mercado Libre. Este experimento se enfoca en mejorar la experiencia de búsqueda de los usuarios.\nQueremos presentarles Visual Search: un proyecto que todavía está en fase \"incubadora\" pero que tiene como objetivo encontrar ítems publicados en el portal parecidos a una imagen o foto que el usuario pueda cargar, basándose en la similitud de imágenes.",
-        "speaker": "Facundo Salmeron, Francisco Yackel, Elbio Zapata, Diego Garcia",
-        "title": "Visual Search, de 0 a POC!"
-      },
-      {
-        "bio": "Curious being with a passion for learning. I like to read, do cool stuff with technology and tell stories with data. I work as a FreeLancer on projects related to data science, software engineering and communication networks. I am a co-founder of an IoT / automation startup where I work and learn from people I admire.",
-        "desc": "Mostraré cómo utilizo Python para descargar datos públicos para posteriormente realizar análisis explorativo y/o auditoria de datos.",
-        "speaker": "Karl Niebuhr",
-        "title": "Engineer"
-      }
+        {
+            "bio": "Matematico, Machine Learning Engineer por vocacion e infra lover. Actualmente tratando de estimar eventos en Jampp.",
+            "desc": "Vamos a aprender a hacer pipelines en Airflow, como testearlos para que estemos confiades de nuestros cambios y vamos a deployarlos en Kubernetes para poder escalar Airflow tanto como se necesite. \nMate incluide.",
+            "speaker": "Axel Sirota",
+            "title": "Airflow en Kubernetes: Escalando al mas alla!",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "FOSS Entusiasta",
+            "desc": "En esta presentación se dará a conocer al proyecto python-docs-es, se mostrará lo facil que es contribuir en la traducción de la documentación de Python",
+            "speaker": "Emmanuel Arias",
+            "title": "Únete a traducir la documentación de Python",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Docente de la materia Seminario de Python, Facultad de Informática. Me gusta andar en moto, volar en aladelta y bailar",
+            "desc": "Un taller mostrando el analisis de datos usando Jupyter Notebook, Panda, MatploLib. Como depurar datos y generar gráficos.",
+            "speaker": "Sofía Martin",
+            "title": "Análisis de datos con Panda",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy entusiasta de Security-as-Code, la música y el motocilismo de aventura. Trabajo como DevSecOps Engineer en Baite Consulting Services y colaboro con la comunidad difundiendo la práctica DevSecOps a través del canal DevSecOps Community Hub (@ar_devsecops).",
+            "desc": "Abordaremos un enfoque práctico para la gestión de vulnerabilidades en entornos de entrega e integración continua, a través de AppSec pipelines, tools para staging de hallazgos y escalamiento",
+            "speaker": "Agustin Celano",
+            "title": "AppSec Vulnerability Management Pipelines",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "🐍 Python Dev who loves to automate the boring stuff",
+            "desc": "GraphQL es un nuevo paradigma a la hora de diseñar nuestras APIs.\nVamos a hablar sobre cómo podemos programar una API Pythonica mediante GraphQL que todos nuestros clientes amen consumir",
+            "speaker": "Nahuel Ambrosini",
+            "title": "Pythonic APIs con GraphQL",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Hola! Soy santiago, un ingeniero de software, trabajo hace mas de 8 años con python y javascript, mantengo algunos proyectos open source y contribuyo en otros de vez en cuando. Actualmente vivo en Amsterdam, Paises Bajos.",
+            "desc": "Automatizaremos una release de un paquete open source en python, veremos como este proceso puede simplificar la vida de un maintainer.",
+            "speaker": "Santiago E Fraire W",
+            "title": "Automatizando releases con commitizen y github actions",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Nací en Bogotá, Colombia. Tengo 23 años y estudié Ingeniería de Sistemas, amo la tecnología y la educación, en mis ratos libres hago lettering y disfruto de compartir mi conocimiento con otros. Mi comida favorita es la Bandeja Paisa y",
+            "desc": "Únete a esta charla si quieres aprender sobre Behavior Driven Development, una técnica\nque permite entender de forma clara el comportamiento que esperan ver los usuarios en\nel software, escribiendo casos de prueba en lenguaje natural que no programadores\npuedan leer y entender. Aprenderás por qué esta técnica hace ágiles los proyectos y\nmantiene en armonía a los equipos de desarrollo y los stakeholders del negocio, además\nde cómo implementar BDD en Python con ayuda de Behave.",
+            "speaker": "María Camila Guerrero Giraldo",
+            "title": "\"Behave\" para entender al usuario",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Representamos a MetaDocencia, una comunidad inclusiva y colaborativa que mejora la educación potenciando a docentes de países menos favorecidos. Somos una organización sin fines de lucro que nutre una comunidad docente hispanohablante enseñando métodos educativos concretos, basados en evidencia y centrados en tus estudiantes. Desarrollamos colaborativamente recursos abiertos, reutilizables y accesibles para fomentar prácticas de enseñanza eficaces.",
+            "desc": "\"Buenas prácticas para enseñar programación online\" es una charla destinada a introducir buenas prácticas basadas en evidencia para el diseño de materiales, la gestión del aula y la accesibilidad.",
+            "speaker": "Patricia Loto, Nicolás Palopoli, Mariela Rajngewerc,",
+            "title": "Buenas prácticas para enseñar programación online",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Mi gusto por la computación, matemática y educación me ha llevado a la empresa u-planner, donde actualmente dirijo la gerencia de Data Science. He participado en proyectos de ingeniería y de software con una fuerte componente de matemáticas aplicadas e implementaciones numéricas. He dictado asignaturas de Matemática e Informática en UTFSM, y en cursos en línea en Thinkful.com, con especial énfasis en la utilización de nuevas metodologías de aprendizaje como flipped classroom y problem based learning, y el uso de nuevas tecnologías como jupyter notebooks. Programando en python desde el 2008, y siempre buscando nuevas librerías: todavía prefiero matplotlib para los gráficos, pero pandas para la manipulación de datos, y por supuesto, jupyter notebooks para la colaboración y exploración.",
+            "desc": "¿Cuál es la mejor manera para compartir un código, de manera que sea fácil de instalar, reproducible y fácilmente actualizable? En el desarrollo de la librería pypsdier (simulación numérica de ecuaciones de reacción difusión para catalizadores en medio poroso) hemos enfrentado estos desafíos y desarrollado una metodología que nos ha permitido iterar rápidamente y entregar “Coding as a Service” con facilidades tanto para el desarrollador como el usuario final.",
+            "speaker": "Sebastian Flores Benner",
+            "title": "Coding as a Service: librería pypsdier, aprendizajes y metodología",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Especialista en telecomunicaciones y entusiasta de la programación. Amante de la automatización y las nuevas tecnologías. Desde hace algunos años trabajo como DevNetOps desarrollando soluciones para el despliegue y mantenimiento de infraestructura.",
+            "desc": "Las redes definidas por software (SDN) vienen a cambiar la forma en la que pensamos como las aplicaciones se vinculan con las redes sobre las que funcionan. En esta charla intentaré dar una breve introducción a la arquitectura y protocolos propuestos por SDN y como desarrollar nuevas funcionalidades  de red usando un framework/controlador hecho en Python.",
+            "speaker": "Joaquin Gonzalez",
+            "title": "Como desarrollar un switch de capa 2 sobre un controlador SDN con Ryu framework",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Sasha es un desarrollador de software amateur y autodidacta. Es aficionado por resolver problemas y obsesivo por encontrar soluciones sencillas. Hábitos que obtuvo durante su formación académica en la Facultad de Ciencias Exactas. Además tiene dejos de divulgador científico y cuando puede da charlas en meetups, colegios y otros eventos. Actualmente se desempeña como Quant Developer programando en C#.",
+            "desc": "Los Decoradores:\n\nEp.1 El origen de una solución\nEp.2 El problema en la serpiente\nEp.3 Cuatro porciones para llevar\nEp.4 El recambio de yerba",
+            "speaker": "Augusto `Sasha` Kielbowicz",
+            "title": "Conozco un grupo de objetos que resuelven problemas",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Descubrí Python en el año 2013, empecé a trabajar con el lenguaje en el 2015 y no miré atrás. Soy participante activo de varias comunidades de software (si es libre mejor aún!), no solo de Python. Actualmente trabajo en InvGate.",
+            "desc": "Se explicarán los conceptos más característicos del lenguaje C comparándolo con conceptos iguales o similares presentes en el lenguaje Python, con el objetivo de facilitar su aprendizaje.",
+            "speaker": "Agustín Scaramuzza",
+            "title": "C para Pythonistas",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Emprendedor, entusiasta y apasionado por el software libre. \nFundador de bitson, co-fundador de la Asociación Civil de Python Argentina. Actualmente trabajando en mejorar el ecosistema Python dentro de Mercado Libre.",
+            "desc": "Breve introducción al uso de Dataclasses de Python 3.7. Qué son, para qué sirve y por qué está bueno usarlas.",
+            "speaker": "Leandro E. Colombo Viña (Aka @Lecovi)",
+            "title": "Dataclasses to rule 'em all",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Licenciado en Ciencias Biológicas de la UBA con especialización en bioinformática y biología molecular. Actualmente realizando el doctorado en el instituto Max Planck de psiquiatría en Múnich, desarrollando software para el análisis de series temporales extraídas de videos de animales moviéndose libremente en espacios abiertos. Miembro de la International Max Planck Research School of Translational Psychiatry (IMPRS-TP) y de la Machine Learning Frontiers in Precision Medicine International Training Network (links en información adicional).",
+            "desc": "El análisis de videos de animales comportándose libremente (así como la comparación de videos correspondientes a distintas condiciones) es crucial para la investigación en psiquiatría, ya que permite estudiar las consecuencias en el comportamiento de distintos estímulos. Este tipo de  estudios se ha visto facilitado durante los últimos años gracias a avances en computer vision y deep learning. Esta charla introduce deepof, una suite de herramientas para postprocessing de series temporales extraídas de video implementada en python y tensorflow 2.0. La disertación se enfoca tanto en los algoritmos como en la importancia de las DevOps en ciencia.",
+            "speaker": "Lucas Miranda",
+            "title": "DeepOF: un paquete para el análisis de series temporales de animales en libre movimiento",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Uso Python para controlar satélites espaciales en Satellogic, y antes de eso trabajé bastante en cosas de Inteligencia Artificial y de desarrollo web, también con Python.\nDoy clases en varias materias de Ingeniería en Sistemas (usando bastante Python para ello también), me entusiasma el software libre, y me gustan mucho las espadas.",
+            "desc": "Django es la herramienta más usada hoy en día para hacer desarrollo web en Python, en gran medida gracias a lo poderoso que es, pero también a lo sencillo que es comenzar a utilizarlo, como veremos en esta charla.",
+            "speaker": "Juan Pedro Fisanotti",
+            "title": "Desarrollo web con Python: introducción a Django",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Analista Programador Universitario por la Universidad Nacional de La Plata (UNLP), actualmente ejerciendo como Full Stack Developer en Devsar, trabajando diariamente con Python y Django como stack principal.\nCuando no estoy programando, es posible que me encuentren recorriendo las aulas como Ayudante Docente en las cátedras Ingeniería de Software I y II, ambas propias de la Facultad de Informática, UNLP.",
+            "desc": "En esta charla presentaremos a REST como uno de los estilos de arquitectura de APIs dominantes en la actualidad.\nVamos a introducir los componentes básicos presentes en el estilo de arquitectura, entendiendo cómo se relacionan y qué restricciones se deben aplicar a los mismos para que se ajusten a los estándares RESTful.",
+            "speaker": "Mariano Martinelli",
+            "title": "Diseño de RESTful Web APIs",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Sysadmin en BBVA, un sysadmin que se la da de programador.",
+            "desc": "Un breve recorrido sobre la integración de ES en nuestro código para optimizar tu search, find o get.",
+            "speaker": "Ignacio Nicolás Feijoo",
+            "title": "Elasticsearch no reemplaza a Mysql/Psql, pero cómo ayuda!",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Ing. en Informática, programo en python e investigo temas de informática forense desde hace más de 10 años.",
+            "desc": "O cómo leer un filesystem solamente con python y su librería estándar",
+            "speaker": "Bruno Constanzo",
+            "title": "Filesystems a los bytes, con python",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Ingeniero de datos en Mutt Data. Analista de sistemas de Ort. Intento de youtuber",
+            "desc": "Cuando hablamos de validaciones lo primero que pensamos es en el código, unit test, integration tests, etc. Pero ¿Quién mira a los datos?  Great Expectations!",
+            "speaker": "Eric Rishmüller",
+            "title": "Great Expectations: Validar data pipelines como un profesional",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Ingeniero en sistemas de la Universidad Tecnológica Nacional. Ayudante de cátedra en la UTN durante 4 años. Desarrollador en Python.",
+            "desc": "Fácilmente identificables por sus “dunders” o “double underscores”, los Magic Methods son métodos especiales que permiten definir el comportamiento de un objeto ante los operadores provistos por Python y ante determinadas circunstancias. En esta charla veremos cómo se utilizan, cuáles son sus ventajas y qué aplicaciones prácticas pueden tener.",
+            "speaker": "Rodrigo Cetera, Lucas Esposito",
+            "title": "Houdini un poroto... Python Magic Methods!",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Mi carrera profesional como desarrollador comenzó hace 5 años, luego de recibirme de Técnico Electrónico. Durante este período, estuve relacionado laboralmente a múltiples empresas y tecnologías, capacitándome constantemente en búsqueda de nuevos conocimientos, además de informarme y aprender de las últimas tendencias. He participado en distintos proyectos, desde sitios web hasta aplicaciones y desarrollos IOT e IA.",
+            "desc": "Conectemos todo a Internet. La idea de esta charla es introducirnos al mundo IOT y sobre cómo podríamos iniciar un proyecto con nuestro Raspberry Pi y Python. Adicionalmente, veremos ejemplos caseros de Domótica y Seguridad.",
+            "speaker": "Sebastian Bauer",
+            "title": "Internet of Things con Raspberry PI y Python",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Compañeros de equipo que actualmente se encuentran haciendo cosas entretenidas con Machine Learning y Python en Mercadolibre. Grandes jugadores de Mario Kart después de los almuerzos.",
+            "desc": "Predecir cuándo va a ocurrir un evento determinado se ha vuelto un requerimiento muy común en la industria, donde surgen preguntas del estilo: “¿cuánto tiempo funcionará un equipo hasta que presente una falla?”, “¿En cuanto tiempo un usuario dará de baja su suscripción (churn)?”, “¿Cuánto sobrevivirá un paciente luego de ser diagnosticado con una enfermedad?”. Estas interrogantes pueden ser abordadas con Análisis de Supervivencia. En esta charla estaremos explicando los conceptos relacionados a esta técnica y cómo generar respuestas con Python.",
+            "speaker": "Bruno Marengo, Jesús Golindano, César Morichetti",
+            "title": "Introducción al Análisis de Supervivencia con Python",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy estudiante de Ingeniería Mecatrónica en la UNCuyo, Mendoza. Me gusta aprender sobre cómo funcionan las cosas y hacia dónde se dirigen en el futuro. Y últimamente le he estado metiendo ficha a librería OpenCV en Python.",
+            "desc": "un agente racional que aprende, \nno omnisciente, que al entrenarlo aprenda a partir de sus percepciones y le permita ser autónomo \ngracias a la experiencia adquirida.\n\n Se mostrará las 6 etapas básicas de procesamiento de imágenes para ese agente y su correspondiente implementación en Python.",
+            "speaker": "Carlos Bustillo",
+            "title": "Introducción al procesamiento de imágenes con Python",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "DevOps Engineer Senior en Onapsis, autodidacta, aprendo (alguito) de cualquier lenguaje cuando quiero automatizar algo.",
+            "desc": "Comenzando con Python 3 y con cada nueva versión desde entonces, el lenguaje ha incorporado diversas herramientas para expresar el tipado de nuestro código mediante type hints. Si bien estos chequeos no se aplican en tiempo de ejecución, aplicaciones que pueden incorporarse en nuestro proceso de integración continua pueden interpretarlos y advertirnos de diferentes problemas.",
+            "speaker": "Andre Delfino",
+            "title": "Introducción a type hints",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Estudiante de Licenciatura en Física y Profesorado en Física, asistente del Taller de Física al alcance de Todos. Docente particular",
+            "desc": "Desarrollo de gráficos animados, con uso de gifs y widgets acompañados con texto científico para explicar la estabilidad atmosferica a estudiantes universitarios en un contexto de carencias de conectividad y equipos, en Salta.",
+            "speaker": "Ignacio Joaquin Arroyo, Veronica Mercedes Javi, Sebastian Ismael Arroyo",
+            "title": "Jupyter Notebook en la enseñanza de física ambiental",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy desarrollador de software, y trabajo haciendo software para integraciones y enseñando computación.\nTengo una hermosa familia y con mi esposa criamos a los dos niños más lindos del planeta.\nhttps://cv-nahueltori-api.herokuapp.com/",
+            "desc": "Vamos a crear una API con Python y Flask, mediante la cual podrás mostrar tu currículum vitae al mundo. Después vamos a subir el código a Github, y luego relacionar nuestra cuenta con Heroku, para hacer el deploy y que nuestra API esté publicada al mundo.\nAl finalizar, tendrás un proyecto funcionando y una API que le podrás pasar a tus contactos de RRHH!",
+            "speaker": "Nahuel Tori",
+            "title": "La API de tu currículum vitae",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Somos el equipo de IA de Kunan, una empresa de Tecnología de Córdoba Capital. En nuestra área trabajamos con Rasa desde hace unos años, construyendo asistentes conversacionales virtuales. Tenemos en producción un proyecto de Open Data (asistocovid) que responde preguntas y provee información actualizada sobre las medidas del gobierno Argentino respecto al Coronavirus. La motivación detrás es hacer más accesible a la gente la información oficial y pública. Parte de este proyecto es proveer y mantener un dataset abierto de estas conversaciones. Con este proyecto además nos involucramos con la Diplomatura en Ciencias de Datos de la FaMAFyC (UNC), donde damos una mentoría que introduce de mantera práctica los problemas de PLN usando este dataset.",
+            "desc": "Qué involucra una conversación humana? Qué desafíos se escanden detrás de la naturalidad del lenguaje natural? Podemos modelar esto más allá de reglas, ifs y elifs? Sí, podemos modelar este problema, y así ayudar a personas a través de asistentes virtuales conversacionales. Esta charla busca introducir las preguntas existenciales detrás de los asistentes virtuales que usan machine learning, para proponer algunas respuestas y construir intuiciones. Se introducirá a Rasa, un framework de Python para esto, que es Software Libre.",
+            "speaker": "Karen Palacio, Florencia Alonso, Brandon Janes. (Kunan Sa)",
+            "title": "Machine learning Libre: modelando conversaciones con Rasa y Python",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy un entusiasta de Python desde el 2007 en diferentes roles. Como docente aplicado materias como al area de Sistemas Operativos, Redes y Seguridad y también como desarrollador en aplicaciones web de diverso tipo y proyectos de IoT.\nRecientemente me encuentro como responsable de tecnología de Hello Tractor \nutilizando el lenguaje para mejorar una plataforma que ayuda a la mecanización de pequeños productores.",
+            "desc": "Python tiene un ecosistema muy interesante para el desarrollo de aplicaciones que hacen uso de GIS. También es una excelente herramienta para el análisis de datos y consumo de datos IoT.\nEsta charla intenta introducir la experiencia de trabajar con proyecto de Python consiente en un back-end para aplicaciones móviles y aplicación web y un conjunto de herramientas para facilitar el trabajo de analistas de datos.",
+            "speaker": "Nahuel Defosse",
+            "title": "Mejorando el acceso a la mecanización de pequeños productores arigcolas con Python y GeoDajngo",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Pythonista desde la 2.5. Docente en cuarentena.  El locro no se mancha.",
+            "desc": "El logging es una técnica indispensable en el software productivo, pero hay muchos conceptos y una API confusa que hacen su uso innecesariamente complicado. Entendamoslo... antes del segundo semestre.",
+            "speaker": "Martín Gaitán",
+            "title": "Pasaron cosas: logging efectivo para entender qué sucedió",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Profesor en Informatica, programador desde hace mas de 20 años, pasando por lenguajes como Clipper, Fox y ahora Python.\nDesarrollo de aplicaciones de escritorio con Python + QT + Peewee y web con Python + Django",
+            "desc": "Peewee es un ORM simple y pequeño. Tiene pocos conceptos (pero expresivos), lo que lo hace fácil de aprender e intuitivo de usar.",
+            "speaker": "Jose Oscar Vogel",
+            "title": "Peewee",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Somos dos desarrolladores que nos conocimos en uno de los nuestros trabajos, luego pasamos un tiempo por Devecoop (una cooperativa de desarrollo), y hoy a no trabajamos juntos pero queremos colaborar con la comunidad, especialmente en la tarea de hacer test que entendemos podría ser más amena.",
+            "desc": "Hablar un poco sobre test en gral y lo que uno se encuentra al iniciar en esta practica.\nMostrar algún ejemplo práctico, para pasar por los conceptos principales. Todo orientado a pytest.",
+            "speaker": "Mariano Bianchi, Andrés Ramírez",
+            "title": "¿Por que no se hacen mas tests?",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Alfredo Pardo es Ingeniero en Sistemas de Información (UTN FRC), Arquitecto de Seguridad Cloud en 3XM Group, Profesor de Seguridad y Auditoría Informática (UCC) y Maestrando en Ciberdefensa (UNDEF). Actualmente trabaja en el desarrollo de soluciones de Seguridad Cloud y DevSecOps.",
+            "desc": "La eficiencia de las implementaciones DevSecOps se ve favorecida por la incorporación de Python a las habilidades de Equipos de Seguridad Ágiles",
+            "speaker": "Alfredo Pardo",
+            "title": "Python para DevSecOps",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Pratibha is Sr Python developer looking over the development and maintenance of backend including APIs and internal python packages. Via this talk, she want to share how we can improved our code by removing anti-patterns.",
+            "desc": "This talk is aim to summarize the common Anti-Patterns in Python. It is overwhelming to see so many resources to learn best practices in Python. However it is more scary that there are very few places which will teach you what you should NOT do while coding.",
+            "speaker": "Pratibha Jagnere",
+            "title": "Python worst Practices AKA Anti-Patterns",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "SAn has been engineering from his childhood. Lover of software and libre culture, he has been involved in different projects such as Cyclope CMS and Radioteca as part of Código Sur between 2011 and 2013, the RedPanal.org project as main developer, LibreMesh, CDPedia. He worked developing Satellogic\"s fleet of satellites for 6 years.\nHe currently leads the electronics development of the LibreRouter project and participates in its software development as part of AlterMundi. He lives in Buenos Aires, Argentina.",
+            "desc": "SAn compartirá su experiencia desarrollando el software de comunicaciones de un satélite usando Python y CFFI.",
+            "speaker": "Santiago Piccinini",
+            "title": "Python y C un solo corazón",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy una persona muy curiosa que descubrió la programación de chico y no pudo parar. Hace un tiempo comencé a indagar en Ciencia de Datos y fue amor a primera vista. Pase por muchos roles en mi carrera lo que me llevó a conocer muchas tecnologías interesantes sobre las que disfruté mucho aprender e indagar. Disfruto mucho de dar clases, fui ayudante alumno en varias cátedras y actualmente soy profesor en la academia DesafioLatam en la ciudad de Cordoba donde dicto cursos de Introducción a Python y Fundamentos de Ciencia de Datos. Actualmente me desempeño como Data Science Analyst Sr en MercadoLibre.",
+            "desc": "Docker es una de las herramientas de mayor crecimiento en los últimos años. Esto se debe a la simplicidad con las que nos permite armar grandes entornos tanto locales como en producción. En esta charla nos centraremos en repasar algunos conceptos básicos para poder crear un entorno de desarrollo simple y confiable, que se parezca lo más posible a nuestro entorno productivo y así evitar sorpresas a la hora de hacer un deploy.",
+            "speaker": "Serafin Fernandez",
+            "title": "Recetas para ser más feliz con Docker.",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Guillermo es co-fundador de Lambda Sistemas, empresa creadora de Fierro y RadioCut. Programa en Python desde 2004.\nGabriel trabaja en el área de desarrollo de Fierro, implementando la transición a prácticas DevOps y en la (re)arquitectura de los distintos componentes del sistema.",
+            "desc": "Experiencias de descomposición y/o extracción de funcionalidad en microservicios, como forma de hacer frente a la deuda técnica y la mantenibilidad del código",
+            "speaker": "Guillermo Narvaja, Gabriel Parrondo",
+            "title": "Rompiendo el monolito",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy María Andrea Vignau, Ingeniera en Sistemas de Información, trabajo como Perito Informático Oficial en el Gabinete Científico del Ministerio Público Fiscal Poder Judicial de la Provincia del Chaco. Últimamente estoy colaborando con las comunidades de software libre, como socia de Asociación Civil Python Argentina, y coorganizadora del Festival de Instalación de Software Libre, que hacemos en el Centro Cultural Alternativo de Resistencia el 28 de Abril, y del Python Day NEA en el Club de Emprendedores en Corrientes el 19 de mayo, de Meetup Python de Resistencia, disertante por última vez en la NotPinkConf",
+            "desc": "SQLite, disponible desde hace tanto tiempo y tan desconocido. \nEs una base de datos relacional, optimizada para ser pequeñísima, rápida, flexible, para usos individuales, sus grandes bondades, especialmente a la hora de integrarlo a nuestro software en Python y las múltiples posibilidades que da para ser optimizado para los más variados usos, son mayormente desconocidas",
+            "speaker": "María Andrea Vignau",
+            "title": "SQLite, la (des) conocida super hormiga",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Pedro Ferrari actualmente es Co-Founder de Mutt Data donde se dedica a liderar proyectos de Data Science con un enfoque en buenas prácticas de desarrollo de software combinadas con know how de implementación de modelos en producción. Es ademas profesor ayudante de la materia Machine Learning en la Maestría en Analytics de la UTDT y ayudante del Seminario de Tópicos Avanzados de Datos en la Especialización en Ciencia de Datos del ITBA. En su tiempo libre es un acérrimo usuario de Vim y Arch Linux y disfruta enormemente contribuyendo al mundo open source. Desde el lado académico es Licenciado en Economía de la Universidad Torcuato Di Tella (UTDT) y está finalizando su carrera de Actuario en la Universidad de Buenos Aires. Tiene asimismo una Maestría en Economía, también de la UTDT.",
+            "desc": "Poetry es una herramienta para manejo de dependencias y empaquetado de módulos.\nMostraremos, a través de un ejemplo, porque consideramos que es una versión superadora a alternativas preexistentes (como virtualenvs, setuptools y pipenv) y como integrarlo con otras herramientas modernas del ecosistema (como pyenv o pipx).",
+            "speaker": "Pedro Ferrari",
+            "title": "​ Una Apología Poética: Poetry para manejo de dependencias y empaquetado de módulos.",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Soy Python Developer, amo codear y tengo la suerte de que me paguen por hacerlo. Actualmente trabajo en Mercado Libre resolviendo la parte técnica de las soluciones de Machine Learning. También me encanta comer (no tanto cocinar) y lo que más extraño de los tiempos pre-pandémicos son los afters.",
+            "desc": "¿Y esto cómo lo testeo? En esta charla quiero abordar algunas dudas típicas al momento de escribir tests. Voy a hablar de de mocks, de patchs, de coverage y va haber una demo de todo esto con pytest en su máximo esplendor.",
+            "speaker": "Sofía Denner",
+            "title": "Unit Testing: Qué testear y cómo testear con pytest.",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Hola! Mi nombre es Francisco Yackel, soy de Esperanza, Santa Fe. Actualmente soy desarrollador de software backend y android, trabajando para Mercado Libre. Con el objetivo de seguir aprendiendo día a día, estoy llevando adelante junto a compañeros un proyecto relacionado al machine learning, con el objetivo de resolver un problema de computer vision.",
+            "desc": "Te contamos cómo en unos simples pasos, usando herramientas open source, llevamos a cabo una POC para Mercado Libre. Este experimento se enfoca en mejorar la experiencia de búsqueda de los usuarios.\nQueremos presentarles Visual Search: un proyecto que todavía está en fase \"incubadora\" pero que tiene como objetivo encontrar ítems publicados en el portal parecidos a una imagen o foto que el usuario pueda cargar, basándose en la similitud de imágenes.",
+            "speaker": "Facundo Salmeron, Francisco Yackel, Elbio Zapata, Diego Garcia",
+            "title": "Visual Search, de 0 a POC!",
+            "video": "El video de la charla aún no ha sido subido :("
+        },
+        {
+            "bio": "Curious being with a passion for learning. I like to read, do cool stuff with technology and tell stories with data. I work as a FreeLancer on projects related to data science, software engineering and communication networks. I am a co-founder of an IoT / automation startup where I work and learn from people I admire.",
+            "desc": "Mostraré cómo utilizo Python para descargar datos públicos para posteriormente realizar análisis explorativo y/o auditoria de datos.",
+            "speaker": "Karl Niebuhr",
+            "title": "Engineer",
+            "video": "El video de la charla aún no ha sido subido :("
+        }
     ]
 }

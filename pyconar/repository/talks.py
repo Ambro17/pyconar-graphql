@@ -85,6 +85,7 @@ class TalksRepository(AbstractTalksRepository):
                         open_to_job_offers=random.choice([True, False]),
                         talk=None
                     ),
+                    video=talk['video'],
                 )
                 for talk in talks
             ]
