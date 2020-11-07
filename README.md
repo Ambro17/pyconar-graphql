@@ -10,7 +10,7 @@ The repo has different kind of query resolvers, backed by
 This is to demonstrate that there are no hard constraints on implementation details.
 We're free to do whatever fits better in our tech stack.
 
-[Live Demo](https://pyconar.herokuapp.com/)
+✨ [Live Demo](https://pyconar.herokuapp.com/) ✨
 
 ## Query Examples
 
