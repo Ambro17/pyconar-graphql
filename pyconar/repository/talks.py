@@ -108,14 +108,15 @@ class TalksRepository(AbstractTalksRepository):
 
 
     def search_talks(self, keywords: List[str]) -> List[Talk]:
+        normalized_keywords = [keyword.lower() for keyword in keywords]
         return [
             talk
             for talk in self._unwrap_list(self.talks.values())
             if any(
                 keyword in talk.name.lower()
                 or
-                keyword in talk.description
-                for keyword in keywords
+                keyword in talk.description.lower()
+                for keyword in normalized_keywords
             )
         ]
 
