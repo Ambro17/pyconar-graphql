@@ -86,7 +86,7 @@ We're free to do whatever fits better in our tech stack.
 }
 ```
 
-## Run Locally
+## Run it Locally
 To run the server follow these steps:
 ```python
 python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
