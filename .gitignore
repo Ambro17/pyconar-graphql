@@ -5,3 +5,4 @@ env/
 .env/
 venv/
 *.sqlite
+.python-version

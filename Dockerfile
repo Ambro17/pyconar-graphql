@@ -1,11 +1,11 @@
-FROM python:3.7-slim
+FROM python:3.11.4-slim
 
 RUN apt-get update && apt-get install -y libpq-dev gcc
 
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 
-ENV PORT=5050
+ENV PORT=8080
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
