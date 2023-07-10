@@ -5,7 +5,6 @@ from typing import Any, Dict, List
 
 from flask import Response, render_template_string, request, abort
 from flask.views import MethodView
-from graphql.error import format_error as format_graphql_error
 from graphql.error.graphql_error import GraphQLError
 from strawberry.schema.base import BaseSchema
 
@@ -86,7 +85,7 @@ class GraphQLAPI(MethodView):
 
     def handle_errors(self, errors: List[GraphQLError]) -> Dict[str, Any]:
         return [
-            format_graphql_error(error)
+            str(error)
             for error in errors
         ]
 
