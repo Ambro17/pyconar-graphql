@@ -63,7 +63,7 @@
             React.createElement(GraphiQLWithExtensions.GraphiQLWithExtensions, {
                 fetcher: graphQLFetcher,
                 defaultQuery: "",
-                query: "# Hello Pythonista!\n# You can start writing your queries here.\n# Or you can press Ctrl+Enter to execute the example query\n{\n  nextTalks {\n    name\n    speaker {\n      name\n      bio\n    }\n    schedule {\n      startingIn\n    }\n  }\n}",
+                query: "# Hello Pythonista!\n# You can start writing your queries here.\n# Or you can press Ctrl+Enter to execute the example query\n{\n  allTalks {\n    name\n    topic\n    description\n    year\n    speaker {\n      name\n    }\n    video\n  }\n}",
                 response: "{\n  \"data\": \"and you will see your response here\"\n}\n",
                 variables: "",
             }),
