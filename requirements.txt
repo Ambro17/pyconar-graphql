@@ -17,5 +17,5 @@ requests==2.31.0
 six==1.16.0
 strawberry-graphql==0.194.4
 typing_extensions==4.7.1
-urllib3==2.0.3
+urllib3==2.0.6
 Werkzeug==2.3.6
